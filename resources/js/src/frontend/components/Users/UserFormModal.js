@@ -8,7 +8,8 @@ import Select from '../UI/Form/Selectbox'
 import { isEmpty } from  'lodash'
 import { SpinnerDot } from '../UI/Spinner/Spinner'
 import { userData } from '../Mocks/data';
-import  './Style.css'
+import { SuccessFlash } from '../UI/Flash/Flash'
+
 
 class UserFormModal extends Component {
   constructor(props) {
@@ -82,16 +83,14 @@ class UserFormModal extends Component {
                   <SpinnerDot show={this.props.loading } />
               }
               {
-                  !isEmpty(this.props.action)?
-                      this.props.id > 0 ?
-                        <div className="alert alert-success">
-                          <strong>Success!</strong> Updated a user info.
-                        </div>
-                        :
-                        <div className="alert alert-success">
-                          <strong>Success!</strong> Created a new user.
-                        </div>
-                : ''
+
+                this.props.action === 'update'
+                  ?
+                  <SuccessFlash message=" Updated role of group." />
+                  : this.props.action === 'create' ?
+                  <SuccessFlash message=" Apply role for new group." />
+                  : ''
+
               }
               <Form >
               <div className="row">

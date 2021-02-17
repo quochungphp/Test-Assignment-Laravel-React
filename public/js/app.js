@@ -15099,24 +15099,6 @@ function toVal(mix) {
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./resources/js/src/frontend/components/Organisation/Style.css":
-/*!*****************************************************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./resources/js/src/frontend/components/Organisation/Style.css ***!
-  \*****************************************************************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-// Imports
-var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
-exports = ___CSS_LOADER_API_IMPORT___(false);
-// Module
-exports.push([module.i, "body{margin-top:20px;\nbackground-color: #f7f7fc;\n}\n\n.timeline {\n    list-style-type: none;\n    position: relative\n}\n\n.timeline:before {\n    background: #dee2e6;\n    left: 9px;\n    width: 2px;\n    height: 100%\n}\n\n.timeline-item:before,\n.timeline:before {\n    content: \" \";\n    display: inline-block;\n    position: absolute;\n    z-index: 1\n}\n\n.timeline-item:before {\n    background: #fff;\n    border-radius: 50%;\n    border: 3px solid #3b7ddd;\n    left: 0;\n    width: 20px;\n    height: 20px\n}\n.card {\n    margin-bottom: 24px;\n    box-shadow: 0 0 0.875rem 0 rgba(33,37,41,.05);\n}\n.card {\n    position: relative;\n    display: flex;\n    flex-direction: column;\n    min-width: 0;\n    word-wrap: break-word;\n    background-color: #fff;\n    background-clip: initial;\n    border: 0 solid transparent;\n    border-radius: .25rem;\n}\n.card-body {\n    flex: 1 1 auto;\n    padding: 1.25rem;\n}\n.card-header:first-child {\n    border-radius: .25rem .25rem 0 0;\n}\n.card-header {\n    border-bottom-width: 1px;\n}\n.pb-0 {\n    padding-bottom: 0!important;\n}\n.card-header {\n    padding: 1rem 1.25rem;\n    margin-bottom: 0;\n    background-color: #fff;\n    border-bottom: 0 solid transparent;\n}\n.btn-group-control .btn {\n    margin-right:  5px !important;\n}\n.modal.face.show {\n    zoom: 1;\n    filter: alpha(opacity=75);\n    -webkit-opacity: .75;\n    -moz-opacity: .75;\n    opacity: .75;\n}\n", ""]);
-// Exports
-module.exports = exports;
-
-
-/***/ }),
-
 /***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./resources/js/src/frontend/components/UI/Spinner/Spinner.css":
 /*!*****************************************************************************************************************************************************************!*\
   !*** ./node_modules/css-loader/dist/cjs.js??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./resources/js/src/frontend/components/UI/Spinner/Spinner.css ***!
@@ -15135,24 +15117,6 @@ module.exports = exports;
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./resources/js/src/frontend/components/Users/Style.css":
-/*!**********************************************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./resources/js/src/frontend/components/Users/Style.css ***!
-  \**********************************************************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-// Imports
-var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
-exports = ___CSS_LOADER_API_IMPORT___(false);
-// Module
-exports.push([module.i, "body{margin-top:20px;\nbackground-color: #f7f7fc;\n}\n\n.timeline {\n    list-style-type: none;\n    position: relative\n}\n\n.timeline:before {\n    background: #dee2e6;\n    left: 9px;\n    width: 2px;\n    height: 100%\n}\n\n.timeline-item:before,\n.timeline:before {\n    content: \" \";\n    display: inline-block;\n    position: absolute;\n    z-index: 1\n}\n\n.timeline-item:before {\n    background: #fff;\n    border-radius: 50%;\n    border: 3px solid #3b7ddd;\n    left: 0;\n    width: 20px;\n    height: 20px\n}\n.card {\n    margin-bottom: 24px;\n    box-shadow: 0 0 0.875rem 0 rgba(33,37,41,.05);\n}\n.card {\n    position: relative;\n    display: flex;\n    flex-direction: column;\n    min-width: 0;\n    word-wrap: break-word;\n    background-color: #fff;\n    background-clip: initial;\n    border: 0 solid transparent;\n    border-radius: .25rem;\n}\n.card-body {\n    flex: 1 1 auto;\n    padding: 1.25rem;\n}\n.card-header:first-child {\n    border-radius: .25rem .25rem 0 0;\n}\n.card-header {\n    border-bottom-width: 1px;\n}\n.pb-0 {\n    padding-bottom: 0!important;\n}\n.card-header {\n    padding: 1rem 1.25rem;\n    margin-bottom: 0;\n    background-color: #fff;\n    border-bottom: 0 solid transparent;\n}\n.btn-group-control .btn {\n    margin-right:  5px !important;\n}\n.modal.face.show {\n    zoom: 1;\n    filter: alpha(opacity=75);\n    -webkit-opacity: .75;\n    -moz-opacity: .75;\n    opacity: .75;\n}\n", ""]);
-// Exports
-module.exports = exports;
-
-
-/***/ }),
-
 /***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./resources/js/src/index.css":
 /*!********************************************************************************************************************************!*\
   !*** ./node_modules/css-loader/dist/cjs.js??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./resources/js/src/index.css ***!
@@ -15164,7 +15128,7 @@ module.exports = exports;
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, "body {\n  margin: 0;\n  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',\n    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',\n    sans-serif;\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n}\n\ncode {\n  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',\n    monospace;\n}\n\n@charset \"UTF-8\";\n/**\n *\n * three-dots.css v0.1.0\n *\n * https://nzbin.github.io/three-dots/\n *\n * Copyright (c) 2018 nzbin\n *\n * Released under the MIT license\n *\n */\n\n .loading {\n    position: absolute;\n    top: 50%;\n    left: 50%;\n    transform: translateX(-50%) translateY(-50%);\n}\n/**\n * ==============================================\n * Dot Elastic\n * ==============================================\n */\n.dot-elastic {\n  position: relative;\n  width: 10px;\n  height: 10px;\n  border-radius: 5px;\n  background-color: #9880ff;\n  color: #9880ff;\n  -webkit-animation: dotElastic 1s infinite linear;\n          animation: dotElastic 1s infinite linear;\n}\n\n.dot-elastic::before, .dot-elastic::after {\n  content: '';\n  display: inline-block;\n  position: absolute;\n  top: 0;\n}\n\n.dot-elastic::before {\n  left: -15px;\n  width: 10px;\n  height: 10px;\n  border-radius: 5px;\n  background-color: #9880ff;\n  color: #9880ff;\n  -webkit-animation: dotElasticBefore 1s infinite linear;\n          animation: dotElasticBefore 1s infinite linear;\n}\n\n.dot-elastic::after {\n  left: 15px;\n  width: 10px;\n  height: 10px;\n  border-radius: 5px;\n  background-color: #9880ff;\n  color: #9880ff;\n  -webkit-animation: dotElasticAfter 1s infinite linear;\n          animation: dotElasticAfter 1s infinite linear;\n}\n\n@-webkit-keyframes dotElasticBefore {\n  0% {\n    transform: scale(1, 1);\n  }\n  25% {\n    transform: scale(1, 1.5);\n  }\n  50% {\n    transform: scale(1, 0.67);\n  }\n  75% {\n    transform: scale(1, 1);\n  }\n  100% {\n    transform: scale(1, 1);\n  }\n}\n\n@keyframes dotElasticBefore {\n  0% {\n    transform: scale(1, 1);\n  }\n  25% {\n    transform: scale(1, 1.5);\n  }\n  50% {\n    transform: scale(1, 0.67);\n  }\n  75% {\n    transform: scale(1, 1);\n  }\n  100% {\n    transform: scale(1, 1);\n  }\n}\n\n@-webkit-keyframes dotElastic {\n  0% {\n    transform: scale(1, 1);\n  }\n  25% {\n    transform: scale(1, 1);\n  }\n  50% {\n    transform: scale(1, 1.5);\n  }\n  75% {\n    transform: scale(1, 1);\n  }\n  100% {\n    transform: scale(1, 1);\n  }\n}\n\n@keyframes dotElastic {\n  0% {\n    transform: scale(1, 1);\n  }\n  25% {\n    transform: scale(1, 1);\n  }\n  50% {\n    transform: scale(1, 1.5);\n  }\n  75% {\n    transform: scale(1, 1);\n  }\n  100% {\n    transform: scale(1, 1);\n  }\n}\n\n@-webkit-keyframes dotElasticAfter {\n  0% {\n    transform: scale(1, 1);\n  }\n  25% {\n    transform: scale(1, 1);\n  }\n  50% {\n    transform: scale(1, 0.67);\n  }\n  75% {\n    transform: scale(1, 1.5);\n  }\n  100% {\n    transform: scale(1, 1);\n  }\n}\n\n@keyframes dotElasticAfter {\n  0% {\n    transform: scale(1, 1);\n  }\n  25% {\n    transform: scale(1, 1);\n  }\n  50% {\n    transform: scale(1, 0.67);\n  }\n  75% {\n    transform: scale(1, 1.5);\n  }\n  100% {\n    transform: scale(1, 1);\n  }\n}\n\n/**\n * ==============================================\n * Dot Pulse\n * ==============================================\n */\n.dot-pulse {\n  position: relative;\n  left: -9999px;\n  width: 10px;\n  height: 10px;\n  border-radius: 5px;\n  background-color: #9880ff;\n  color: #9880ff;\n  box-shadow: 9999px 0 0 -5px #9880ff;\n  -webkit-animation: dotPulse 1.5s infinite linear;\n          animation: dotPulse 1.5s infinite linear;\n  -webkit-animation-delay: .25s;\n          animation-delay: .25s;\n}\n\n.dot-pulse::before, .dot-pulse::after {\n  content: '';\n  display: inline-block;\n  position: absolute;\n  top: 0;\n  width: 10px;\n  height: 10px;\n  border-radius: 5px;\n  background-color: #9880ff;\n  color: #9880ff;\n}\n\n.dot-pulse::before {\n  box-shadow: 9984px 0 0 -5px #9880ff;\n  -webkit-animation: dotPulseBefore 1.5s infinite linear;\n          animation: dotPulseBefore 1.5s infinite linear;\n  -webkit-animation-delay: 0s;\n          animation-delay: 0s;\n}\n\n.dot-pulse::after {\n  box-shadow: 10014px 0 0 -5px #9880ff;\n  -webkit-animation: dotPulseAfter 1.5s infinite linear;\n          animation: dotPulseAfter 1.5s infinite linear;\n  -webkit-animation-delay: .5s;\n          animation-delay: .5s;\n}\n\n@-webkit-keyframes dotPulseBefore {\n  0% {\n    box-shadow: 9984px 0 0 -5px #9880ff;\n  }\n  30% {\n    box-shadow: 9984px 0 0 2px #9880ff;\n  }\n  60%,\n  100% {\n    box-shadow: 9984px 0 0 -5px #9880ff;\n  }\n}\n\n@keyframes dotPulseBefore {\n  0% {\n    box-shadow: 9984px 0 0 -5px #9880ff;\n  }\n  30% {\n    box-shadow: 9984px 0 0 2px #9880ff;\n  }\n  60%,\n  100% {\n    box-shadow: 9984px 0 0 -5px #9880ff;\n  }\n}\n\n@-webkit-keyframes dotPulse {\n  0% {\n    box-shadow: 9999px 0 0 -5px #9880ff;\n  }\n  30% {\n    box-shadow: 9999px 0 0 2px #9880ff;\n  }\n  60%,\n  100% {\n    box-shadow: 9999px 0 0 -5px #9880ff;\n  }\n}\n\n@keyframes dotPulse {\n  0% {\n    box-shadow: 9999px 0 0 -5px #9880ff;\n  }\n  30% {\n    box-shadow: 9999px 0 0 2px #9880ff;\n  }\n  60%,\n  100% {\n    box-shadow: 9999px 0 0 -5px #9880ff;\n  }\n}\n\n@-webkit-keyframes dotPulseAfter {\n  0% {\n    box-shadow: 10014px 0 0 -5px #9880ff;\n  }\n  30% {\n    box-shadow: 10014px 0 0 2px #9880ff;\n  }\n  60%,\n  100% {\n    box-shadow: 10014px 0 0 -5px #9880ff;\n  }\n}\n\n@keyframes dotPulseAfter {\n  0% {\n    box-shadow: 10014px 0 0 -5px #9880ff;\n  }\n  30% {\n    box-shadow: 10014px 0 0 2px #9880ff;\n  }\n  60%,\n  100% {\n    box-shadow: 10014px 0 0 -5px #9880ff;\n  }\n}\n\n/**\n * ==============================================\n * Dot Flashing\n * ==============================================\n */\n.dot-flashing {\n  position: relative;\n  width: 10px;\n  height: 10px;\n  border-radius: 5px;\n  background-color: #9880ff;\n  color: #9880ff;\n  -webkit-animation: dotFlashing 1s infinite linear alternate;\n          animation: dotFlashing 1s infinite linear alternate;\n  -webkit-animation-delay: .5s;\n          animation-delay: .5s;\n}\n\n.dot-flashing::before, .dot-flashing::after {\n  content: '';\n  display: inline-block;\n  position: absolute;\n  top: 0;\n}\n\n.dot-flashing::before {\n  left: -15px;\n  width: 10px;\n  height: 10px;\n  border-radius: 5px;\n  background-color: #9880ff;\n  color: #9880ff;\n  -webkit-animation: dotFlashing 1s infinite alternate;\n          animation: dotFlashing 1s infinite alternate;\n  -webkit-animation-delay: 0s;\n          animation-delay: 0s;\n}\n\n.dot-flashing::after {\n  left: 15px;\n  width: 10px;\n  height: 10px;\n  border-radius: 5px;\n  background-color: #9880ff;\n  color: #9880ff;\n  -webkit-animation: dotFlashing 1s infinite alternate;\n          animation: dotFlashing 1s infinite alternate;\n  -webkit-animation-delay: 1s;\n          animation-delay: 1s;\n}\n\n@-webkit-keyframes dotFlashing {\n  0% {\n    background-color: #9880ff;\n  }\n  50%,\n  100% {\n    background-color: #ebe6ff;\n  }\n}\n\n@keyframes dotFlashing {\n  0% {\n    background-color: #9880ff;\n  }\n  50%,\n  100% {\n    background-color: #ebe6ff;\n  }\n}\n\n/**\n * ==============================================\n * Dot Collision\n * ==============================================\n */\n.dot-collision {\n  position: relative;\n  width: 10px;\n  height: 10px;\n  border-radius: 5px;\n  background-color: #9880ff;\n  color: #9880ff;\n}\n\n.dot-collision::before, .dot-collision::after {\n  content: '';\n  display: inline-block;\n  position: absolute;\n  top: 0;\n}\n\n.dot-collision::before {\n  left: -10px;\n  width: 10px;\n  height: 10px;\n  border-radius: 5px;\n  background-color: #9880ff;\n  color: #9880ff;\n  -webkit-animation: dotCollisionBefore 2s infinite ease-in;\n          animation: dotCollisionBefore 2s infinite ease-in;\n}\n\n.dot-collision::after {\n  left: 10px;\n  width: 10px;\n  height: 10px;\n  border-radius: 5px;\n  background-color: #9880ff;\n  color: #9880ff;\n  -webkit-animation: dotCollisionAfter 2s infinite ease-in;\n          animation: dotCollisionAfter 2s infinite ease-in;\n  -webkit-animation-delay: 1s;\n          animation-delay: 1s;\n}\n\n@-webkit-keyframes dotCollisionBefore {\n  0%,\n  50%,\n  75%,\n  100% {\n    transform: translateX(0);\n  }\n  25% {\n    transform: translateX(-15px);\n  }\n}\n\n@keyframes dotCollisionBefore {\n  0%,\n  50%,\n  75%,\n  100% {\n    transform: translateX(0);\n  }\n  25% {\n    transform: translateX(-15px);\n  }\n}\n\n@-webkit-keyframes dotCollisionAfter {\n  0%,\n  50%,\n  75%,\n  100% {\n    transform: translateX(0);\n  }\n  25% {\n    transform: translateX(15px);\n  }\n}\n\n@keyframes dotCollisionAfter {\n  0%,\n  50%,\n  75%,\n  100% {\n    transform: translateX(0);\n  }\n  25% {\n    transform: translateX(15px);\n  }\n}\n\n/**\n * ==============================================\n * Dot Revolution\n * ==============================================\n */\n.dot-revolution {\n  position: relative;\n  width: 10px;\n  height: 10px;\n  border-radius: 5px;\n  background-color: #9880ff;\n  color: #9880ff;\n}\n\n.dot-revolution::before, .dot-revolution::after {\n  content: '';\n  display: inline-block;\n  position: absolute;\n}\n\n.dot-revolution::before {\n  left: 0;\n  top: -15px;\n  width: 10px;\n  height: 10px;\n  border-radius: 5px;\n  background-color: #9880ff;\n  color: #9880ff;\n  transform-origin: 5px 20px;\n  -webkit-animation: dotRevolution 1.4s linear infinite;\n          animation: dotRevolution 1.4s linear infinite;\n}\n\n.dot-revolution::after {\n  left: 0;\n  top: -30px;\n  width: 10px;\n  height: 10px;\n  border-radius: 5px;\n  background-color: #9880ff;\n  color: #9880ff;\n  transform-origin: 5px 35px;\n  -webkit-animation: dotRevolution 1s linear infinite;\n          animation: dotRevolution 1s linear infinite;\n}\n\n@-webkit-keyframes dotRevolution {\n  0% {\n    transform: rotateZ(0deg) translate3d(0, 0, 0);\n  }\n  100% {\n    transform: rotateZ(360deg) translate3d(0, 0, 0);\n  }\n}\n\n@keyframes dotRevolution {\n  0% {\n    transform: rotateZ(0deg) translate3d(0, 0, 0);\n  }\n  100% {\n    transform: rotateZ(360deg) translate3d(0, 0, 0);\n  }\n}\n\n/**\n * ==============================================\n * Dot Carousel\n * ==============================================\n */\n.dot-carousel {\n  position: relative;\n  left: -9999px;\n  width: 10px;\n  height: 10px;\n  border-radius: 5px;\n  background-color: #9880ff;\n  color: #9880ff;\n  box-shadow: 9984px 0 0 0 #9880ff, 9999px 0 0 0 #9880ff, 10014px 0 0 0 #9880ff;\n  -webkit-animation: dotCarousel 1.5s infinite linear;\n          animation: dotCarousel 1.5s infinite linear;\n}\n\n@-webkit-keyframes dotCarousel {\n  0% {\n    box-shadow: 9984px 0 0 -1px #9880ff, 9999px 0 0 1px #9880ff, 10014px 0 0 -1px #9880ff;\n  }\n  50% {\n    box-shadow: 10014px 0 0 -1px #9880ff, 9984px 0 0 -1px #9880ff, 9999px 0 0 1px #9880ff;\n  }\n  100% {\n    box-shadow: 9999px 0 0 1px #9880ff, 10014px 0 0 -1px #9880ff, 9984px 0 0 -1px #9880ff;\n  }\n}\n\n@keyframes dotCarousel {\n  0% {\n    box-shadow: 9984px 0 0 -1px #9880ff, 9999px 0 0 1px #9880ff, 10014px 0 0 -1px #9880ff;\n  }\n  50% {\n    box-shadow: 10014px 0 0 -1px #9880ff, 9984px 0 0 -1px #9880ff, 9999px 0 0 1px #9880ff;\n  }\n  100% {\n    box-shadow: 9999px 0 0 1px #9880ff, 10014px 0 0 -1px #9880ff, 9984px 0 0 -1px #9880ff;\n  }\n}\n\n/**\n * ==============================================\n * Dot Typing\n * ==============================================\n */\n.dot-typing {\n  position: relative;\n  left: -9999px;\n  width: 10px;\n  height: 10px;\n  border-radius: 5px;\n  background-color: #9880ff;\n  color: #9880ff;\n  box-shadow: 9984px 0 0 0 #9880ff, 9999px 0 0 0 #9880ff, 10014px 0 0 0 #9880ff;\n  -webkit-animation: dotTyping 1.5s infinite linear;\n          animation: dotTyping 1.5s infinite linear;\n}\n\n@-webkit-keyframes dotTyping {\n  0% {\n    box-shadow: 9984px 0 0 0 #9880ff, 9999px 0 0 0 #9880ff, 10014px 0 0 0 #9880ff;\n  }\n  16.667% {\n    box-shadow: 9984px -10px 0 0 #9880ff, 9999px 0 0 0 #9880ff, 10014px 0 0 0 #9880ff;\n  }\n  33.333% {\n    box-shadow: 9984px 0 0 0 #9880ff, 9999px 0 0 0 #9880ff, 10014px 0 0 0 #9880ff;\n  }\n  50% {\n    box-shadow: 9984px 0 0 0 #9880ff, 9999px -10px 0 0 #9880ff, 10014px 0 0 0 #9880ff;\n  }\n  66.667% {\n    box-shadow: 9984px 0 0 0 #9880ff, 9999px 0 0 0 #9880ff, 10014px 0 0 0 #9880ff;\n  }\n  83.333% {\n    box-shadow: 9984px 0 0 0 #9880ff, 9999px 0 0 0 #9880ff, 10014px -10px 0 0 #9880ff;\n  }\n  100% {\n    box-shadow: 9984px 0 0 0 #9880ff, 9999px 0 0 0 #9880ff, 10014px 0 0 0 #9880ff;\n  }\n}\n\n@keyframes dotTyping {\n  0% {\n    box-shadow: 9984px 0 0 0 #9880ff, 9999px 0 0 0 #9880ff, 10014px 0 0 0 #9880ff;\n  }\n  16.667% {\n    box-shadow: 9984px -10px 0 0 #9880ff, 9999px 0 0 0 #9880ff, 10014px 0 0 0 #9880ff;\n  }\n  33.333% {\n    box-shadow: 9984px 0 0 0 #9880ff, 9999px 0 0 0 #9880ff, 10014px 0 0 0 #9880ff;\n  }\n  50% {\n    box-shadow: 9984px 0 0 0 #9880ff, 9999px -10px 0 0 #9880ff, 10014px 0 0 0 #9880ff;\n  }\n  66.667% {\n    box-shadow: 9984px 0 0 0 #9880ff, 9999px 0 0 0 #9880ff, 10014px 0 0 0 #9880ff;\n  }\n  83.333% {\n    box-shadow: 9984px 0 0 0 #9880ff, 9999px 0 0 0 #9880ff, 10014px -10px 0 0 #9880ff;\n  }\n  100% {\n    box-shadow: 9984px 0 0 0 #9880ff, 9999px 0 0 0 #9880ff, 10014px 0 0 0 #9880ff;\n  }\n}\n\n/**\n * ==============================================\n * Dot Windmill\n * ==============================================\n */\n.dot-windmill {\n  position: relative;\n  top: -10px;\n  width: 10px;\n  height: 10px;\n  border-radius: 5px;\n  background-color: #9880ff;\n  color: #9880ff;\n  transform-origin: 5px 15px;\n  -webkit-animation: dotWindmill 2s infinite linear;\n          animation: dotWindmill 2s infinite linear;\n}\n\n.dot-windmill::before, .dot-windmill::after {\n  content: '';\n  display: inline-block;\n  position: absolute;\n}\n\n.dot-windmill::before {\n  left: -8.66px;\n  top: 15px;\n  width: 10px;\n  height: 10px;\n  border-radius: 5px;\n  background-color: #9880ff;\n  color: #9880ff;\n}\n\n.dot-windmill::after {\n  left: 8.66px;\n  top: 15px;\n  width: 10px;\n  height: 10px;\n  border-radius: 5px;\n  background-color: #9880ff;\n  color: #9880ff;\n}\n\n@-webkit-keyframes dotWindmill {\n  0% {\n    transform: rotateZ(0deg) translate3d(0, 0, 0);\n  }\n  100% {\n    transform: rotateZ(720deg) translate3d(0, 0, 0);\n  }\n}\n\n@keyframes dotWindmill {\n  0% {\n    transform: rotateZ(0deg) translate3d(0, 0, 0);\n  }\n  100% {\n    transform: rotateZ(720deg) translate3d(0, 0, 0);\n  }\n}\n\n/**\n * ==============================================\n * Dot Bricks\n * ==============================================\n */\n.dot-bricks {\n  position: relative;\n  top: 8px;\n  left: -9999px;\n  width: 10px;\n  height: 10px;\n  border-radius: 5px;\n  background-color: #9880ff;\n  color: #9880ff;\n  box-shadow: 9991px -16px 0 0 #9880ff, 9991px 0 0 0 #9880ff, 10007px 0 0 0 #9880ff;\n  -webkit-animation: dotBricks 2s infinite ease;\n          animation: dotBricks 2s infinite ease;\n}\n\n@-webkit-keyframes dotBricks {\n  0% {\n    box-shadow: 9991px -16px 0 0 #9880ff, 9991px 0 0 0 #9880ff, 10007px 0 0 0 #9880ff;\n  }\n  8.333% {\n    box-shadow: 10007px -16px 0 0 #9880ff, 9991px 0 0 0 #9880ff, 10007px 0 0 0 #9880ff;\n  }\n  16.667% {\n    box-shadow: 10007px -16px 0 0 #9880ff, 9991px -16px 0 0 #9880ff, 10007px 0 0 0 #9880ff;\n  }\n  25% {\n    box-shadow: 10007px -16px 0 0 #9880ff, 9991px -16px 0 0 #9880ff, 9991px 0 0 0 #9880ff;\n  }\n  33.333% {\n    box-shadow: 10007px 0 0 0 #9880ff, 9991px -16px 0 0 #9880ff, 9991px 0 0 0 #9880ff;\n  }\n  41.667% {\n    box-shadow: 10007px 0 0 0 #9880ff, 10007px -16px 0 0 #9880ff, 9991px 0 0 0 #9880ff;\n  }\n  50% {\n    box-shadow: 10007px 0 0 0 #9880ff, 10007px -16px 0 0 #9880ff, 9991px -16px 0 0 #9880ff;\n  }\n  58.333% {\n    box-shadow: 9991px 0 0 0 #9880ff, 10007px -16px 0 0 #9880ff, 9991px -16px 0 0 #9880ff;\n  }\n  66.666% {\n    box-shadow: 9991px 0 0 0 #9880ff, 10007px 0 0 0 #9880ff, 9991px -16px 0 0 #9880ff;\n  }\n  75% {\n    box-shadow: 9991px 0 0 0 #9880ff, 10007px 0 0 0 #9880ff, 10007px -16px 0 0 #9880ff;\n  }\n  83.333% {\n    box-shadow: 9991px -16px 0 0 #9880ff, 10007px 0 0 0 #9880ff, 10007px -16px 0 0 #9880ff;\n  }\n  91.667% {\n    box-shadow: 9991px -16px 0 0 #9880ff, 9991px 0 0 0 #9880ff, 10007px -16px 0 0 #9880ff;\n  }\n  100% {\n    box-shadow: 9991px -16px 0 0 #9880ff, 9991px 0 0 0 #9880ff, 10007px 0 0 0 #9880ff;\n  }\n}\n\n@keyframes dotBricks {\n  0% {\n    box-shadow: 9991px -16px 0 0 #9880ff, 9991px 0 0 0 #9880ff, 10007px 0 0 0 #9880ff;\n  }\n  8.333% {\n    box-shadow: 10007px -16px 0 0 #9880ff, 9991px 0 0 0 #9880ff, 10007px 0 0 0 #9880ff;\n  }\n  16.667% {\n    box-shadow: 10007px -16px 0 0 #9880ff, 9991px -16px 0 0 #9880ff, 10007px 0 0 0 #9880ff;\n  }\n  25% {\n    box-shadow: 10007px -16px 0 0 #9880ff, 9991px -16px 0 0 #9880ff, 9991px 0 0 0 #9880ff;\n  }\n  33.333% {\n    box-shadow: 10007px 0 0 0 #9880ff, 9991px -16px 0 0 #9880ff, 9991px 0 0 0 #9880ff;\n  }\n  41.667% {\n    box-shadow: 10007px 0 0 0 #9880ff, 10007px -16px 0 0 #9880ff, 9991px 0 0 0 #9880ff;\n  }\n  50% {\n    box-shadow: 10007px 0 0 0 #9880ff, 10007px -16px 0 0 #9880ff, 9991px -16px 0 0 #9880ff;\n  }\n  58.333% {\n    box-shadow: 9991px 0 0 0 #9880ff, 10007px -16px 0 0 #9880ff, 9991px -16px 0 0 #9880ff;\n  }\n  66.666% {\n    box-shadow: 9991px 0 0 0 #9880ff, 10007px 0 0 0 #9880ff, 9991px -16px 0 0 #9880ff;\n  }\n  75% {\n    box-shadow: 9991px 0 0 0 #9880ff, 10007px 0 0 0 #9880ff, 10007px -16px 0 0 #9880ff;\n  }\n  83.333% {\n    box-shadow: 9991px -16px 0 0 #9880ff, 10007px 0 0 0 #9880ff, 10007px -16px 0 0 #9880ff;\n  }\n  91.667% {\n    box-shadow: 9991px -16px 0 0 #9880ff, 9991px 0 0 0 #9880ff, 10007px -16px 0 0 #9880ff;\n  }\n  100% {\n    box-shadow: 9991px -16px 0 0 #9880ff, 9991px 0 0 0 #9880ff, 10007px 0 0 0 #9880ff;\n  }\n}\n\n/**\n * ==============================================\n * Dot Floating\n * ==============================================\n */\n.dot-floating {\n  position: relative;\n  width: 10px;\n  height: 10px;\n  border-radius: 5px;\n  background-color: #9880ff;\n  color: #9880ff;\n  -webkit-animation: dotFloating 3s infinite cubic-bezier(0.15, 0.6, 0.9, 0.1);\n          animation: dotFloating 3s infinite cubic-bezier(0.15, 0.6, 0.9, 0.1);\n}\n\n.dot-floating::before, .dot-floating::after {\n  content: '';\n  display: inline-block;\n  position: absolute;\n  top: 0;\n}\n\n.dot-floating::before {\n  left: -12px;\n  width: 10px;\n  height: 10px;\n  border-radius: 5px;\n  background-color: #9880ff;\n  color: #9880ff;\n  -webkit-animation: dotFloatingBefore 3s infinite ease-in-out;\n          animation: dotFloatingBefore 3s infinite ease-in-out;\n}\n\n.dot-floating::after {\n  left: -24px;\n  width: 10px;\n  height: 10px;\n  border-radius: 5px;\n  background-color: #9880ff;\n  color: #9880ff;\n  -webkit-animation: dotFloatingAfter 3s infinite cubic-bezier(0.4, 0, 1, 1);\n          animation: dotFloatingAfter 3s infinite cubic-bezier(0.4, 0, 1, 1);\n}\n\n@-webkit-keyframes dotFloating {\n  0% {\n    left: calc(-50% - 5px);\n  }\n  75% {\n    left: calc(50% + 105px);\n  }\n  100% {\n    left: calc(50% + 105px);\n  }\n}\n\n@keyframes dotFloating {\n  0% {\n    left: calc(-50% - 5px);\n  }\n  75% {\n    left: calc(50% + 105px);\n  }\n  100% {\n    left: calc(50% + 105px);\n  }\n}\n\n@-webkit-keyframes dotFloatingBefore {\n  0% {\n    left: -50px;\n  }\n  50% {\n    left: -12px;\n  }\n  75% {\n    left: -50px;\n  }\n  100% {\n    left: -50px;\n  }\n}\n\n@keyframes dotFloatingBefore {\n  0% {\n    left: -50px;\n  }\n  50% {\n    left: -12px;\n  }\n  75% {\n    left: -50px;\n  }\n  100% {\n    left: -50px;\n  }\n}\n\n@-webkit-keyframes dotFloatingAfter {\n  0% {\n    left: -100px;\n  }\n  50% {\n    left: -24px;\n  }\n  75% {\n    left: -100px;\n  }\n  100% {\n    left: -100px;\n  }\n}\n\n@keyframes dotFloatingAfter {\n  0% {\n    left: -100px;\n  }\n  50% {\n    left: -24px;\n  }\n  75% {\n    left: -100px;\n  }\n  100% {\n    left: -100px;\n  }\n}\n\n/**\n * ==============================================\n * Dot Fire\n * ==============================================\n */\n.dot-fire {\n  position: relative;\n  left: -9999px;\n  width: 10px;\n  height: 10px;\n  border-radius: 5px;\n  background-color: #9880ff;\n  color: #9880ff;\n  box-shadow: 9999px 22.5px 0 -5px #9880ff;\n  -webkit-animation: dotFire 1.5s infinite linear;\n          animation: dotFire 1.5s infinite linear;\n  -webkit-animation-delay: -.85s;\n          animation-delay: -.85s;\n}\n\n.dot-fire::before, .dot-fire::after {\n  content: '';\n  display: inline-block;\n  position: absolute;\n  top: 0;\n  width: 10px;\n  height: 10px;\n  border-radius: 5px;\n  background-color: #9880ff;\n  color: #9880ff;\n}\n\n.dot-fire::before {\n  box-shadow: 9999px 22.5px 0 -5px #9880ff;\n  -webkit-animation: dotFire 1.5s infinite linear;\n          animation: dotFire 1.5s infinite linear;\n  -webkit-animation-delay: -1.85s;\n          animation-delay: -1.85s;\n}\n\n.dot-fire::after {\n  box-shadow: 9999px 22.5px 0 -5px #9880ff;\n  -webkit-animation: dotFire 1.5s infinite linear;\n          animation: dotFire 1.5s infinite linear;\n  -webkit-animation-delay: -2.85s;\n          animation-delay: -2.85s;\n}\n\n@-webkit-keyframes dotFire {\n  1% {\n    box-shadow: 9999px 22.5px 0 -5px #9880ff;\n  }\n  50% {\n    box-shadow: 9999px -5.625px 0 2px #9880ff;\n  }\n  100% {\n    box-shadow: 9999px -22.5px 0 -5px #9880ff;\n  }\n}\n\n@keyframes dotFire {\n  1% {\n    box-shadow: 9999px 22.5px 0 -5px #9880ff;\n  }\n  50% {\n    box-shadow: 9999px -5.625px 0 2px #9880ff;\n  }\n  100% {\n    box-shadow: 9999px -22.5px 0 -5px #9880ff;\n  }\n}\n\n/**\n * ==============================================\n * Dot Spin\n * ==============================================\n */\n.dot-spin {\n  position: relative;\n  width: 10px;\n  height: 10px;\n  border-radius: 5px;\n  background-color: transparent;\n  color: transparent;\n  box-shadow: 0 -18px 0 0 #9880ff, 12.72984px -12.72984px 0 0 #9880ff, 18px 0 0 0 #9880ff, 12.72984px 12.72984px 0 0 rgba(152, 128, 255, 0), 0 18px 0 0 rgba(152, 128, 255, 0), -12.72984px 12.72984px 0 0 rgba(152, 128, 255, 0), -18px 0 0 0 rgba(152, 128, 255, 0), -12.72984px -12.72984px 0 0 rgba(152, 128, 255, 0);\n  -webkit-animation: dotSpin 1.5s infinite linear;\n          animation: dotSpin 1.5s infinite linear;\n}\n\n@-webkit-keyframes dotSpin {\n  0%,\n  100% {\n    box-shadow: 0 -18px 0 0 #9880ff, 12.72984px -12.72984px 0 0 #9880ff, 18px 0 0 0 #9880ff, 12.72984px 12.72984px 0 -5px rgba(152, 128, 255, 0), 0 18px 0 -5px rgba(152, 128, 255, 0), -12.72984px 12.72984px 0 -5px rgba(152, 128, 255, 0), -18px 0 0 -5px rgba(152, 128, 255, 0), -12.72984px -12.72984px 0 -5px rgba(152, 128, 255, 0);\n  }\n  12.5% {\n    box-shadow: 0 -18px 0 -5px rgba(152, 128, 255, 0), 12.72984px -12.72984px 0 0 #9880ff, 18px 0 0 0 #9880ff, 12.72984px 12.72984px 0 0 #9880ff, 0 18px 0 -5px rgba(152, 128, 255, 0), -12.72984px 12.72984px 0 -5px rgba(152, 128, 255, 0), -18px 0 0 -5px rgba(152, 128, 255, 0), -12.72984px -12.72984px 0 -5px rgba(152, 128, 255, 0);\n  }\n  25% {\n    box-shadow: 0 -18px 0 -5px rgba(152, 128, 255, 0), 12.72984px -12.72984px 0 -5px rgba(152, 128, 255, 0), 18px 0 0 0 #9880ff, 12.72984px 12.72984px 0 0 #9880ff, 0 18px 0 0 #9880ff, -12.72984px 12.72984px 0 -5px rgba(152, 128, 255, 0), -18px 0 0 -5px rgba(152, 128, 255, 0), -12.72984px -12.72984px 0 -5px rgba(152, 128, 255, 0);\n  }\n  37.5% {\n    box-shadow: 0 -18px 0 -5px rgba(152, 128, 255, 0), 12.72984px -12.72984px 0 -5px rgba(152, 128, 255, 0), 18px 0 0 -5px rgba(152, 128, 255, 0), 12.72984px 12.72984px 0 0 #9880ff, 0 18px 0 0 #9880ff, -12.72984px 12.72984px 0 0 #9880ff, -18px 0 0 -5px rgba(152, 128, 255, 0), -12.72984px -12.72984px 0 -5px rgba(152, 128, 255, 0);\n  }\n  50% {\n    box-shadow: 0 -18px 0 -5px rgba(152, 128, 255, 0), 12.72984px -12.72984px 0 -5px rgba(152, 128, 255, 0), 18px 0 0 -5px rgba(152, 128, 255, 0), 12.72984px 12.72984px 0 -5px rgba(152, 128, 255, 0), 0 18px 0 0 #9880ff, -12.72984px 12.72984px 0 0 #9880ff, -18px 0 0 0 #9880ff, -12.72984px -12.72984px 0 -5px rgba(152, 128, 255, 0);\n  }\n  62.5% {\n    box-shadow: 0 -18px 0 -5px rgba(152, 128, 255, 0), 12.72984px -12.72984px 0 -5px rgba(152, 128, 255, 0), 18px 0 0 -5px rgba(152, 128, 255, 0), 12.72984px 12.72984px 0 -5px rgba(152, 128, 255, 0), 0 18px 0 -5px rgba(152, 128, 255, 0), -12.72984px 12.72984px 0 0 #9880ff, -18px 0 0 0 #9880ff, -12.72984px -12.72984px 0 0 #9880ff;\n  }\n  75% {\n    box-shadow: 0 -18px 0 0 #9880ff, 12.72984px -12.72984px 0 -5px rgba(152, 128, 255, 0), 18px 0 0 -5px rgba(152, 128, 255, 0), 12.72984px 12.72984px 0 -5px rgba(152, 128, 255, 0), 0 18px 0 -5px rgba(152, 128, 255, 0), -12.72984px 12.72984px 0 -5px rgba(152, 128, 255, 0), -18px 0 0 0 #9880ff, -12.72984px -12.72984px 0 0 #9880ff;\n  }\n  87.5% {\n    box-shadow: 0 -18px 0 0 #9880ff, 12.72984px -12.72984px 0 0 #9880ff, 18px 0 0 -5px rgba(152, 128, 255, 0), 12.72984px 12.72984px 0 -5px rgba(152, 128, 255, 0), 0 18px 0 -5px rgba(152, 128, 255, 0), -12.72984px 12.72984px 0 -5px rgba(152, 128, 255, 0), -18px 0 0 -5px rgba(152, 128, 255, 0), -12.72984px -12.72984px 0 0 #9880ff;\n  }\n}\n\n@keyframes dotSpin {\n  0%,\n  100% {\n    box-shadow: 0 -18px 0 0 #9880ff, 12.72984px -12.72984px 0 0 #9880ff, 18px 0 0 0 #9880ff, 12.72984px 12.72984px 0 -5px rgba(152, 128, 255, 0), 0 18px 0 -5px rgba(152, 128, 255, 0), -12.72984px 12.72984px 0 -5px rgba(152, 128, 255, 0), -18px 0 0 -5px rgba(152, 128, 255, 0), -12.72984px -12.72984px 0 -5px rgba(152, 128, 255, 0);\n  }\n  12.5% {\n    box-shadow: 0 -18px 0 -5px rgba(152, 128, 255, 0), 12.72984px -12.72984px 0 0 #9880ff, 18px 0 0 0 #9880ff, 12.72984px 12.72984px 0 0 #9880ff, 0 18px 0 -5px rgba(152, 128, 255, 0), -12.72984px 12.72984px 0 -5px rgba(152, 128, 255, 0), -18px 0 0 -5px rgba(152, 128, 255, 0), -12.72984px -12.72984px 0 -5px rgba(152, 128, 255, 0);\n  }\n  25% {\n    box-shadow: 0 -18px 0 -5px rgba(152, 128, 255, 0), 12.72984px -12.72984px 0 -5px rgba(152, 128, 255, 0), 18px 0 0 0 #9880ff, 12.72984px 12.72984px 0 0 #9880ff, 0 18px 0 0 #9880ff, -12.72984px 12.72984px 0 -5px rgba(152, 128, 255, 0), -18px 0 0 -5px rgba(152, 128, 255, 0), -12.72984px -12.72984px 0 -5px rgba(152, 128, 255, 0);\n  }\n  37.5% {\n    box-shadow: 0 -18px 0 -5px rgba(152, 128, 255, 0), 12.72984px -12.72984px 0 -5px rgba(152, 128, 255, 0), 18px 0 0 -5px rgba(152, 128, 255, 0), 12.72984px 12.72984px 0 0 #9880ff, 0 18px 0 0 #9880ff, -12.72984px 12.72984px 0 0 #9880ff, -18px 0 0 -5px rgba(152, 128, 255, 0), -12.72984px -12.72984px 0 -5px rgba(152, 128, 255, 0);\n  }\n  50% {\n    box-shadow: 0 -18px 0 -5px rgba(152, 128, 255, 0), 12.72984px -12.72984px 0 -5px rgba(152, 128, 255, 0), 18px 0 0 -5px rgba(152, 128, 255, 0), 12.72984px 12.72984px 0 -5px rgba(152, 128, 255, 0), 0 18px 0 0 #9880ff, -12.72984px 12.72984px 0 0 #9880ff, -18px 0 0 0 #9880ff, -12.72984px -12.72984px 0 -5px rgba(152, 128, 255, 0);\n  }\n  62.5% {\n    box-shadow: 0 -18px 0 -5px rgba(152, 128, 255, 0), 12.72984px -12.72984px 0 -5px rgba(152, 128, 255, 0), 18px 0 0 -5px rgba(152, 128, 255, 0), 12.72984px 12.72984px 0 -5px rgba(152, 128, 255, 0), 0 18px 0 -5px rgba(152, 128, 255, 0), -12.72984px 12.72984px 0 0 #9880ff, -18px 0 0 0 #9880ff, -12.72984px -12.72984px 0 0 #9880ff;\n  }\n  75% {\n    box-shadow: 0 -18px 0 0 #9880ff, 12.72984px -12.72984px 0 -5px rgba(152, 128, 255, 0), 18px 0 0 -5px rgba(152, 128, 255, 0), 12.72984px 12.72984px 0 -5px rgba(152, 128, 255, 0), 0 18px 0 -5px rgba(152, 128, 255, 0), -12.72984px 12.72984px 0 -5px rgba(152, 128, 255, 0), -18px 0 0 0 #9880ff, -12.72984px -12.72984px 0 0 #9880ff;\n  }\n  87.5% {\n    box-shadow: 0 -18px 0 0 #9880ff, 12.72984px -12.72984px 0 0 #9880ff, 18px 0 0 -5px rgba(152, 128, 255, 0), 12.72984px 12.72984px 0 -5px rgba(152, 128, 255, 0), 0 18px 0 -5px rgba(152, 128, 255, 0), -12.72984px 12.72984px 0 -5px rgba(152, 128, 255, 0), -18px 0 0 -5px rgba(152, 128, 255, 0), -12.72984px -12.72984px 0 0 #9880ff;\n  }\n}\n\n/**\n * ==============================================\n * Dot Falling\n * ==============================================\n */\n.dot-falling {\n  position: relative;\n  left: -9999px;\n  width: 10px;\n  height: 10px;\n  border-radius: 5px;\n  background-color: #9880ff;\n  color: #9880ff;\n  box-shadow: 9999px 0 0 0 #9880ff;\n  -webkit-animation: dotFalling 1s infinite linear;\n          animation: dotFalling 1s infinite linear;\n  -webkit-animation-delay: .1s;\n          animation-delay: .1s;\n}\n\n.dot-falling::before, .dot-falling::after {\n  content: '';\n  display: inline-block;\n  position: absolute;\n  top: 0;\n}\n\n.dot-falling::before {\n  width: 10px;\n  height: 10px;\n  border-radius: 5px;\n  background-color: #9880ff;\n  color: #9880ff;\n  -webkit-animation: dotFallingBefore 1s infinite linear;\n          animation: dotFallingBefore 1s infinite linear;\n  -webkit-animation-delay: 0s;\n          animation-delay: 0s;\n}\n\n.dot-falling::after {\n  width: 10px;\n  height: 10px;\n  border-radius: 5px;\n  background-color: #9880ff;\n  color: #9880ff;\n  -webkit-animation: dotFallingAfter 1s infinite linear;\n          animation: dotFallingAfter 1s infinite linear;\n  -webkit-animation-delay: .2s;\n          animation-delay: .2s;\n}\n\n@-webkit-keyframes dotFalling {\n  0% {\n    box-shadow: 9999px -15px 0 0 rgba(152, 128, 255, 0);\n  }\n  25%,\n  50%,\n  75% {\n    box-shadow: 9999px 0 0 0 #9880ff;\n  }\n  100% {\n    box-shadow: 9999px 15px 0 0 rgba(152, 128, 255, 0);\n  }\n}\n\n@keyframes dotFalling {\n  0% {\n    box-shadow: 9999px -15px 0 0 rgba(152, 128, 255, 0);\n  }\n  25%,\n  50%,\n  75% {\n    box-shadow: 9999px 0 0 0 #9880ff;\n  }\n  100% {\n    box-shadow: 9999px 15px 0 0 rgba(152, 128, 255, 0);\n  }\n}\n\n@-webkit-keyframes dotFallingBefore {\n  0% {\n    box-shadow: 9984px -15px 0 0 rgba(152, 128, 255, 0);\n  }\n  25%,\n  50%,\n  75% {\n    box-shadow: 9984px 0 0 0 #9880ff;\n  }\n  100% {\n    box-shadow: 9984px 15px 0 0 rgba(152, 128, 255, 0);\n  }\n}\n\n@keyframes dotFallingBefore {\n  0% {\n    box-shadow: 9984px -15px 0 0 rgba(152, 128, 255, 0);\n  }\n  25%,\n  50%,\n  75% {\n    box-shadow: 9984px 0 0 0 #9880ff;\n  }\n  100% {\n    box-shadow: 9984px 15px 0 0 rgba(152, 128, 255, 0);\n  }\n}\n\n@-webkit-keyframes dotFallingAfter {\n  0% {\n    box-shadow: 10014px -15px 0 0 rgba(152, 128, 255, 0);\n  }\n  25%,\n  50%,\n  75% {\n    box-shadow: 10014px 0 0 0 #9880ff;\n  }\n  100% {\n    box-shadow: 10014px 15px 0 0 rgba(152, 128, 255, 0);\n  }\n}\n\n@keyframes dotFallingAfter {\n  0% {\n    box-shadow: 10014px -15px 0 0 rgba(152, 128, 255, 0);\n  }\n  25%,\n  50%,\n  75% {\n    box-shadow: 10014px 0 0 0 #9880ff;\n  }\n  100% {\n    box-shadow: 10014px 15px 0 0 rgba(152, 128, 255, 0);\n  }\n}\n\n/**\n * ==============================================\n * Dot Stretching\n * ==============================================\n */\n.dot-stretching {\n  position: relative;\n  width: 10px;\n  height: 10px;\n  border-radius: 5px;\n  background-color: #9880ff;\n  color: #9880ff;\n  transform: scale(1.25, 1.25);\n  -webkit-animation: dotStretching 2s infinite ease-in;\n          animation: dotStretching 2s infinite ease-in;\n}\n\n.dot-stretching::before, .dot-stretching::after {\n  content: '';\n  display: inline-block;\n  position: absolute;\n  top: 0;\n}\n\n.dot-stretching::before {\n  width: 10px;\n  height: 10px;\n  border-radius: 5px;\n  background-color: #9880ff;\n  color: #9880ff;\n  -webkit-animation: dotStretchingBefore 2s infinite ease-in;\n          animation: dotStretchingBefore 2s infinite ease-in;\n}\n\n.dot-stretching::after {\n  width: 10px;\n  height: 10px;\n  border-radius: 5px;\n  background-color: #9880ff;\n  color: #9880ff;\n  -webkit-animation: dotStretchingAfter 2s infinite ease-in;\n          animation: dotStretchingAfter 2s infinite ease-in;\n}\n\n@-webkit-keyframes dotStretching {\n  0% {\n    transform: scale(1.25, 1.25);\n  }\n  50%,\n  60% {\n    transform: scale(0.8, 0.8);\n  }\n  100% {\n    transform: scale(1.25, 1.25);\n  }\n}\n\n@keyframes dotStretching {\n  0% {\n    transform: scale(1.25, 1.25);\n  }\n  50%,\n  60% {\n    transform: scale(0.8, 0.8);\n  }\n  100% {\n    transform: scale(1.25, 1.25);\n  }\n}\n\n@-webkit-keyframes dotStretchingBefore {\n  0% {\n    transform: translate(0) scale(0.7, 0.7);\n  }\n  50%,\n  60% {\n    transform: translate(-20px) scale(1, 1);\n  }\n  100% {\n    transform: translate(0) scale(0.7, 0.7);\n  }\n}\n\n@keyframes dotStretchingBefore {\n  0% {\n    transform: translate(0) scale(0.7, 0.7);\n  }\n  50%,\n  60% {\n    transform: translate(-20px) scale(1, 1);\n  }\n  100% {\n    transform: translate(0) scale(0.7, 0.7);\n  }\n}\n\n@-webkit-keyframes dotStretchingAfter {\n  0% {\n    transform: translate(0) scale(0.7, 0.7);\n  }\n  50%,\n  60% {\n    transform: translate(20px) scale(1, 1);\n  }\n  100% {\n    transform: translate(0) scale(0.7, 0.7);\n  }\n}\n\n@keyframes dotStretchingAfter {\n  0% {\n    transform: translate(0) scale(0.7, 0.7);\n  }\n  50%,\n  60% {\n    transform: translate(20px) scale(1, 1);\n  }\n  100% {\n    transform: translate(0) scale(0.7, 0.7);\n  }\n}\n\n/**\n * ==============================================\n * Experiment-Gooey Effect\n * Dot Gathering\n * ==============================================\n */\n.dot-gathering {\n  position: relative;\n  width: 12px;\n  height: 12px;\n  border-radius: 6px;\n  background-color: black;\n  color: transparent;\n  margin: -1px 0;\n  filter: blur(2px);\n}\n\n.dot-gathering::before, .dot-gathering::after {\n  content: '';\n  display: inline-block;\n  position: absolute;\n  top: 0;\n  left: -50px;\n  width: 12px;\n  height: 12px;\n  border-radius: 6px;\n  background-color: black;\n  color: transparent;\n  opacity: 0;\n  filter: blur(2px);\n  -webkit-animation: dotGathering 2s infinite ease-in;\n          animation: dotGathering 2s infinite ease-in;\n}\n\n.dot-gathering::after {\n  -webkit-animation-delay: .5s;\n          animation-delay: .5s;\n}\n\n@-webkit-keyframes dotGathering {\n  0% {\n    opacity: 0;\n    transform: translateX(0);\n  }\n  35%,\n  60% {\n    opacity: 1;\n    transform: translateX(50px);\n  }\n  100% {\n    opacity: 0;\n    transform: translateX(100px);\n  }\n}\n\n@keyframes dotGathering {\n  0% {\n    opacity: 0;\n    transform: translateX(0);\n  }\n  35%,\n  60% {\n    opacity: 1;\n    transform: translateX(50px);\n  }\n  100% {\n    opacity: 0;\n    transform: translateX(100px);\n  }\n}\n\n/**\n * ==============================================\n * Experiment-Gooey Effect\n * Dot Hourglass\n * ==============================================\n */\n.dot-hourglass {\n  position: relative;\n  top: -15px;\n  width: 12px;\n  height: 12px;\n  border-radius: 6px;\n  background-color: black;\n  color: transparent;\n  margin: -1px 0;\n  filter: blur(2px);\n  transform-origin: 5px 20px;\n  -webkit-animation: dotHourglass 2.4s infinite ease-in-out;\n          animation: dotHourglass 2.4s infinite ease-in-out;\n  -webkit-animation-delay: .6s;\n          animation-delay: .6s;\n}\n\n.dot-hourglass::before, .dot-hourglass::after {\n  content: '';\n  display: inline-block;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 12px;\n  height: 12px;\n  border-radius: 6px;\n  background-color: black;\n  color: transparent;\n  filter: blur(2px);\n}\n\n.dot-hourglass::before {\n  top: 30px;\n}\n\n.dot-hourglass::after {\n  -webkit-animation: dotHourglassAfter 2.4s infinite cubic-bezier(0.65, 0.05, 0.36, 1);\n          animation: dotHourglassAfter 2.4s infinite cubic-bezier(0.65, 0.05, 0.36, 1);\n}\n\n@-webkit-keyframes dotHourglass {\n  0% {\n    transform: rotateZ(0deg);\n  }\n  25% {\n    transform: rotateZ(180deg);\n  }\n  50% {\n    transform: rotateZ(180deg);\n  }\n  75% {\n    transform: rotateZ(360deg);\n  }\n  100% {\n    transform: rotateZ(360deg);\n  }\n}\n\n@keyframes dotHourglass {\n  0% {\n    transform: rotateZ(0deg);\n  }\n  25% {\n    transform: rotateZ(180deg);\n  }\n  50% {\n    transform: rotateZ(180deg);\n  }\n  75% {\n    transform: rotateZ(360deg);\n  }\n  100% {\n    transform: rotateZ(360deg);\n  }\n}\n\n@-webkit-keyframes dotHourglassAfter {\n  0% {\n    transform: translateY(0);\n  }\n  25% {\n    transform: translateY(30px);\n  }\n  50% {\n    transform: translateY(30px);\n  }\n  75% {\n    transform: translateY(0);\n  }\n  100% {\n    transform: translateY(0);\n  }\n}\n\n@keyframes dotHourglassAfter {\n  0% {\n    transform: translateY(0);\n  }\n  25% {\n    transform: translateY(30px);\n  }\n  50% {\n    transform: translateY(30px);\n  }\n  75% {\n    transform: translateY(0);\n  }\n  100% {\n    transform: translateY(0);\n  }\n}\n\n/**\n * ==============================================\n * Experiment-Gooey Effect\n * Dot Overtaking\n * ==============================================\n */\n.dot-overtaking {\n  position: relative;\n  width: 12px;\n  height: 12px;\n  border-radius: 6px;\n  background-color: transparent;\n  color: black;\n  margin: -1px 0;\n  box-shadow: 0 -20px 0 0;\n  filter: blur(2px);\n  -webkit-animation: dotOvertaking 2s infinite cubic-bezier(0.2, 0.6, 0.8, 0.2);\n          animation: dotOvertaking 2s infinite cubic-bezier(0.2, 0.6, 0.8, 0.2);\n}\n\n.dot-overtaking::before, .dot-overtaking::after {\n  content: '';\n  display: inline-block;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 12px;\n  height: 12px;\n  border-radius: 6px;\n  background-color: transparent;\n  color: black;\n  box-shadow: 0 -20px 0 0;\n  filter: blur(2px);\n}\n\n.dot-overtaking::before {\n  -webkit-animation: dotOvertaking 2s infinite cubic-bezier(0.2, 0.6, 0.8, 0.2);\n          animation: dotOvertaking 2s infinite cubic-bezier(0.2, 0.6, 0.8, 0.2);\n  -webkit-animation-delay: .3s;\n          animation-delay: .3s;\n}\n\n.dot-overtaking::after {\n  -webkit-animation: dotOvertaking 1.5s infinite cubic-bezier(0.2, 0.6, 0.8, 0.2);\n          animation: dotOvertaking 1.5s infinite cubic-bezier(0.2, 0.6, 0.8, 0.2);\n  -webkit-animation-delay: .6s;\n          animation-delay: .6s;\n}\n\n@-webkit-keyframes dotOvertaking {\n  0% {\n    transform: rotateZ(0deg);\n  }\n  100% {\n    transform: rotateZ(360deg);\n  }\n}\n\n@keyframes dotOvertaking {\n  0% {\n    transform: rotateZ(0deg);\n  }\n  100% {\n    transform: rotateZ(360deg);\n  }\n}\n\n/**\n * ==============================================\n * Experiment-Gooey Effect\n * Dot Shuttle\n * ==============================================\n */\n.dot-shuttle {\n  position: relative;\n  left: -15px;\n  width: 12px;\n  height: 12px;\n  border-radius: 6px;\n  background-color: black;\n  color: transparent;\n  margin: -1px 0;\n  filter: blur(2px);\n}\n\n.dot-shuttle::before, .dot-shuttle::after {\n  content: '';\n  display: inline-block;\n  position: absolute;\n  top: 0;\n  width: 12px;\n  height: 12px;\n  border-radius: 6px;\n  background-color: black;\n  color: transparent;\n  filter: blur(2px);\n}\n\n.dot-shuttle::before {\n  left: 15px;\n  -webkit-animation: dotShuttle 2s infinite ease-out;\n          animation: dotShuttle 2s infinite ease-out;\n}\n\n.dot-shuttle::after {\n  left: 30px;\n}\n\n@-webkit-keyframes dotShuttle {\n  0%,\n  50%,\n  100% {\n    transform: translateX(0);\n  }\n  25% {\n    transform: translateX(-45px);\n  }\n  75% {\n    transform: translateX(45px);\n  }\n}\n\n@keyframes dotShuttle {\n  0%,\n  50%,\n  100% {\n    transform: translateX(0);\n  }\n  25% {\n    transform: translateX(-45px);\n  }\n  75% {\n    transform: translateX(45px);\n  }\n}\n\n/**\n * ==============================================\n * Experiment-Emoji\n * Dot Bouncing\n * ==============================================\n */\n.dot-bouncing {\n  position: relative;\n  height: 10px;\n  font-size: 10px;\n}\n\n.dot-bouncing::before {\n  content: '⚽🏀🏐';\n  display: inline-block;\n  position: relative;\n  -webkit-animation: dotBouncing 1s infinite;\n          animation: dotBouncing 1s infinite;\n}\n\n@-webkit-keyframes dotBouncing {\n  0% {\n    top: -20px;\n    -webkit-animation-timing-function: ease-in;\n            animation-timing-function: ease-in;\n  }\n  34% {\n    transform: scale(1, 1);\n  }\n  35% {\n    top: 20px;\n    -webkit-animation-timing-function: ease-out;\n            animation-timing-function: ease-out;\n    transform: scale(1.5, 0.5);\n  }\n  45% {\n    transform: scale(1, 1);\n  }\n  90% {\n    top: -20px;\n  }\n  100% {\n    top: -20px;\n  }\n}\n\n@keyframes dotBouncing {\n  0% {\n    top: -20px;\n    -webkit-animation-timing-function: ease-in;\n            animation-timing-function: ease-in;\n  }\n  34% {\n    transform: scale(1, 1);\n  }\n  35% {\n    top: 20px;\n    -webkit-animation-timing-function: ease-out;\n            animation-timing-function: ease-out;\n    transform: scale(1.5, 0.5);\n  }\n  45% {\n    transform: scale(1, 1);\n  }\n  90% {\n    top: -20px;\n  }\n  100% {\n    top: -20px;\n  }\n}\n\n/**\n * ==============================================\n * Experiment-Emoji\n * Dot Rolling\n * ==============================================\n */\n.dot-rolling {\n  position: relative;\n  height: 10px;\n  font-size: 10px;\n}\n\n.dot-rolling::before {\n  content: '⚽';\n  display: inline-block;\n  position: relative;\n  transform: translateX(-25px);\n  -webkit-animation: dotRolling 3s infinite;\n          animation: dotRolling 3s infinite;\n}\n\n@-webkit-keyframes dotRolling {\n  0% {\n    content: '⚽';\n    transform: translateX(-25px) rotateZ(0deg);\n  }\n  16.667% {\n    content: '⚽';\n    transform: translateX(25px) rotateZ(720deg);\n  }\n  33.333% {\n    content: '⚽';\n    transform: translateX(-25px) rotateZ(0deg);\n  }\n  34.333% {\n    content: '🏀';\n    transform: translateX(-25px) rotateZ(0deg);\n  }\n  50% {\n    content: '🏀';\n    transform: translateX(25px) rotateZ(720deg);\n  }\n  66.667% {\n    content: '🏀';\n    transform: translateX(-25px) rotateZ(0deg);\n  }\n  67.667% {\n    content: '🏐';\n    transform: translateX(-25px) rotateZ(0deg);\n  }\n  83.333% {\n    content: '🏐';\n    transform: translateX(25px) rotateZ(720deg);\n  }\n  100% {\n    content: '🏐';\n    transform: translateX(-25px) rotateZ(0deg);\n  }\n}\n\n@keyframes dotRolling {\n  0% {\n    content: '⚽';\n    transform: translateX(-25px) rotateZ(0deg);\n  }\n  16.667% {\n    content: '⚽';\n    transform: translateX(25px) rotateZ(720deg);\n  }\n  33.333% {\n    content: '⚽';\n    transform: translateX(-25px) rotateZ(0deg);\n  }\n  34.333% {\n    content: '🏀';\n    transform: translateX(-25px) rotateZ(0deg);\n  }\n  50% {\n    content: '🏀';\n    transform: translateX(25px) rotateZ(720deg);\n  }\n  66.667% {\n    content: '🏀';\n    transform: translateX(-25px) rotateZ(0deg);\n  }\n  67.667% {\n    content: '🏐';\n    transform: translateX(-25px) rotateZ(0deg);\n  }\n  83.333% {\n    content: '🏐';\n    transform: translateX(25px) rotateZ(720deg);\n  }\n  100% {\n    content: '🏐';\n    transform: translateX(-25px) rotateZ(0deg);\n  }\n}\n", ""]);
+exports.push([module.i, "body {\n  margin: 0;\n  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',\n    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',\n    sans-serif;\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n}\n\ncode {\n  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',\n    monospace;\n}\n\n@charset \"UTF-8\";\n/**\n *\n * three-dots.css v0.1.0\n *\n * https://nzbin.github.io/three-dots/\n *\n * Copyright (c) 2018 nzbin\n *\n * Released under the MIT license\n *\n */\n\n .loading {\n    position: absolute;\n    top: 50%;\n    left: 50%;\n    transform: translateX(-50%) translateY(-50%);\n}\n/**\n * ==============================================\n * Dot Elastic\n * ==============================================\n */\n.dot-elastic {\n  position: relative;\n  width: 10px;\n  height: 10px;\n  border-radius: 5px;\n  background-color: #9880ff;\n  color: #9880ff;\n  -webkit-animation: dotElastic 1s infinite linear;\n          animation: dotElastic 1s infinite linear;\n}\n\n.dot-elastic::before, .dot-elastic::after {\n  content: '';\n  display: inline-block;\n  position: absolute;\n  top: 0;\n}\n\n.dot-elastic::before {\n  left: -15px;\n  width: 10px;\n  height: 10px;\n  border-radius: 5px;\n  background-color: #9880ff;\n  color: #9880ff;\n  -webkit-animation: dotElasticBefore 1s infinite linear;\n          animation: dotElasticBefore 1s infinite linear;\n}\n\n.dot-elastic::after {\n  left: 15px;\n  width: 10px;\n  height: 10px;\n  border-radius: 5px;\n  background-color: #9880ff;\n  color: #9880ff;\n  -webkit-animation: dotElasticAfter 1s infinite linear;\n          animation: dotElasticAfter 1s infinite linear;\n}\n\n@-webkit-keyframes dotElasticBefore {\n  0% {\n    transform: scale(1, 1);\n  }\n  25% {\n    transform: scale(1, 1.5);\n  }\n  50% {\n    transform: scale(1, 0.67);\n  }\n  75% {\n    transform: scale(1, 1);\n  }\n  100% {\n    transform: scale(1, 1);\n  }\n}\n\n@keyframes dotElasticBefore {\n  0% {\n    transform: scale(1, 1);\n  }\n  25% {\n    transform: scale(1, 1.5);\n  }\n  50% {\n    transform: scale(1, 0.67);\n  }\n  75% {\n    transform: scale(1, 1);\n  }\n  100% {\n    transform: scale(1, 1);\n  }\n}\n\n@-webkit-keyframes dotElastic {\n  0% {\n    transform: scale(1, 1);\n  }\n  25% {\n    transform: scale(1, 1);\n  }\n  50% {\n    transform: scale(1, 1.5);\n  }\n  75% {\n    transform: scale(1, 1);\n  }\n  100% {\n    transform: scale(1, 1);\n  }\n}\n\n@keyframes dotElastic {\n  0% {\n    transform: scale(1, 1);\n  }\n  25% {\n    transform: scale(1, 1);\n  }\n  50% {\n    transform: scale(1, 1.5);\n  }\n  75% {\n    transform: scale(1, 1);\n  }\n  100% {\n    transform: scale(1, 1);\n  }\n}\n\n@-webkit-keyframes dotElasticAfter {\n  0% {\n    transform: scale(1, 1);\n  }\n  25% {\n    transform: scale(1, 1);\n  }\n  50% {\n    transform: scale(1, 0.67);\n  }\n  75% {\n    transform: scale(1, 1.5);\n  }\n  100% {\n    transform: scale(1, 1);\n  }\n}\n\n@keyframes dotElasticAfter {\n  0% {\n    transform: scale(1, 1);\n  }\n  25% {\n    transform: scale(1, 1);\n  }\n  50% {\n    transform: scale(1, 0.67);\n  }\n  75% {\n    transform: scale(1, 1.5);\n  }\n  100% {\n    transform: scale(1, 1);\n  }\n}\n\n/**\n * ==============================================\n * Dot Pulse\n * ==============================================\n */\n.dot-pulse {\n  position: relative;\n  left: -9999px;\n  width: 10px;\n  height: 10px;\n  border-radius: 5px;\n  background-color: #9880ff;\n  color: #9880ff;\n  box-shadow: 9999px 0 0 -5px #9880ff;\n  -webkit-animation: dotPulse 1.5s infinite linear;\n          animation: dotPulse 1.5s infinite linear;\n  -webkit-animation-delay: .25s;\n          animation-delay: .25s;\n}\n\n.dot-pulse::before, .dot-pulse::after {\n  content: '';\n  display: inline-block;\n  position: absolute;\n  top: 0;\n  width: 10px;\n  height: 10px;\n  border-radius: 5px;\n  background-color: #9880ff;\n  color: #9880ff;\n}\n\n.dot-pulse::before {\n  box-shadow: 9984px 0 0 -5px #9880ff;\n  -webkit-animation: dotPulseBefore 1.5s infinite linear;\n          animation: dotPulseBefore 1.5s infinite linear;\n  -webkit-animation-delay: 0s;\n          animation-delay: 0s;\n}\n\n.dot-pulse::after {\n  box-shadow: 10014px 0 0 -5px #9880ff;\n  -webkit-animation: dotPulseAfter 1.5s infinite linear;\n          animation: dotPulseAfter 1.5s infinite linear;\n  -webkit-animation-delay: .5s;\n          animation-delay: .5s;\n}\n\n@-webkit-keyframes dotPulseBefore {\n  0% {\n    box-shadow: 9984px 0 0 -5px #9880ff;\n  }\n  30% {\n    box-shadow: 9984px 0 0 2px #9880ff;\n  }\n  60%,\n  100% {\n    box-shadow: 9984px 0 0 -5px #9880ff;\n  }\n}\n\n@keyframes dotPulseBefore {\n  0% {\n    box-shadow: 9984px 0 0 -5px #9880ff;\n  }\n  30% {\n    box-shadow: 9984px 0 0 2px #9880ff;\n  }\n  60%,\n  100% {\n    box-shadow: 9984px 0 0 -5px #9880ff;\n  }\n}\n\n@-webkit-keyframes dotPulse {\n  0% {\n    box-shadow: 9999px 0 0 -5px #9880ff;\n  }\n  30% {\n    box-shadow: 9999px 0 0 2px #9880ff;\n  }\n  60%,\n  100% {\n    box-shadow: 9999px 0 0 -5px #9880ff;\n  }\n}\n\n@keyframes dotPulse {\n  0% {\n    box-shadow: 9999px 0 0 -5px #9880ff;\n  }\n  30% {\n    box-shadow: 9999px 0 0 2px #9880ff;\n  }\n  60%,\n  100% {\n    box-shadow: 9999px 0 0 -5px #9880ff;\n  }\n}\n\n@-webkit-keyframes dotPulseAfter {\n  0% {\n    box-shadow: 10014px 0 0 -5px #9880ff;\n  }\n  30% {\n    box-shadow: 10014px 0 0 2px #9880ff;\n  }\n  60%,\n  100% {\n    box-shadow: 10014px 0 0 -5px #9880ff;\n  }\n}\n\n@keyframes dotPulseAfter {\n  0% {\n    box-shadow: 10014px 0 0 -5px #9880ff;\n  }\n  30% {\n    box-shadow: 10014px 0 0 2px #9880ff;\n  }\n  60%,\n  100% {\n    box-shadow: 10014px 0 0 -5px #9880ff;\n  }\n}\n\n/**\n * ==============================================\n * Dot Flashing\n * ==============================================\n */\n.dot-flashing {\n  position: relative;\n  width: 10px;\n  height: 10px;\n  border-radius: 5px;\n  background-color: #9880ff;\n  color: #9880ff;\n  -webkit-animation: dotFlashing 1s infinite linear alternate;\n          animation: dotFlashing 1s infinite linear alternate;\n  -webkit-animation-delay: .5s;\n          animation-delay: .5s;\n}\n\n.dot-flashing::before, .dot-flashing::after {\n  content: '';\n  display: inline-block;\n  position: absolute;\n  top: 0;\n}\n\n.dot-flashing::before {\n  left: -15px;\n  width: 10px;\n  height: 10px;\n  border-radius: 5px;\n  background-color: #9880ff;\n  color: #9880ff;\n  -webkit-animation: dotFlashing 1s infinite alternate;\n          animation: dotFlashing 1s infinite alternate;\n  -webkit-animation-delay: 0s;\n          animation-delay: 0s;\n}\n\n.dot-flashing::after {\n  left: 15px;\n  width: 10px;\n  height: 10px;\n  border-radius: 5px;\n  background-color: #9880ff;\n  color: #9880ff;\n  -webkit-animation: dotFlashing 1s infinite alternate;\n          animation: dotFlashing 1s infinite alternate;\n  -webkit-animation-delay: 1s;\n          animation-delay: 1s;\n}\n\n@-webkit-keyframes dotFlashing {\n  0% {\n    background-color: #9880ff;\n  }\n  50%,\n  100% {\n    background-color: #ebe6ff;\n  }\n}\n\n@keyframes dotFlashing {\n  0% {\n    background-color: #9880ff;\n  }\n  50%,\n  100% {\n    background-color: #ebe6ff;\n  }\n}\n\n/**\n * ==============================================\n * Dot Collision\n * ==============================================\n */\n.dot-collision {\n  position: relative;\n  width: 10px;\n  height: 10px;\n  border-radius: 5px;\n  background-color: #9880ff;\n  color: #9880ff;\n}\n\n.dot-collision::before, .dot-collision::after {\n  content: '';\n  display: inline-block;\n  position: absolute;\n  top: 0;\n}\n\n.dot-collision::before {\n  left: -10px;\n  width: 10px;\n  height: 10px;\n  border-radius: 5px;\n  background-color: #9880ff;\n  color: #9880ff;\n  -webkit-animation: dotCollisionBefore 2s infinite ease-in;\n          animation: dotCollisionBefore 2s infinite ease-in;\n}\n\n.dot-collision::after {\n  left: 10px;\n  width: 10px;\n  height: 10px;\n  border-radius: 5px;\n  background-color: #9880ff;\n  color: #9880ff;\n  -webkit-animation: dotCollisionAfter 2s infinite ease-in;\n          animation: dotCollisionAfter 2s infinite ease-in;\n  -webkit-animation-delay: 1s;\n          animation-delay: 1s;\n}\n\n@-webkit-keyframes dotCollisionBefore {\n  0%,\n  50%,\n  75%,\n  100% {\n    transform: translateX(0);\n  }\n  25% {\n    transform: translateX(-15px);\n  }\n}\n\n@keyframes dotCollisionBefore {\n  0%,\n  50%,\n  75%,\n  100% {\n    transform: translateX(0);\n  }\n  25% {\n    transform: translateX(-15px);\n  }\n}\n\n@-webkit-keyframes dotCollisionAfter {\n  0%,\n  50%,\n  75%,\n  100% {\n    transform: translateX(0);\n  }\n  25% {\n    transform: translateX(15px);\n  }\n}\n\n@keyframes dotCollisionAfter {\n  0%,\n  50%,\n  75%,\n  100% {\n    transform: translateX(0);\n  }\n  25% {\n    transform: translateX(15px);\n  }\n}\n\n/**\n * ==============================================\n * Dot Revolution\n * ==============================================\n */\n.dot-revolution {\n  position: relative;\n  width: 10px;\n  height: 10px;\n  border-radius: 5px;\n  background-color: #9880ff;\n  color: #9880ff;\n}\n\n.dot-revolution::before, .dot-revolution::after {\n  content: '';\n  display: inline-block;\n  position: absolute;\n}\n\n.dot-revolution::before {\n  left: 0;\n  top: -15px;\n  width: 10px;\n  height: 10px;\n  border-radius: 5px;\n  background-color: #9880ff;\n  color: #9880ff;\n  transform-origin: 5px 20px;\n  -webkit-animation: dotRevolution 1.4s linear infinite;\n          animation: dotRevolution 1.4s linear infinite;\n}\n\n.dot-revolution::after {\n  left: 0;\n  top: -30px;\n  width: 10px;\n  height: 10px;\n  border-radius: 5px;\n  background-color: #9880ff;\n  color: #9880ff;\n  transform-origin: 5px 35px;\n  -webkit-animation: dotRevolution 1s linear infinite;\n          animation: dotRevolution 1s linear infinite;\n}\n\n@-webkit-keyframes dotRevolution {\n  0% {\n    transform: rotateZ(0deg) translate3d(0, 0, 0);\n  }\n  100% {\n    transform: rotateZ(360deg) translate3d(0, 0, 0);\n  }\n}\n\n@keyframes dotRevolution {\n  0% {\n    transform: rotateZ(0deg) translate3d(0, 0, 0);\n  }\n  100% {\n    transform: rotateZ(360deg) translate3d(0, 0, 0);\n  }\n}\n\n/**\n * ==============================================\n * Dot Carousel\n * ==============================================\n */\n.dot-carousel {\n  position: relative;\n  left: -9999px;\n  width: 10px;\n  height: 10px;\n  border-radius: 5px;\n  background-color: #9880ff;\n  color: #9880ff;\n  box-shadow: 9984px 0 0 0 #9880ff, 9999px 0 0 0 #9880ff, 10014px 0 0 0 #9880ff;\n  -webkit-animation: dotCarousel 1.5s infinite linear;\n          animation: dotCarousel 1.5s infinite linear;\n}\n\n@-webkit-keyframes dotCarousel {\n  0% {\n    box-shadow: 9984px 0 0 -1px #9880ff, 9999px 0 0 1px #9880ff, 10014px 0 0 -1px #9880ff;\n  }\n  50% {\n    box-shadow: 10014px 0 0 -1px #9880ff, 9984px 0 0 -1px #9880ff, 9999px 0 0 1px #9880ff;\n  }\n  100% {\n    box-shadow: 9999px 0 0 1px #9880ff, 10014px 0 0 -1px #9880ff, 9984px 0 0 -1px #9880ff;\n  }\n}\n\n@keyframes dotCarousel {\n  0% {\n    box-shadow: 9984px 0 0 -1px #9880ff, 9999px 0 0 1px #9880ff, 10014px 0 0 -1px #9880ff;\n  }\n  50% {\n    box-shadow: 10014px 0 0 -1px #9880ff, 9984px 0 0 -1px #9880ff, 9999px 0 0 1px #9880ff;\n  }\n  100% {\n    box-shadow: 9999px 0 0 1px #9880ff, 10014px 0 0 -1px #9880ff, 9984px 0 0 -1px #9880ff;\n  }\n}\n\n/**\n * ==============================================\n * Dot Typing\n * ==============================================\n */\n.dot-typing {\n  position: relative;\n  left: -9999px;\n  width: 10px;\n  height: 10px;\n  border-radius: 5px;\n  background-color: #9880ff;\n  color: #9880ff;\n  box-shadow: 9984px 0 0 0 #9880ff, 9999px 0 0 0 #9880ff, 10014px 0 0 0 #9880ff;\n  -webkit-animation: dotTyping 1.5s infinite linear;\n          animation: dotTyping 1.5s infinite linear;\n}\n\n@-webkit-keyframes dotTyping {\n  0% {\n    box-shadow: 9984px 0 0 0 #9880ff, 9999px 0 0 0 #9880ff, 10014px 0 0 0 #9880ff;\n  }\n  16.667% {\n    box-shadow: 9984px -10px 0 0 #9880ff, 9999px 0 0 0 #9880ff, 10014px 0 0 0 #9880ff;\n  }\n  33.333% {\n    box-shadow: 9984px 0 0 0 #9880ff, 9999px 0 0 0 #9880ff, 10014px 0 0 0 #9880ff;\n  }\n  50% {\n    box-shadow: 9984px 0 0 0 #9880ff, 9999px -10px 0 0 #9880ff, 10014px 0 0 0 #9880ff;\n  }\n  66.667% {\n    box-shadow: 9984px 0 0 0 #9880ff, 9999px 0 0 0 #9880ff, 10014px 0 0 0 #9880ff;\n  }\n  83.333% {\n    box-shadow: 9984px 0 0 0 #9880ff, 9999px 0 0 0 #9880ff, 10014px -10px 0 0 #9880ff;\n  }\n  100% {\n    box-shadow: 9984px 0 0 0 #9880ff, 9999px 0 0 0 #9880ff, 10014px 0 0 0 #9880ff;\n  }\n}\n\n@keyframes dotTyping {\n  0% {\n    box-shadow: 9984px 0 0 0 #9880ff, 9999px 0 0 0 #9880ff, 10014px 0 0 0 #9880ff;\n  }\n  16.667% {\n    box-shadow: 9984px -10px 0 0 #9880ff, 9999px 0 0 0 #9880ff, 10014px 0 0 0 #9880ff;\n  }\n  33.333% {\n    box-shadow: 9984px 0 0 0 #9880ff, 9999px 0 0 0 #9880ff, 10014px 0 0 0 #9880ff;\n  }\n  50% {\n    box-shadow: 9984px 0 0 0 #9880ff, 9999px -10px 0 0 #9880ff, 10014px 0 0 0 #9880ff;\n  }\n  66.667% {\n    box-shadow: 9984px 0 0 0 #9880ff, 9999px 0 0 0 #9880ff, 10014px 0 0 0 #9880ff;\n  }\n  83.333% {\n    box-shadow: 9984px 0 0 0 #9880ff, 9999px 0 0 0 #9880ff, 10014px -10px 0 0 #9880ff;\n  }\n  100% {\n    box-shadow: 9984px 0 0 0 #9880ff, 9999px 0 0 0 #9880ff, 10014px 0 0 0 #9880ff;\n  }\n}\n\n/**\n * ==============================================\n * Dot Windmill\n * ==============================================\n */\n.dot-windmill {\n  position: relative;\n  top: -10px;\n  width: 10px;\n  height: 10px;\n  border-radius: 5px;\n  background-color: #9880ff;\n  color: #9880ff;\n  transform-origin: 5px 15px;\n  -webkit-animation: dotWindmill 2s infinite linear;\n          animation: dotWindmill 2s infinite linear;\n}\n\n.dot-windmill::before, .dot-windmill::after {\n  content: '';\n  display: inline-block;\n  position: absolute;\n}\n\n.dot-windmill::before {\n  left: -8.66px;\n  top: 15px;\n  width: 10px;\n  height: 10px;\n  border-radius: 5px;\n  background-color: #9880ff;\n  color: #9880ff;\n}\n\n.dot-windmill::after {\n  left: 8.66px;\n  top: 15px;\n  width: 10px;\n  height: 10px;\n  border-radius: 5px;\n  background-color: #9880ff;\n  color: #9880ff;\n}\n\n@-webkit-keyframes dotWindmill {\n  0% {\n    transform: rotateZ(0deg) translate3d(0, 0, 0);\n  }\n  100% {\n    transform: rotateZ(720deg) translate3d(0, 0, 0);\n  }\n}\n\n@keyframes dotWindmill {\n  0% {\n    transform: rotateZ(0deg) translate3d(0, 0, 0);\n  }\n  100% {\n    transform: rotateZ(720deg) translate3d(0, 0, 0);\n  }\n}\n\n/**\n * ==============================================\n * Dot Bricks\n * ==============================================\n */\n.dot-bricks {\n  position: relative;\n  top: 8px;\n  left: -9999px;\n  width: 10px;\n  height: 10px;\n  border-radius: 5px;\n  background-color: #9880ff;\n  color: #9880ff;\n  box-shadow: 9991px -16px 0 0 #9880ff, 9991px 0 0 0 #9880ff, 10007px 0 0 0 #9880ff;\n  -webkit-animation: dotBricks 2s infinite ease;\n          animation: dotBricks 2s infinite ease;\n}\n\n@-webkit-keyframes dotBricks {\n  0% {\n    box-shadow: 9991px -16px 0 0 #9880ff, 9991px 0 0 0 #9880ff, 10007px 0 0 0 #9880ff;\n  }\n  8.333% {\n    box-shadow: 10007px -16px 0 0 #9880ff, 9991px 0 0 0 #9880ff, 10007px 0 0 0 #9880ff;\n  }\n  16.667% {\n    box-shadow: 10007px -16px 0 0 #9880ff, 9991px -16px 0 0 #9880ff, 10007px 0 0 0 #9880ff;\n  }\n  25% {\n    box-shadow: 10007px -16px 0 0 #9880ff, 9991px -16px 0 0 #9880ff, 9991px 0 0 0 #9880ff;\n  }\n  33.333% {\n    box-shadow: 10007px 0 0 0 #9880ff, 9991px -16px 0 0 #9880ff, 9991px 0 0 0 #9880ff;\n  }\n  41.667% {\n    box-shadow: 10007px 0 0 0 #9880ff, 10007px -16px 0 0 #9880ff, 9991px 0 0 0 #9880ff;\n  }\n  50% {\n    box-shadow: 10007px 0 0 0 #9880ff, 10007px -16px 0 0 #9880ff, 9991px -16px 0 0 #9880ff;\n  }\n  58.333% {\n    box-shadow: 9991px 0 0 0 #9880ff, 10007px -16px 0 0 #9880ff, 9991px -16px 0 0 #9880ff;\n  }\n  66.666% {\n    box-shadow: 9991px 0 0 0 #9880ff, 10007px 0 0 0 #9880ff, 9991px -16px 0 0 #9880ff;\n  }\n  75% {\n    box-shadow: 9991px 0 0 0 #9880ff, 10007px 0 0 0 #9880ff, 10007px -16px 0 0 #9880ff;\n  }\n  83.333% {\n    box-shadow: 9991px -16px 0 0 #9880ff, 10007px 0 0 0 #9880ff, 10007px -16px 0 0 #9880ff;\n  }\n  91.667% {\n    box-shadow: 9991px -16px 0 0 #9880ff, 9991px 0 0 0 #9880ff, 10007px -16px 0 0 #9880ff;\n  }\n  100% {\n    box-shadow: 9991px -16px 0 0 #9880ff, 9991px 0 0 0 #9880ff, 10007px 0 0 0 #9880ff;\n  }\n}\n\n@keyframes dotBricks {\n  0% {\n    box-shadow: 9991px -16px 0 0 #9880ff, 9991px 0 0 0 #9880ff, 10007px 0 0 0 #9880ff;\n  }\n  8.333% {\n    box-shadow: 10007px -16px 0 0 #9880ff, 9991px 0 0 0 #9880ff, 10007px 0 0 0 #9880ff;\n  }\n  16.667% {\n    box-shadow: 10007px -16px 0 0 #9880ff, 9991px -16px 0 0 #9880ff, 10007px 0 0 0 #9880ff;\n  }\n  25% {\n    box-shadow: 10007px -16px 0 0 #9880ff, 9991px -16px 0 0 #9880ff, 9991px 0 0 0 #9880ff;\n  }\n  33.333% {\n    box-shadow: 10007px 0 0 0 #9880ff, 9991px -16px 0 0 #9880ff, 9991px 0 0 0 #9880ff;\n  }\n  41.667% {\n    box-shadow: 10007px 0 0 0 #9880ff, 10007px -16px 0 0 #9880ff, 9991px 0 0 0 #9880ff;\n  }\n  50% {\n    box-shadow: 10007px 0 0 0 #9880ff, 10007px -16px 0 0 #9880ff, 9991px -16px 0 0 #9880ff;\n  }\n  58.333% {\n    box-shadow: 9991px 0 0 0 #9880ff, 10007px -16px 0 0 #9880ff, 9991px -16px 0 0 #9880ff;\n  }\n  66.666% {\n    box-shadow: 9991px 0 0 0 #9880ff, 10007px 0 0 0 #9880ff, 9991px -16px 0 0 #9880ff;\n  }\n  75% {\n    box-shadow: 9991px 0 0 0 #9880ff, 10007px 0 0 0 #9880ff, 10007px -16px 0 0 #9880ff;\n  }\n  83.333% {\n    box-shadow: 9991px -16px 0 0 #9880ff, 10007px 0 0 0 #9880ff, 10007px -16px 0 0 #9880ff;\n  }\n  91.667% {\n    box-shadow: 9991px -16px 0 0 #9880ff, 9991px 0 0 0 #9880ff, 10007px -16px 0 0 #9880ff;\n  }\n  100% {\n    box-shadow: 9991px -16px 0 0 #9880ff, 9991px 0 0 0 #9880ff, 10007px 0 0 0 #9880ff;\n  }\n}\n\n/**\n * ==============================================\n * Dot Floating\n * ==============================================\n */\n.dot-floating {\n  position: relative;\n  width: 10px;\n  height: 10px;\n  border-radius: 5px;\n  background-color: #9880ff;\n  color: #9880ff;\n  -webkit-animation: dotFloating 3s infinite cubic-bezier(0.15, 0.6, 0.9, 0.1);\n          animation: dotFloating 3s infinite cubic-bezier(0.15, 0.6, 0.9, 0.1);\n}\n\n.dot-floating::before, .dot-floating::after {\n  content: '';\n  display: inline-block;\n  position: absolute;\n  top: 0;\n}\n\n.dot-floating::before {\n  left: -12px;\n  width: 10px;\n  height: 10px;\n  border-radius: 5px;\n  background-color: #9880ff;\n  color: #9880ff;\n  -webkit-animation: dotFloatingBefore 3s infinite ease-in-out;\n          animation: dotFloatingBefore 3s infinite ease-in-out;\n}\n\n.dot-floating::after {\n  left: -24px;\n  width: 10px;\n  height: 10px;\n  border-radius: 5px;\n  background-color: #9880ff;\n  color: #9880ff;\n  -webkit-animation: dotFloatingAfter 3s infinite cubic-bezier(0.4, 0, 1, 1);\n          animation: dotFloatingAfter 3s infinite cubic-bezier(0.4, 0, 1, 1);\n}\n\n@-webkit-keyframes dotFloating {\n  0% {\n    left: calc(-50% - 5px);\n  }\n  75% {\n    left: calc(50% + 105px);\n  }\n  100% {\n    left: calc(50% + 105px);\n  }\n}\n\n@keyframes dotFloating {\n  0% {\n    left: calc(-50% - 5px);\n  }\n  75% {\n    left: calc(50% + 105px);\n  }\n  100% {\n    left: calc(50% + 105px);\n  }\n}\n\n@-webkit-keyframes dotFloatingBefore {\n  0% {\n    left: -50px;\n  }\n  50% {\n    left: -12px;\n  }\n  75% {\n    left: -50px;\n  }\n  100% {\n    left: -50px;\n  }\n}\n\n@keyframes dotFloatingBefore {\n  0% {\n    left: -50px;\n  }\n  50% {\n    left: -12px;\n  }\n  75% {\n    left: -50px;\n  }\n  100% {\n    left: -50px;\n  }\n}\n\n@-webkit-keyframes dotFloatingAfter {\n  0% {\n    left: -100px;\n  }\n  50% {\n    left: -24px;\n  }\n  75% {\n    left: -100px;\n  }\n  100% {\n    left: -100px;\n  }\n}\n\n@keyframes dotFloatingAfter {\n  0% {\n    left: -100px;\n  }\n  50% {\n    left: -24px;\n  }\n  75% {\n    left: -100px;\n  }\n  100% {\n    left: -100px;\n  }\n}\n\n/**\n * ==============================================\n * Dot Fire\n * ==============================================\n */\n.dot-fire {\n  position: relative;\n  left: -9999px;\n  width: 10px;\n  height: 10px;\n  border-radius: 5px;\n  background-color: #9880ff;\n  color: #9880ff;\n  box-shadow: 9999px 22.5px 0 -5px #9880ff;\n  -webkit-animation: dotFire 1.5s infinite linear;\n          animation: dotFire 1.5s infinite linear;\n  -webkit-animation-delay: -.85s;\n          animation-delay: -.85s;\n}\n\n.dot-fire::before, .dot-fire::after {\n  content: '';\n  display: inline-block;\n  position: absolute;\n  top: 0;\n  width: 10px;\n  height: 10px;\n  border-radius: 5px;\n  background-color: #9880ff;\n  color: #9880ff;\n}\n\n.dot-fire::before {\n  box-shadow: 9999px 22.5px 0 -5px #9880ff;\n  -webkit-animation: dotFire 1.5s infinite linear;\n          animation: dotFire 1.5s infinite linear;\n  -webkit-animation-delay: -1.85s;\n          animation-delay: -1.85s;\n}\n\n.dot-fire::after {\n  box-shadow: 9999px 22.5px 0 -5px #9880ff;\n  -webkit-animation: dotFire 1.5s infinite linear;\n          animation: dotFire 1.5s infinite linear;\n  -webkit-animation-delay: -2.85s;\n          animation-delay: -2.85s;\n}\n\n@-webkit-keyframes dotFire {\n  1% {\n    box-shadow: 9999px 22.5px 0 -5px #9880ff;\n  }\n  50% {\n    box-shadow: 9999px -5.625px 0 2px #9880ff;\n  }\n  100% {\n    box-shadow: 9999px -22.5px 0 -5px #9880ff;\n  }\n}\n\n@keyframes dotFire {\n  1% {\n    box-shadow: 9999px 22.5px 0 -5px #9880ff;\n  }\n  50% {\n    box-shadow: 9999px -5.625px 0 2px #9880ff;\n  }\n  100% {\n    box-shadow: 9999px -22.5px 0 -5px #9880ff;\n  }\n}\n\n/**\n * ==============================================\n * Dot Spin\n * ==============================================\n */\n.dot-spin {\n  position: relative;\n  width: 10px;\n  height: 10px;\n  border-radius: 5px;\n  background-color: transparent;\n  color: transparent;\n  box-shadow: 0 -18px 0 0 #9880ff, 12.72984px -12.72984px 0 0 #9880ff, 18px 0 0 0 #9880ff, 12.72984px 12.72984px 0 0 rgba(152, 128, 255, 0), 0 18px 0 0 rgba(152, 128, 255, 0), -12.72984px 12.72984px 0 0 rgba(152, 128, 255, 0), -18px 0 0 0 rgba(152, 128, 255, 0), -12.72984px -12.72984px 0 0 rgba(152, 128, 255, 0);\n  -webkit-animation: dotSpin 1.5s infinite linear;\n          animation: dotSpin 1.5s infinite linear;\n}\n\n@-webkit-keyframes dotSpin {\n  0%,\n  100% {\n    box-shadow: 0 -18px 0 0 #9880ff, 12.72984px -12.72984px 0 0 #9880ff, 18px 0 0 0 #9880ff, 12.72984px 12.72984px 0 -5px rgba(152, 128, 255, 0), 0 18px 0 -5px rgba(152, 128, 255, 0), -12.72984px 12.72984px 0 -5px rgba(152, 128, 255, 0), -18px 0 0 -5px rgba(152, 128, 255, 0), -12.72984px -12.72984px 0 -5px rgba(152, 128, 255, 0);\n  }\n  12.5% {\n    box-shadow: 0 -18px 0 -5px rgba(152, 128, 255, 0), 12.72984px -12.72984px 0 0 #9880ff, 18px 0 0 0 #9880ff, 12.72984px 12.72984px 0 0 #9880ff, 0 18px 0 -5px rgba(152, 128, 255, 0), -12.72984px 12.72984px 0 -5px rgba(152, 128, 255, 0), -18px 0 0 -5px rgba(152, 128, 255, 0), -12.72984px -12.72984px 0 -5px rgba(152, 128, 255, 0);\n  }\n  25% {\n    box-shadow: 0 -18px 0 -5px rgba(152, 128, 255, 0), 12.72984px -12.72984px 0 -5px rgba(152, 128, 255, 0), 18px 0 0 0 #9880ff, 12.72984px 12.72984px 0 0 #9880ff, 0 18px 0 0 #9880ff, -12.72984px 12.72984px 0 -5px rgba(152, 128, 255, 0), -18px 0 0 -5px rgba(152, 128, 255, 0), -12.72984px -12.72984px 0 -5px rgba(152, 128, 255, 0);\n  }\n  37.5% {\n    box-shadow: 0 -18px 0 -5px rgba(152, 128, 255, 0), 12.72984px -12.72984px 0 -5px rgba(152, 128, 255, 0), 18px 0 0 -5px rgba(152, 128, 255, 0), 12.72984px 12.72984px 0 0 #9880ff, 0 18px 0 0 #9880ff, -12.72984px 12.72984px 0 0 #9880ff, -18px 0 0 -5px rgba(152, 128, 255, 0), -12.72984px -12.72984px 0 -5px rgba(152, 128, 255, 0);\n  }\n  50% {\n    box-shadow: 0 -18px 0 -5px rgba(152, 128, 255, 0), 12.72984px -12.72984px 0 -5px rgba(152, 128, 255, 0), 18px 0 0 -5px rgba(152, 128, 255, 0), 12.72984px 12.72984px 0 -5px rgba(152, 128, 255, 0), 0 18px 0 0 #9880ff, -12.72984px 12.72984px 0 0 #9880ff, -18px 0 0 0 #9880ff, -12.72984px -12.72984px 0 -5px rgba(152, 128, 255, 0);\n  }\n  62.5% {\n    box-shadow: 0 -18px 0 -5px rgba(152, 128, 255, 0), 12.72984px -12.72984px 0 -5px rgba(152, 128, 255, 0), 18px 0 0 -5px rgba(152, 128, 255, 0), 12.72984px 12.72984px 0 -5px rgba(152, 128, 255, 0), 0 18px 0 -5px rgba(152, 128, 255, 0), -12.72984px 12.72984px 0 0 #9880ff, -18px 0 0 0 #9880ff, -12.72984px -12.72984px 0 0 #9880ff;\n  }\n  75% {\n    box-shadow: 0 -18px 0 0 #9880ff, 12.72984px -12.72984px 0 -5px rgba(152, 128, 255, 0), 18px 0 0 -5px rgba(152, 128, 255, 0), 12.72984px 12.72984px 0 -5px rgba(152, 128, 255, 0), 0 18px 0 -5px rgba(152, 128, 255, 0), -12.72984px 12.72984px 0 -5px rgba(152, 128, 255, 0), -18px 0 0 0 #9880ff, -12.72984px -12.72984px 0 0 #9880ff;\n  }\n  87.5% {\n    box-shadow: 0 -18px 0 0 #9880ff, 12.72984px -12.72984px 0 0 #9880ff, 18px 0 0 -5px rgba(152, 128, 255, 0), 12.72984px 12.72984px 0 -5px rgba(152, 128, 255, 0), 0 18px 0 -5px rgba(152, 128, 255, 0), -12.72984px 12.72984px 0 -5px rgba(152, 128, 255, 0), -18px 0 0 -5px rgba(152, 128, 255, 0), -12.72984px -12.72984px 0 0 #9880ff;\n  }\n}\n\n@keyframes dotSpin {\n  0%,\n  100% {\n    box-shadow: 0 -18px 0 0 #9880ff, 12.72984px -12.72984px 0 0 #9880ff, 18px 0 0 0 #9880ff, 12.72984px 12.72984px 0 -5px rgba(152, 128, 255, 0), 0 18px 0 -5px rgba(152, 128, 255, 0), -12.72984px 12.72984px 0 -5px rgba(152, 128, 255, 0), -18px 0 0 -5px rgba(152, 128, 255, 0), -12.72984px -12.72984px 0 -5px rgba(152, 128, 255, 0);\n  }\n  12.5% {\n    box-shadow: 0 -18px 0 -5px rgba(152, 128, 255, 0), 12.72984px -12.72984px 0 0 #9880ff, 18px 0 0 0 #9880ff, 12.72984px 12.72984px 0 0 #9880ff, 0 18px 0 -5px rgba(152, 128, 255, 0), -12.72984px 12.72984px 0 -5px rgba(152, 128, 255, 0), -18px 0 0 -5px rgba(152, 128, 255, 0), -12.72984px -12.72984px 0 -5px rgba(152, 128, 255, 0);\n  }\n  25% {\n    box-shadow: 0 -18px 0 -5px rgba(152, 128, 255, 0), 12.72984px -12.72984px 0 -5px rgba(152, 128, 255, 0), 18px 0 0 0 #9880ff, 12.72984px 12.72984px 0 0 #9880ff, 0 18px 0 0 #9880ff, -12.72984px 12.72984px 0 -5px rgba(152, 128, 255, 0), -18px 0 0 -5px rgba(152, 128, 255, 0), -12.72984px -12.72984px 0 -5px rgba(152, 128, 255, 0);\n  }\n  37.5% {\n    box-shadow: 0 -18px 0 -5px rgba(152, 128, 255, 0), 12.72984px -12.72984px 0 -5px rgba(152, 128, 255, 0), 18px 0 0 -5px rgba(152, 128, 255, 0), 12.72984px 12.72984px 0 0 #9880ff, 0 18px 0 0 #9880ff, -12.72984px 12.72984px 0 0 #9880ff, -18px 0 0 -5px rgba(152, 128, 255, 0), -12.72984px -12.72984px 0 -5px rgba(152, 128, 255, 0);\n  }\n  50% {\n    box-shadow: 0 -18px 0 -5px rgba(152, 128, 255, 0), 12.72984px -12.72984px 0 -5px rgba(152, 128, 255, 0), 18px 0 0 -5px rgba(152, 128, 255, 0), 12.72984px 12.72984px 0 -5px rgba(152, 128, 255, 0), 0 18px 0 0 #9880ff, -12.72984px 12.72984px 0 0 #9880ff, -18px 0 0 0 #9880ff, -12.72984px -12.72984px 0 -5px rgba(152, 128, 255, 0);\n  }\n  62.5% {\n    box-shadow: 0 -18px 0 -5px rgba(152, 128, 255, 0), 12.72984px -12.72984px 0 -5px rgba(152, 128, 255, 0), 18px 0 0 -5px rgba(152, 128, 255, 0), 12.72984px 12.72984px 0 -5px rgba(152, 128, 255, 0), 0 18px 0 -5px rgba(152, 128, 255, 0), -12.72984px 12.72984px 0 0 #9880ff, -18px 0 0 0 #9880ff, -12.72984px -12.72984px 0 0 #9880ff;\n  }\n  75% {\n    box-shadow: 0 -18px 0 0 #9880ff, 12.72984px -12.72984px 0 -5px rgba(152, 128, 255, 0), 18px 0 0 -5px rgba(152, 128, 255, 0), 12.72984px 12.72984px 0 -5px rgba(152, 128, 255, 0), 0 18px 0 -5px rgba(152, 128, 255, 0), -12.72984px 12.72984px 0 -5px rgba(152, 128, 255, 0), -18px 0 0 0 #9880ff, -12.72984px -12.72984px 0 0 #9880ff;\n  }\n  87.5% {\n    box-shadow: 0 -18px 0 0 #9880ff, 12.72984px -12.72984px 0 0 #9880ff, 18px 0 0 -5px rgba(152, 128, 255, 0), 12.72984px 12.72984px 0 -5px rgba(152, 128, 255, 0), 0 18px 0 -5px rgba(152, 128, 255, 0), -12.72984px 12.72984px 0 -5px rgba(152, 128, 255, 0), -18px 0 0 -5px rgba(152, 128, 255, 0), -12.72984px -12.72984px 0 0 #9880ff;\n  }\n}\n\n/**\n * ==============================================\n * Dot Falling\n * ==============================================\n */\n.dot-falling {\n  position: relative;\n  left: -9999px;\n  width: 10px;\n  height: 10px;\n  border-radius: 5px;\n  background-color: #9880ff;\n  color: #9880ff;\n  box-shadow: 9999px 0 0 0 #9880ff;\n  -webkit-animation: dotFalling 1s infinite linear;\n          animation: dotFalling 1s infinite linear;\n  -webkit-animation-delay: .1s;\n          animation-delay: .1s;\n}\n\n.dot-falling::before, .dot-falling::after {\n  content: '';\n  display: inline-block;\n  position: absolute;\n  top: 0;\n}\n\n.dot-falling::before {\n  width: 10px;\n  height: 10px;\n  border-radius: 5px;\n  background-color: #9880ff;\n  color: #9880ff;\n  -webkit-animation: dotFallingBefore 1s infinite linear;\n          animation: dotFallingBefore 1s infinite linear;\n  -webkit-animation-delay: 0s;\n          animation-delay: 0s;\n}\n\n.dot-falling::after {\n  width: 10px;\n  height: 10px;\n  border-radius: 5px;\n  background-color: #9880ff;\n  color: #9880ff;\n  -webkit-animation: dotFallingAfter 1s infinite linear;\n          animation: dotFallingAfter 1s infinite linear;\n  -webkit-animation-delay: .2s;\n          animation-delay: .2s;\n}\n\n@-webkit-keyframes dotFalling {\n  0% {\n    box-shadow: 9999px -15px 0 0 rgba(152, 128, 255, 0);\n  }\n  25%,\n  50%,\n  75% {\n    box-shadow: 9999px 0 0 0 #9880ff;\n  }\n  100% {\n    box-shadow: 9999px 15px 0 0 rgba(152, 128, 255, 0);\n  }\n}\n\n@keyframes dotFalling {\n  0% {\n    box-shadow: 9999px -15px 0 0 rgba(152, 128, 255, 0);\n  }\n  25%,\n  50%,\n  75% {\n    box-shadow: 9999px 0 0 0 #9880ff;\n  }\n  100% {\n    box-shadow: 9999px 15px 0 0 rgba(152, 128, 255, 0);\n  }\n}\n\n@-webkit-keyframes dotFallingBefore {\n  0% {\n    box-shadow: 9984px -15px 0 0 rgba(152, 128, 255, 0);\n  }\n  25%,\n  50%,\n  75% {\n    box-shadow: 9984px 0 0 0 #9880ff;\n  }\n  100% {\n    box-shadow: 9984px 15px 0 0 rgba(152, 128, 255, 0);\n  }\n}\n\n@keyframes dotFallingBefore {\n  0% {\n    box-shadow: 9984px -15px 0 0 rgba(152, 128, 255, 0);\n  }\n  25%,\n  50%,\n  75% {\n    box-shadow: 9984px 0 0 0 #9880ff;\n  }\n  100% {\n    box-shadow: 9984px 15px 0 0 rgba(152, 128, 255, 0);\n  }\n}\n\n@-webkit-keyframes dotFallingAfter {\n  0% {\n    box-shadow: 10014px -15px 0 0 rgba(152, 128, 255, 0);\n  }\n  25%,\n  50%,\n  75% {\n    box-shadow: 10014px 0 0 0 #9880ff;\n  }\n  100% {\n    box-shadow: 10014px 15px 0 0 rgba(152, 128, 255, 0);\n  }\n}\n\n@keyframes dotFallingAfter {\n  0% {\n    box-shadow: 10014px -15px 0 0 rgba(152, 128, 255, 0);\n  }\n  25%,\n  50%,\n  75% {\n    box-shadow: 10014px 0 0 0 #9880ff;\n  }\n  100% {\n    box-shadow: 10014px 15px 0 0 rgba(152, 128, 255, 0);\n  }\n}\n\n/**\n * ==============================================\n * Dot Stretching\n * ==============================================\n */\n.dot-stretching {\n  position: relative;\n  width: 10px;\n  height: 10px;\n  border-radius: 5px;\n  background-color: #9880ff;\n  color: #9880ff;\n  transform: scale(1.25, 1.25);\n  -webkit-animation: dotStretching 2s infinite ease-in;\n          animation: dotStretching 2s infinite ease-in;\n}\n\n.dot-stretching::before, .dot-stretching::after {\n  content: '';\n  display: inline-block;\n  position: absolute;\n  top: 0;\n}\n\n.dot-stretching::before {\n  width: 10px;\n  height: 10px;\n  border-radius: 5px;\n  background-color: #9880ff;\n  color: #9880ff;\n  -webkit-animation: dotStretchingBefore 2s infinite ease-in;\n          animation: dotStretchingBefore 2s infinite ease-in;\n}\n\n.dot-stretching::after {\n  width: 10px;\n  height: 10px;\n  border-radius: 5px;\n  background-color: #9880ff;\n  color: #9880ff;\n  -webkit-animation: dotStretchingAfter 2s infinite ease-in;\n          animation: dotStretchingAfter 2s infinite ease-in;\n}\n\n@-webkit-keyframes dotStretching {\n  0% {\n    transform: scale(1.25, 1.25);\n  }\n  50%,\n  60% {\n    transform: scale(0.8, 0.8);\n  }\n  100% {\n    transform: scale(1.25, 1.25);\n  }\n}\n\n@keyframes dotStretching {\n  0% {\n    transform: scale(1.25, 1.25);\n  }\n  50%,\n  60% {\n    transform: scale(0.8, 0.8);\n  }\n  100% {\n    transform: scale(1.25, 1.25);\n  }\n}\n\n@-webkit-keyframes dotStretchingBefore {\n  0% {\n    transform: translate(0) scale(0.7, 0.7);\n  }\n  50%,\n  60% {\n    transform: translate(-20px) scale(1, 1);\n  }\n  100% {\n    transform: translate(0) scale(0.7, 0.7);\n  }\n}\n\n@keyframes dotStretchingBefore {\n  0% {\n    transform: translate(0) scale(0.7, 0.7);\n  }\n  50%,\n  60% {\n    transform: translate(-20px) scale(1, 1);\n  }\n  100% {\n    transform: translate(0) scale(0.7, 0.7);\n  }\n}\n\n@-webkit-keyframes dotStretchingAfter {\n  0% {\n    transform: translate(0) scale(0.7, 0.7);\n  }\n  50%,\n  60% {\n    transform: translate(20px) scale(1, 1);\n  }\n  100% {\n    transform: translate(0) scale(0.7, 0.7);\n  }\n}\n\n@keyframes dotStretchingAfter {\n  0% {\n    transform: translate(0) scale(0.7, 0.7);\n  }\n  50%,\n  60% {\n    transform: translate(20px) scale(1, 1);\n  }\n  100% {\n    transform: translate(0) scale(0.7, 0.7);\n  }\n}\n\n/**\n * ==============================================\n * Experiment-Gooey Effect\n * Dot Gathering\n * ==============================================\n */\n.dot-gathering {\n  position: relative;\n  width: 12px;\n  height: 12px;\n  border-radius: 6px;\n  background-color: black;\n  color: transparent;\n  margin: -1px 0;\n  filter: blur(2px);\n}\n\n.dot-gathering::before, .dot-gathering::after {\n  content: '';\n  display: inline-block;\n  position: absolute;\n  top: 0;\n  left: -50px;\n  width: 12px;\n  height: 12px;\n  border-radius: 6px;\n  background-color: black;\n  color: transparent;\n  opacity: 0;\n  filter: blur(2px);\n  -webkit-animation: dotGathering 2s infinite ease-in;\n          animation: dotGathering 2s infinite ease-in;\n}\n\n.dot-gathering::after {\n  -webkit-animation-delay: .5s;\n          animation-delay: .5s;\n}\n\n@-webkit-keyframes dotGathering {\n  0% {\n    opacity: 0;\n    transform: translateX(0);\n  }\n  35%,\n  60% {\n    opacity: 1;\n    transform: translateX(50px);\n  }\n  100% {\n    opacity: 0;\n    transform: translateX(100px);\n  }\n}\n\n@keyframes dotGathering {\n  0% {\n    opacity: 0;\n    transform: translateX(0);\n  }\n  35%,\n  60% {\n    opacity: 1;\n    transform: translateX(50px);\n  }\n  100% {\n    opacity: 0;\n    transform: translateX(100px);\n  }\n}\n\n/**\n * ==============================================\n * Experiment-Gooey Effect\n * Dot Hourglass\n * ==============================================\n */\n.dot-hourglass {\n  position: relative;\n  top: -15px;\n  width: 12px;\n  height: 12px;\n  border-radius: 6px;\n  background-color: black;\n  color: transparent;\n  margin: -1px 0;\n  filter: blur(2px);\n  transform-origin: 5px 20px;\n  -webkit-animation: dotHourglass 2.4s infinite ease-in-out;\n          animation: dotHourglass 2.4s infinite ease-in-out;\n  -webkit-animation-delay: .6s;\n          animation-delay: .6s;\n}\n\n.dot-hourglass::before, .dot-hourglass::after {\n  content: '';\n  display: inline-block;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 12px;\n  height: 12px;\n  border-radius: 6px;\n  background-color: black;\n  color: transparent;\n  filter: blur(2px);\n}\n\n.dot-hourglass::before {\n  top: 30px;\n}\n\n.dot-hourglass::after {\n  -webkit-animation: dotHourglassAfter 2.4s infinite cubic-bezier(0.65, 0.05, 0.36, 1);\n          animation: dotHourglassAfter 2.4s infinite cubic-bezier(0.65, 0.05, 0.36, 1);\n}\n\n@-webkit-keyframes dotHourglass {\n  0% {\n    transform: rotateZ(0deg);\n  }\n  25% {\n    transform: rotateZ(180deg);\n  }\n  50% {\n    transform: rotateZ(180deg);\n  }\n  75% {\n    transform: rotateZ(360deg);\n  }\n  100% {\n    transform: rotateZ(360deg);\n  }\n}\n\n@keyframes dotHourglass {\n  0% {\n    transform: rotateZ(0deg);\n  }\n  25% {\n    transform: rotateZ(180deg);\n  }\n  50% {\n    transform: rotateZ(180deg);\n  }\n  75% {\n    transform: rotateZ(360deg);\n  }\n  100% {\n    transform: rotateZ(360deg);\n  }\n}\n\n@-webkit-keyframes dotHourglassAfter {\n  0% {\n    transform: translateY(0);\n  }\n  25% {\n    transform: translateY(30px);\n  }\n  50% {\n    transform: translateY(30px);\n  }\n  75% {\n    transform: translateY(0);\n  }\n  100% {\n    transform: translateY(0);\n  }\n}\n\n@keyframes dotHourglassAfter {\n  0% {\n    transform: translateY(0);\n  }\n  25% {\n    transform: translateY(30px);\n  }\n  50% {\n    transform: translateY(30px);\n  }\n  75% {\n    transform: translateY(0);\n  }\n  100% {\n    transform: translateY(0);\n  }\n}\n\n/**\n * ==============================================\n * Experiment-Gooey Effect\n * Dot Overtaking\n * ==============================================\n */\n.dot-overtaking {\n  position: relative;\n  width: 12px;\n  height: 12px;\n  border-radius: 6px;\n  background-color: transparent;\n  color: black;\n  margin: -1px 0;\n  box-shadow: 0 -20px 0 0;\n  filter: blur(2px);\n  -webkit-animation: dotOvertaking 2s infinite cubic-bezier(0.2, 0.6, 0.8, 0.2);\n          animation: dotOvertaking 2s infinite cubic-bezier(0.2, 0.6, 0.8, 0.2);\n}\n\n.dot-overtaking::before, .dot-overtaking::after {\n  content: '';\n  display: inline-block;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 12px;\n  height: 12px;\n  border-radius: 6px;\n  background-color: transparent;\n  color: black;\n  box-shadow: 0 -20px 0 0;\n  filter: blur(2px);\n}\n\n.dot-overtaking::before {\n  -webkit-animation: dotOvertaking 2s infinite cubic-bezier(0.2, 0.6, 0.8, 0.2);\n          animation: dotOvertaking 2s infinite cubic-bezier(0.2, 0.6, 0.8, 0.2);\n  -webkit-animation-delay: .3s;\n          animation-delay: .3s;\n}\n\n.dot-overtaking::after {\n  -webkit-animation: dotOvertaking 1.5s infinite cubic-bezier(0.2, 0.6, 0.8, 0.2);\n          animation: dotOvertaking 1.5s infinite cubic-bezier(0.2, 0.6, 0.8, 0.2);\n  -webkit-animation-delay: .6s;\n          animation-delay: .6s;\n}\n\n@-webkit-keyframes dotOvertaking {\n  0% {\n    transform: rotateZ(0deg);\n  }\n  100% {\n    transform: rotateZ(360deg);\n  }\n}\n\n@keyframes dotOvertaking {\n  0% {\n    transform: rotateZ(0deg);\n  }\n  100% {\n    transform: rotateZ(360deg);\n  }\n}\n\n/**\n * ==============================================\n * Experiment-Gooey Effect\n * Dot Shuttle\n * ==============================================\n */\n.dot-shuttle {\n  position: relative;\n  left: -15px;\n  width: 12px;\n  height: 12px;\n  border-radius: 6px;\n  background-color: black;\n  color: transparent;\n  margin: -1px 0;\n  filter: blur(2px);\n}\n\n.dot-shuttle::before, .dot-shuttle::after {\n  content: '';\n  display: inline-block;\n  position: absolute;\n  top: 0;\n  width: 12px;\n  height: 12px;\n  border-radius: 6px;\n  background-color: black;\n  color: transparent;\n  filter: blur(2px);\n}\n\n.dot-shuttle::before {\n  left: 15px;\n  -webkit-animation: dotShuttle 2s infinite ease-out;\n          animation: dotShuttle 2s infinite ease-out;\n}\n\n.dot-shuttle::after {\n  left: 30px;\n}\n\n@-webkit-keyframes dotShuttle {\n  0%,\n  50%,\n  100% {\n    transform: translateX(0);\n  }\n  25% {\n    transform: translateX(-45px);\n  }\n  75% {\n    transform: translateX(45px);\n  }\n}\n\n@keyframes dotShuttle {\n  0%,\n  50%,\n  100% {\n    transform: translateX(0);\n  }\n  25% {\n    transform: translateX(-45px);\n  }\n  75% {\n    transform: translateX(45px);\n  }\n}\n\n/**\n * ==============================================\n * Experiment-Emoji\n * Dot Bouncing\n * ==============================================\n */\n.dot-bouncing {\n  position: relative;\n  height: 10px;\n  font-size: 10px;\n}\n\n.dot-bouncing::before {\n  content: '⚽🏀🏐';\n  display: inline-block;\n  position: relative;\n  -webkit-animation: dotBouncing 1s infinite;\n          animation: dotBouncing 1s infinite;\n}\n\n@-webkit-keyframes dotBouncing {\n  0% {\n    top: -20px;\n    -webkit-animation-timing-function: ease-in;\n            animation-timing-function: ease-in;\n  }\n  34% {\n    transform: scale(1, 1);\n  }\n  35% {\n    top: 20px;\n    -webkit-animation-timing-function: ease-out;\n            animation-timing-function: ease-out;\n    transform: scale(1.5, 0.5);\n  }\n  45% {\n    transform: scale(1, 1);\n  }\n  90% {\n    top: -20px;\n  }\n  100% {\n    top: -20px;\n  }\n}\n\n@keyframes dotBouncing {\n  0% {\n    top: -20px;\n    -webkit-animation-timing-function: ease-in;\n            animation-timing-function: ease-in;\n  }\n  34% {\n    transform: scale(1, 1);\n  }\n  35% {\n    top: 20px;\n    -webkit-animation-timing-function: ease-out;\n            animation-timing-function: ease-out;\n    transform: scale(1.5, 0.5);\n  }\n  45% {\n    transform: scale(1, 1);\n  }\n  90% {\n    top: -20px;\n  }\n  100% {\n    top: -20px;\n  }\n}\n\n/**\n * ==============================================\n * Experiment-Emoji\n * Dot Rolling\n * ==============================================\n */\n.dot-rolling {\n  position: relative;\n  height: 10px;\n  font-size: 10px;\n}\n\n.dot-rolling::before {\n  content: '⚽';\n  display: inline-block;\n  position: relative;\n  transform: translateX(-25px);\n  -webkit-animation: dotRolling 3s infinite;\n          animation: dotRolling 3s infinite;\n}\n\n@-webkit-keyframes dotRolling {\n  0% {\n    content: '⚽';\n    transform: translateX(-25px) rotateZ(0deg);\n  }\n  16.667% {\n    content: '⚽';\n    transform: translateX(25px) rotateZ(720deg);\n  }\n  33.333% {\n    content: '⚽';\n    transform: translateX(-25px) rotateZ(0deg);\n  }\n  34.333% {\n    content: '🏀';\n    transform: translateX(-25px) rotateZ(0deg);\n  }\n  50% {\n    content: '🏀';\n    transform: translateX(25px) rotateZ(720deg);\n  }\n  66.667% {\n    content: '🏀';\n    transform: translateX(-25px) rotateZ(0deg);\n  }\n  67.667% {\n    content: '🏐';\n    transform: translateX(-25px) rotateZ(0deg);\n  }\n  83.333% {\n    content: '🏐';\n    transform: translateX(25px) rotateZ(720deg);\n  }\n  100% {\n    content: '🏐';\n    transform: translateX(-25px) rotateZ(0deg);\n  }\n}\n\n@keyframes dotRolling {\n  0% {\n    content: '⚽';\n    transform: translateX(-25px) rotateZ(0deg);\n  }\n  16.667% {\n    content: '⚽';\n    transform: translateX(25px) rotateZ(720deg);\n  }\n  33.333% {\n    content: '⚽';\n    transform: translateX(-25px) rotateZ(0deg);\n  }\n  34.333% {\n    content: '🏀';\n    transform: translateX(-25px) rotateZ(0deg);\n  }\n  50% {\n    content: '🏀';\n    transform: translateX(25px) rotateZ(720deg);\n  }\n  66.667% {\n    content: '🏀';\n    transform: translateX(-25px) rotateZ(0deg);\n  }\n  67.667% {\n    content: '🏐';\n    transform: translateX(-25px) rotateZ(0deg);\n  }\n  83.333% {\n    content: '🏐';\n    transform: translateX(25px) rotateZ(720deg);\n  }\n  100% {\n    content: '🏐';\n    transform: translateX(-25px) rotateZ(0deg);\n  }\n}\n\n.timeline {\n    list-style-type: none;\n    position: relative\n}\n\n.timeline:before {\n    background: #dee2e6;\n    left: 9px;\n    width: 2px;\n    height: 100%\n}\n\n.timeline-item:before,\n.timeline:before {\n    content: \" \";\n    display: inline-block;\n    position: absolute;\n    z-index: 1\n}\n\n.timeline-item:before {\n    background: #fff;\n    border-radius: 50%;\n    border: 3px solid #3b7ddd;\n    left: 0;\n    width: 20px;\n    height: 20px\n}\n.card {\n    margin-bottom: 24px;\n    box-shadow: 0 0 0.875rem 0 rgba(33,37,41,.05);\n}\n.card {\n    position: relative;\n    display: flex;\n    flex-direction: column;\n    min-width: 0;\n    word-wrap: break-word;\n    background-color: #fff;\n    background-clip: initial;\n    border: 0 solid transparent;\n    border-radius: .25rem;\n}\n.card-body {\n    flex: 1 1 auto;\n    padding: 1.25rem;\n}\n.card-header:first-child {\n    border-radius: .25rem .25rem 0 0;\n}\n.card-header {\n    border-bottom-width: 1px;\n}\n.pb-0 {\n    padding-bottom: 0!important;\n}\n.card-header {\n    padding: 1rem 1.25rem;\n    margin-bottom: 0;\n    background-color: #fff;\n    border-bottom: 0 solid transparent;\n}\n.btn-group-control .btn {\n    margin-right:  5px !important;\n}\n.modal.face.show {\n    zoom: 1;\n    filter: alpha(opacity=75);\n    -webkit-opacity: .75;\n    -moz-opacity: .75;\n    opacity: .75;\n}\n", ""]);
 // Exports
 module.exports = exports;
 
@@ -15868,112 +15832,6 @@ function supportedValue(property, value) {
 
 /***/ }),
 
-/***/ "./node_modules/decode-uri-component/index.js":
-/*!****************************************************!*\
-  !*** ./node_modules/decode-uri-component/index.js ***!
-  \****************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-var token = '%[a-f0-9]{2}';
-var singleMatcher = new RegExp(token, 'gi');
-var multiMatcher = new RegExp('(' + token + ')+', 'gi');
-
-function decodeComponents(components, split) {
-	try {
-		// Try to decode the entire string first
-		return decodeURIComponent(components.join(''));
-	} catch (err) {
-		// Do nothing
-	}
-
-	if (components.length === 1) {
-		return components;
-	}
-
-	split = split || 1;
-
-	// Split the array in 2 parts
-	var left = components.slice(0, split);
-	var right = components.slice(split);
-
-	return Array.prototype.concat.call([], decodeComponents(left), decodeComponents(right));
-}
-
-function decode(input) {
-	try {
-		return decodeURIComponent(input);
-	} catch (err) {
-		var tokens = input.match(singleMatcher);
-
-		for (var i = 1; i < tokens.length; i++) {
-			input = decodeComponents(tokens, i).join('');
-
-			tokens = input.match(singleMatcher);
-		}
-
-		return input;
-	}
-}
-
-function customDecodeURIComponent(input) {
-	// Keep track of all the replacements and prefill the map with the `BOM`
-	var replaceMap = {
-		'%FE%FF': '\uFFFD\uFFFD',
-		'%FF%FE': '\uFFFD\uFFFD'
-	};
-
-	var match = multiMatcher.exec(input);
-	while (match) {
-		try {
-			// Decode as big chunks as possible
-			replaceMap[match[0]] = decodeURIComponent(match[0]);
-		} catch (err) {
-			var result = decode(match[0]);
-
-			if (result !== match[0]) {
-				replaceMap[match[0]] = result;
-			}
-		}
-
-		match = multiMatcher.exec(input);
-	}
-
-	// Add `%C2` at the end of the map to make sure it does not replace the combinator before everything else
-	replaceMap['%C2'] = '\uFFFD';
-
-	var entries = Object.keys(replaceMap);
-
-	for (var i = 0; i < entries.length; i++) {
-		// Replace all decoded components
-		var key = entries[i];
-		input = input.replace(new RegExp(key, 'g'), replaceMap[key]);
-	}
-
-	return input;
-}
-
-module.exports = function (encodedURI) {
-	if (typeof encodedURI !== 'string') {
-		throw new TypeError('Expected `encodedURI` to be of type `string`, got `' + typeof encodedURI + '`');
-	}
-
-	try {
-		encodedURI = encodedURI.replace(/\+/g, ' ');
-
-		// Try the built in decoder first
-		return decodeURIComponent(encodedURI);
-	} catch (err) {
-		// Fallback to a more advanced decoder
-		return customDecodeURIComponent(encodedURI);
-	}
-};
-
-
-/***/ }),
-
 /***/ "./node_modules/dom-helpers/esm/addClass.js":
 /*!**************************************************!*\
   !*** ./node_modules/dom-helpers/esm/addClass.js ***!
@@ -16033,35 +15891,6 @@ function removeClass(element, className) {
     element.setAttribute('class', replaceClassName(element.className && element.className.baseVal || '', className));
   }
 }
-
-/***/ }),
-
-/***/ "./node_modules/filter-obj/index.js":
-/*!******************************************!*\
-  !*** ./node_modules/filter-obj/index.js ***!
-  \******************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-module.exports = function (obj, predicate) {
-	var ret = {};
-	var keys = Object.keys(obj);
-	var isArr = Array.isArray(predicate);
-
-	for (var i = 0; i < keys.length; i++) {
-		var key = keys[i];
-		var val = obj[key];
-
-		if (isArr ? predicate.indexOf(key) !== -1 : predicate(key, val, obj)) {
-			ret[key] = val;
-		}
-	}
-
-	return ret;
-};
-
 
 /***/ }),
 
@@ -52256,422 +52085,6 @@ module.exports = ReactPropTypesSecret;
 
 /***/ }),
 
-/***/ "./node_modules/query-string/index.js":
-/*!********************************************!*\
-  !*** ./node_modules/query-string/index.js ***!
-  \********************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-const strictUriEncode = __webpack_require__(/*! strict-uri-encode */ "./node_modules/strict-uri-encode/index.js");
-const decodeComponent = __webpack_require__(/*! decode-uri-component */ "./node_modules/decode-uri-component/index.js");
-const splitOnFirst = __webpack_require__(/*! split-on-first */ "./node_modules/split-on-first/index.js");
-const filterObject = __webpack_require__(/*! filter-obj */ "./node_modules/filter-obj/index.js");
-
-const isNullOrUndefined = value => value === null || value === undefined;
-
-function encoderForArrayFormat(options) {
-	switch (options.arrayFormat) {
-		case 'index':
-			return key => (result, value) => {
-				const index = result.length;
-
-				if (
-					value === undefined ||
-					(options.skipNull && value === null) ||
-					(options.skipEmptyString && value === '')
-				) {
-					return result;
-				}
-
-				if (value === null) {
-					return [...result, [encode(key, options), '[', index, ']'].join('')];
-				}
-
-				return [
-					...result,
-					[encode(key, options), '[', encode(index, options), ']=', encode(value, options)].join('')
-				];
-			};
-
-		case 'bracket':
-			return key => (result, value) => {
-				if (
-					value === undefined ||
-					(options.skipNull && value === null) ||
-					(options.skipEmptyString && value === '')
-				) {
-					return result;
-				}
-
-				if (value === null) {
-					return [...result, [encode(key, options), '[]'].join('')];
-				}
-
-				return [...result, [encode(key, options), '[]=', encode(value, options)].join('')];
-			};
-
-		case 'comma':
-		case 'separator':
-			return key => (result, value) => {
-				if (value === null || value === undefined || value.length === 0) {
-					return result;
-				}
-
-				if (result.length === 0) {
-					return [[encode(key, options), '=', encode(value, options)].join('')];
-				}
-
-				return [[result, encode(value, options)].join(options.arrayFormatSeparator)];
-			};
-
-		default:
-			return key => (result, value) => {
-				if (
-					value === undefined ||
-					(options.skipNull && value === null) ||
-					(options.skipEmptyString && value === '')
-				) {
-					return result;
-				}
-
-				if (value === null) {
-					return [...result, encode(key, options)];
-				}
-
-				return [...result, [encode(key, options), '=', encode(value, options)].join('')];
-			};
-	}
-}
-
-function parserForArrayFormat(options) {
-	let result;
-
-	switch (options.arrayFormat) {
-		case 'index':
-			return (key, value, accumulator) => {
-				result = /\[(\d*)\]$/.exec(key);
-
-				key = key.replace(/\[\d*\]$/, '');
-
-				if (!result) {
-					accumulator[key] = value;
-					return;
-				}
-
-				if (accumulator[key] === undefined) {
-					accumulator[key] = {};
-				}
-
-				accumulator[key][result[1]] = value;
-			};
-
-		case 'bracket':
-			return (key, value, accumulator) => {
-				result = /(\[\])$/.exec(key);
-				key = key.replace(/\[\]$/, '');
-
-				if (!result) {
-					accumulator[key] = value;
-					return;
-				}
-
-				if (accumulator[key] === undefined) {
-					accumulator[key] = [value];
-					return;
-				}
-
-				accumulator[key] = [].concat(accumulator[key], value);
-			};
-
-		case 'comma':
-		case 'separator':
-			return (key, value, accumulator) => {
-				const isArray = typeof value === 'string' && value.includes(options.arrayFormatSeparator);
-				const isEncodedArray = (typeof value === 'string' && !isArray && decode(value, options).includes(options.arrayFormatSeparator));
-				value = isEncodedArray ? decode(value, options) : value;
-				const newValue = isArray || isEncodedArray ? value.split(options.arrayFormatSeparator).map(item => decode(item, options)) : value === null ? value : decode(value, options);
-				accumulator[key] = newValue;
-			};
-
-		default:
-			return (key, value, accumulator) => {
-				if (accumulator[key] === undefined) {
-					accumulator[key] = value;
-					return;
-				}
-
-				accumulator[key] = [].concat(accumulator[key], value);
-			};
-	}
-}
-
-function validateArrayFormatSeparator(value) {
-	if (typeof value !== 'string' || value.length !== 1) {
-		throw new TypeError('arrayFormatSeparator must be single character string');
-	}
-}
-
-function encode(value, options) {
-	if (options.encode) {
-		return options.strict ? strictUriEncode(value) : encodeURIComponent(value);
-	}
-
-	return value;
-}
-
-function decode(value, options) {
-	if (options.decode) {
-		return decodeComponent(value);
-	}
-
-	return value;
-}
-
-function keysSorter(input) {
-	if (Array.isArray(input)) {
-		return input.sort();
-	}
-
-	if (typeof input === 'object') {
-		return keysSorter(Object.keys(input))
-			.sort((a, b) => Number(a) - Number(b))
-			.map(key => input[key]);
-	}
-
-	return input;
-}
-
-function removeHash(input) {
-	const hashStart = input.indexOf('#');
-	if (hashStart !== -1) {
-		input = input.slice(0, hashStart);
-	}
-
-	return input;
-}
-
-function getHash(url) {
-	let hash = '';
-	const hashStart = url.indexOf('#');
-	if (hashStart !== -1) {
-		hash = url.slice(hashStart);
-	}
-
-	return hash;
-}
-
-function extract(input) {
-	input = removeHash(input);
-	const queryStart = input.indexOf('?');
-	if (queryStart === -1) {
-		return '';
-	}
-
-	return input.slice(queryStart + 1);
-}
-
-function parseValue(value, options) {
-	if (options.parseNumbers && !Number.isNaN(Number(value)) && (typeof value === 'string' && value.trim() !== '')) {
-		value = Number(value);
-	} else if (options.parseBooleans && value !== null && (value.toLowerCase() === 'true' || value.toLowerCase() === 'false')) {
-		value = value.toLowerCase() === 'true';
-	}
-
-	return value;
-}
-
-function parse(query, options) {
-	options = Object.assign({
-		decode: true,
-		sort: true,
-		arrayFormat: 'none',
-		arrayFormatSeparator: ',',
-		parseNumbers: false,
-		parseBooleans: false
-	}, options);
-
-	validateArrayFormatSeparator(options.arrayFormatSeparator);
-
-	const formatter = parserForArrayFormat(options);
-
-	// Create an object with no prototype
-	const ret = Object.create(null);
-
-	if (typeof query !== 'string') {
-		return ret;
-	}
-
-	query = query.trim().replace(/^[?#&]/, '');
-
-	if (!query) {
-		return ret;
-	}
-
-	for (const param of query.split('&')) {
-		if (param === '') {
-			continue;
-		}
-
-		let [key, value] = splitOnFirst(options.decode ? param.replace(/\+/g, ' ') : param, '=');
-
-		// Missing `=` should be `null`:
-		// http://w3.org/TR/2012/WD-url-20120524/#collect-url-parameters
-		value = value === undefined ? null : ['comma', 'separator'].includes(options.arrayFormat) ? value : decode(value, options);
-		formatter(decode(key, options), value, ret);
-	}
-
-	for (const key of Object.keys(ret)) {
-		const value = ret[key];
-		if (typeof value === 'object' && value !== null) {
-			for (const k of Object.keys(value)) {
-				value[k] = parseValue(value[k], options);
-			}
-		} else {
-			ret[key] = parseValue(value, options);
-		}
-	}
-
-	if (options.sort === false) {
-		return ret;
-	}
-
-	return (options.sort === true ? Object.keys(ret).sort() : Object.keys(ret).sort(options.sort)).reduce((result, key) => {
-		const value = ret[key];
-		if (Boolean(value) && typeof value === 'object' && !Array.isArray(value)) {
-			// Sort object keys, not values
-			result[key] = keysSorter(value);
-		} else {
-			result[key] = value;
-		}
-
-		return result;
-	}, Object.create(null));
-}
-
-exports.extract = extract;
-exports.parse = parse;
-
-exports.stringify = (object, options) => {
-	if (!object) {
-		return '';
-	}
-
-	options = Object.assign({
-		encode: true,
-		strict: true,
-		arrayFormat: 'none',
-		arrayFormatSeparator: ','
-	}, options);
-
-	validateArrayFormatSeparator(options.arrayFormatSeparator);
-
-	const shouldFilter = key => (
-		(options.skipNull && isNullOrUndefined(object[key])) ||
-		(options.skipEmptyString && object[key] === '')
-	);
-
-	const formatter = encoderForArrayFormat(options);
-
-	const objectCopy = {};
-
-	for (const key of Object.keys(object)) {
-		if (!shouldFilter(key)) {
-			objectCopy[key] = object[key];
-		}
-	}
-
-	const keys = Object.keys(objectCopy);
-
-	if (options.sort !== false) {
-		keys.sort(options.sort);
-	}
-
-	return keys.map(key => {
-		const value = object[key];
-
-		if (value === undefined) {
-			return '';
-		}
-
-		if (value === null) {
-			return encode(key, options);
-		}
-
-		if (Array.isArray(value)) {
-			return value
-				.reduce(formatter(key), [])
-				.join('&');
-		}
-
-		return encode(key, options) + '=' + encode(value, options);
-	}).filter(x => x.length > 0).join('&');
-};
-
-exports.parseUrl = (url, options) => {
-	options = Object.assign({
-		decode: true
-	}, options);
-
-	const [url_, hash] = splitOnFirst(url, '#');
-
-	return Object.assign(
-		{
-			url: url_.split('?')[0] || '',
-			query: parse(extract(url), options)
-		},
-		options && options.parseFragmentIdentifier && hash ? {fragmentIdentifier: decode(hash, options)} : {}
-	);
-};
-
-exports.stringifyUrl = (object, options) => {
-	options = Object.assign({
-		encode: true,
-		strict: true
-	}, options);
-
-	const url = removeHash(object.url).split('?')[0] || '';
-	const queryFromUrl = exports.extract(object.url);
-	const parsedQueryFromUrl = exports.parse(queryFromUrl, {sort: false});
-
-	const query = Object.assign(parsedQueryFromUrl, object.query);
-	let queryString = exports.stringify(query, options);
-	if (queryString) {
-		queryString = `?${queryString}`;
-	}
-
-	let hash = getHash(object.url);
-	if (object.fragmentIdentifier) {
-		hash = `#${encode(object.fragmentIdentifier, options)}`;
-	}
-
-	return `${url}${queryString}${hash}`;
-};
-
-exports.pick = (input, filter, options) => {
-	options = Object.assign({
-		parseFragmentIdentifier: true
-	}, options);
-
-	const {url, query, fragmentIdentifier} = exports.parseUrl(input, options);
-	return exports.stringifyUrl({
-		url,
-		query: filterObject(query, filter),
-		fragmentIdentifier
-	}, options);
-};
-
-exports.exclude = (input, filter, options) => {
-	const exclusionFilter = Array.isArray(filter) ? key => !filter.includes(key) : (key, value) => !filter(key, value);
-
-	return exports.pick(input, exclusionFilter, options);
-};
-
-
-/***/ }),
-
 /***/ "./node_modules/react-dom/cjs/react-dom.development.js":
 /*!*************************************************************!*\
   !*** ./node_modules/react-dom/cjs/react-dom.development.js ***!
@@ -87225,54 +86638,6 @@ if (false) {} else {
 
 /***/ }),
 
-/***/ "./node_modules/split-on-first/index.js":
-/*!**********************************************!*\
-  !*** ./node_modules/split-on-first/index.js ***!
-  \**********************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-module.exports = (string, separator) => {
-	if (!(typeof string === 'string' && typeof separator === 'string')) {
-		throw new TypeError('Expected the arguments to be of type `string`');
-	}
-
-	if (separator === '') {
-		return [string];
-	}
-
-	const separatorIndex = string.indexOf(separator);
-
-	if (separatorIndex === -1) {
-		return [string];
-	}
-
-	return [
-		string.slice(0, separatorIndex),
-		string.slice(separatorIndex + separator.length)
-	];
-};
-
-
-/***/ }),
-
-/***/ "./node_modules/strict-uri-encode/index.js":
-/*!*************************************************!*\
-  !*** ./node_modules/strict-uri-encode/index.js ***!
-  \*************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-module.exports = str => encodeURIComponent(str).replace(/[!'()*]/g, x => `%${x.charCodeAt(0).toString(16).toUpperCase()}`);
-
-
-/***/ }),
-
 /***/ "./node_modules/style-loader/lib/addStyles.js":
 /*!****************************************************!*\
   !*** ./node_modules/style-loader/lib/addStyles.js ***!
@@ -88354,25 +87719,21 @@ __webpack_require__.r(__webpack_exports__);
 /* WEBPACK VAR INJECTION */(function(module) {/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "OrganisationElement", function() { return OrganisationElement; });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _Style_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Style.css */ "./resources/js/src/frontend/components/Organisation/Style.css");
-/* harmony import */ var _Style_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Style_css__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _UI_Form_Button__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../UI/Form/Button */ "./resources/js/src/frontend/components/UI/Form/Button.js");
-/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! lodash */ "./node_modules/lodash/lodash.js");
-/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(lodash__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _UI_Form_Button__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../UI/Form/Button */ "./resources/js/src/frontend/components/UI/Form/Button.js");
+/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! lodash */ "./node_modules/lodash/lodash.js");
+/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(lodash__WEBPACK_IMPORTED_MODULE_2__);
 (function () {var enterModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.enterModule : undefined;enterModule && enterModule(module);})();var __signature__ = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default.signature : function (a) {return a;};
 
 
-
-
-
 var OrganisationElement = (_ref) => {var { data, handleEdit, handleDelete } = _ref;
-  var el = !Object(lodash__WEBPACK_IMPORTED_MODULE_3__["isEmpty"])(data) ? data.map((el, i) => {
+  var el = !Object(lodash__WEBPACK_IMPORTED_MODULE_2__["isEmpty"])(data) ? data.map((el, i) => {
     i++;
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tr", { key: i }, /*#__PURE__*/
     react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, i), /*#__PURE__*/
     react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, el.name), /*#__PURE__*/
     react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null,
-    Object(lodash__WEBPACK_IMPORTED_MODULE_3__["isObject"])(el.policy) ?
+    Object(lodash__WEBPACK_IMPORTED_MODULE_2__["isObject"])(el.policy) ?
+
     Object.keys(el.policy).map((i, v) => {
       var roleValue = el.policy[i];
       return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", { key: v }, i, " : ",
@@ -88387,8 +87748,8 @@ var OrganisationElement = (_ref) => {var { data, handleEdit, handleDelete } = _r
 
 
     react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", { className: "btn-group-control text-center" }, /*#__PURE__*/
-    react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_UI_Form_Button__WEBPACK_IMPORTED_MODULE_2__["default"], { type: "button", onClick: e => handleEdit(e, el.id), "data-id": el.id, className: "btn btn-outline-primary btn-circle btn-lg btn-circle ml-2" }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", { className: "fa fa-edit" }), " "), /*#__PURE__*/
-    react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_UI_Form_Button__WEBPACK_IMPORTED_MODULE_2__["default"], { type: "button", onClick: e => handleDelete(e, el.id), "data-id": el.id, className: "btn btn-outline-danger btn-circle btn-lg btn-circle ml-2" }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", { className: "fa fa-trash" }), " ")));
+    react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_UI_Form_Button__WEBPACK_IMPORTED_MODULE_1__["default"], { type: "button", onClick: e => handleEdit(e, el.id), "data-id": el.id, className: "btn btn-outline-primary btn-circle btn-lg btn-circle ml-2" }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", { className: "fa fa-edit" }), " "), /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_UI_Form_Button__WEBPACK_IMPORTED_MODULE_1__["default"], { type: "button", onClick: e => handleDelete(e, el.id), "data-id": el.id, className: "btn btn-outline-danger btn-circle btn-lg btn-circle ml-2" }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", { className: "fa fa-trash" }), " ")));
 
 
   }) : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tr", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", { colSpan: "5", className: "text-center" }, "Empty data"));
@@ -88411,18 +87772,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
 /* harmony import */ var _store_actions_index__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../store/actions/index */ "./resources/js/src/store/actions/index.js");
-/* harmony import */ var _Style_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Style.css */ "./resources/js/src/frontend/components/Organisation/Style.css");
-/* harmony import */ var _Style_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_Style_css__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _UI_Form_Button__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../UI/Form/Button */ "./resources/js/src/frontend/components/UI/Form/Button.js");
-/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! lodash */ "./node_modules/lodash/lodash.js");
-/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(lodash__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _UI_Form_Form__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../UI/Form/Form */ "./resources/js/src/frontend/components/UI/Form/Form.js");
-/* harmony import */ var _UI_Spinner_Spinner__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../UI/Spinner/Spinner */ "./resources/js/src/frontend/components/UI/Spinner/Spinner.js");
-/* harmony import */ var _OrganisationElement__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./OrganisationElement */ "./resources/js/src/frontend/components/Organisation/OrganisationElement.js");
-/* harmony import */ var _OrganisationToolbar__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./OrganisationToolbar */ "./resources/js/src/frontend/components/Organisation/OrganisationToolbar.js");
+/* harmony import */ var _UI_Form_Form__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../UI/Form/Form */ "./resources/js/src/frontend/components/UI/Form/Form.js");
+/* harmony import */ var _UI_Spinner_Spinner__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../UI/Spinner/Spinner */ "./resources/js/src/frontend/components/UI/Spinner/Spinner.js");
+/* harmony import */ var _OrganisationElement__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./OrganisationElement */ "./resources/js/src/frontend/components/Organisation/OrganisationElement.js");
+/* harmony import */ var _OrganisationToolbar__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./OrganisationToolbar */ "./resources/js/src/frontend/components/Organisation/OrganisationToolbar.js");
+/* harmony import */ var _OrganisationModal__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./OrganisationModal */ "./resources/js/src/frontend/components/Organisation/OrganisationModal.js");
 (function () {var enterModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.enterModule : undefined;enterModule && enterModule(module);})();var __signature__ = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default.signature : function (a) {return a;};
-
-
 
 
 
@@ -88441,44 +87796,90 @@ class OrganisationGrid extends react__WEBPACK_IMPORTED_MODULE_0__["PureComponent
 
 
 
+
     componentDidMount = () => {
       this.props.onFetchOrganisations();
     };this.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    handleEdit = (e, id) => {
+      this.setState({ id: id, is_open_modal: true }, () => {
+        this.props.onFetchSingleOrganisation(id);
+      });
+    };this.
+
+    handleDelete = (e, id) => {
+      this.setState({ id: id }, () => {
+        this.props.ondeleteSingleOrganisation(id);
+      });
+    };this.
+
+    handleOpenModal = e => {
+      this.setState({ is_open_modal: true });
+    };this.
+
+    handleCloseModal = e => {
+      this.setState({ is_open_modal: false, id: 0 });
+    };this.
+
 
     handleChange = e => {
       var target = e.target;
       var name = target.name;
       var value = target.type === 'checkbox' ? target.checked : target.value;
+      this.setState({
+        [name]: value });
 
-      if (target.type === 'checkbox') {
-        this.setState(prevState => ({ policy: prevState.policy.set(name, value) }));
-      } else {
-        this.setState({
-          [name]: value });
-
-      }
     };this.
 
-
-    handleEdit = (e, id) => {
-      this.setState({ id: id }, () => {
-        this.props.onFetchSingleOrganisation(id);
-      });
+    handleSearch = e => {
+      this.props.onFetchUsers(this.state);
     };this.
-    handleDelete = (e, id) => {
-      this.setState({ id: id }, () => {
-        this.props.ondeleteSingleOrganisation(id);
+
+    handleClearSearch = e => {
+      this.setState({ name: '', org_id: 0 }, () => {
+        this.props.onFetchOrganisations(this.state);
       });
-    };this.state = { isOpenModal: false, id: 0 };this.handleChange = this.handleChange.bind(this);}
+    };this.state = { is_open_modal: false, id: 0 };this.handleChange = this.handleChange.bind(this);} // Fetch api
 
   render() {
+
     var { organisations } = this.props;
+    var isShow = this.state.is_open_modal;
+
     return /*#__PURE__*/(
       react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", { className: "container" }, /*#__PURE__*/
-      react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_UI_Form_Form__WEBPACK_IMPORTED_MODULE_6__["default"], { className: "form-inline" }, /*#__PURE__*/
+      react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_OrganisationModal__WEBPACK_IMPORTED_MODULE_7__["default"], {
+        closeModal: this.handleCloseModal,
+        id: this.state.user_id,
+        show: isShow }), /*#__PURE__*/
+
+      react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_UI_Form_Form__WEBPACK_IMPORTED_MODULE_3__["default"], { className: "form-inline" }, /*#__PURE__*/
       react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", { className: "container-fluid p-0" }, /*#__PURE__*/
-      react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_OrganisationToolbar__WEBPACK_IMPORTED_MODULE_9__["default"], { currentItemEdit: this.props.organisation }), /*#__PURE__*/
-      react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_UI_Spinner_Spinner__WEBPACK_IMPORTED_MODULE_7__["SpinnerDot"], { show: this.props.loading }), /*#__PURE__*/
+      react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_OrganisationToolbar__WEBPACK_IMPORTED_MODULE_6__["default"], {
+        currentItemEdit: this.props.organisation,
+        handleOpenModal: this.handleOpenModal,
+        handleChange: this.handleChange,
+        handleSearch: this.handleSearch,
+        handleClearSearch: this.handleClearSearch,
+        name: this.state.name }), /*#__PURE__*/
+
+      react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), /*#__PURE__*/
+      react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_UI_Spinner_Spinner__WEBPACK_IMPORTED_MODULE_4__["SpinnerDot"], { show: this.props.loading }), /*#__PURE__*/
       react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", { className: "row" }, /*#__PURE__*/
       react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", { className: "col-xl-12" }, /*#__PURE__*/
       react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", { className: "card" }, /*#__PURE__*/
@@ -88493,7 +87894,7 @@ class OrganisationGrid extends react__WEBPACK_IMPORTED_MODULE_0__["PureComponent
 
 
       react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tbody", null, /*#__PURE__*/
-      react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_OrganisationElement__WEBPACK_IMPORTED_MODULE_8__["OrganisationElement"], { data: organisations, handleEdit: this.handleEdit, handleDelete: this.handleDelete })))))))))));
+      react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_OrganisationElement__WEBPACK_IMPORTED_MODULE_5__["OrganisationElement"], { data: organisations, handleEdit: this.handleEdit, handleDelete: this.handleDelete })))))))))));
 
 
 
@@ -88528,6 +87929,212 @@ Object(react_redux__WEBPACK_IMPORTED_MODULE_1__["connect"])(mapStateToProps, map
 
 /***/ }),
 
+/***/ "./resources/js/src/frontend/components/Organisation/OrganisationModal.js":
+/*!********************************************************************************!*\
+  !*** ./resources/js/src/frontend/components/Organisation/OrganisationModal.js ***!
+  \********************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* WEBPACK VAR INJECTION */(function(module) {/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
+/* harmony import */ var _store_actions_index__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../store/actions/index */ "./resources/js/src/store/actions/index.js");
+/* harmony import */ var _UI_Form_Form__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../UI/Form/Form */ "./resources/js/src/frontend/components/UI/Form/Form.js");
+/* harmony import */ var _UI_Form_Button__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../UI/Form/Button */ "./resources/js/src/frontend/components/UI/Form/Button.js");
+/* harmony import */ var _UI_Form_Input__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../UI/Form/Input */ "./resources/js/src/frontend/components/UI/Form/Input.js");
+/* harmony import */ var _UI_Form_Selectbox__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../UI/Form/Selectbox */ "./resources/js/src/frontend/components/UI/Form/Selectbox.js");
+/* harmony import */ var _material_ui_core_Checkbox__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @material-ui/core/Checkbox */ "./node_modules/@material-ui/core/esm/Checkbox/index.js");
+/* harmony import */ var _material_ui_core_FormControlLabel__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @material-ui/core/FormControlLabel */ "./node_modules/@material-ui/core/esm/FormControlLabel/index.js");
+/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! lodash */ "./node_modules/lodash/lodash.js");
+/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(lodash__WEBPACK_IMPORTED_MODULE_9__);
+/* harmony import */ var _UI_Spinner_Spinner__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../UI/Spinner/Spinner */ "./resources/js/src/frontend/components/UI/Spinner/Spinner.js");
+/* harmony import */ var _UI_Flash_Flash__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../UI/Flash/Flash */ "./resources/js/src/frontend/components/UI/Flash/Flash.js");
+/* harmony import */ var _Mocks_data__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../Mocks/data */ "./resources/js/src/frontend/components/Mocks/data.js");
+(function () {var enterModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.enterModule : undefined;enterModule && enterModule(module);})();function ownKeys(object, enumerableOnly) {var keys = Object.keys(object);if (Object.getOwnPropertySymbols) {var symbols = Object.getOwnPropertySymbols(object);if (enumerableOnly) symbols = symbols.filter(function (sym) {return Object.getOwnPropertyDescriptor(object, sym).enumerable;});keys.push.apply(keys, symbols);}return keys;}function _objectSpread(target) {for (var i = 1; i < arguments.length; i++) {var source = arguments[i] != null ? arguments[i] : {};if (i % 2) {ownKeys(Object(source), true).forEach(function (key) {_defineProperty(target, key, source[key]);});} else if (Object.getOwnPropertyDescriptors) {Object.defineProperties(target, Object.getOwnPropertyDescriptors(source));} else {ownKeys(Object(source)).forEach(function (key) {Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key));});}}return target;}function _defineProperty(obj, key, value) {if (key in obj) {Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true });} else {obj[key] = value;}return obj;}var __signature__ = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default.signature : function (a) {return a;};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+class OrganisationModal extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
+
+  constructor(props) {
+    super(props);this.
+
+
+
+
+
+
+
+
+
+
+
+
+
+    handleChange = event => {
+      var target = event.target;
+      var name = target.name;
+      var value = target.type === 'checkbox' ? target.checked : target.value;
+      this.setState({
+        [name]: value });
+
+    };this.
+    handleChangeCheckbox = e => {
+      var itemName = e.target.name;
+      var checked = e.target.checked;
+      this.setState(prevState => {
+        var { policy } = prevState;
+        policy = policy.map((item) =>
+        item.name === itemName ? _objectSpread(_objectSpread({}, item), {}, { value: checked }) : item);
+
+        return { policy };
+      });
+    };this.
+
+
+    handleActionSingleOrg = e => {
+      e.preventDefault();
+      this.props.onPostSingleOrganisation(this.state.id, this.state);
+    };this.state = { name: '', id: 0, policy: [..._Mocks_data__WEBPACK_IMPORTED_MODULE_12__["roleData"]] };}componentDidMount() {if (this.props.id > 0) {this.props.onFetchSingleUser(this.props.id);}}
+
+  // Restrict loop render
+  static getDerivedStateFromProps(nextProps, prevState) {
+    if (nextProps.organisation !== prevState.organisation) {
+      return { organisation: nextProps.organisation };
+    }
+    return null;
+  }
+
+  // Update state from prop after dispatched
+  componentDidUpdate(prevProps, prevState) {
+    if (prevProps.organisation !== this.props.organisation) {
+      var { id, name, policy } = this.props.organisation;
+      id = this.props.organisation.id;
+      name = this.props.organisation.name;
+      policy = prevState.policy.map((item) =>
+      !Object(lodash__WEBPACK_IMPORTED_MODULE_9__["isEmpty"])(policy) ? _objectSpread(_objectSpread({}, item), {}, { value: policy[item.name] }) : item);
+
+      this.setState({ id: id, name: name, policy: policy });
+    }
+    if (prevProps.action !== this.props.action) {
+      this.setState({ id: 0, name: '', policy: [..._Mocks_data__WEBPACK_IMPORTED_MODULE_12__["roleData"]] });
+    }
+  }
+
+  render() {
+
+    var isError = !Object(lodash__WEBPACK_IMPORTED_MODULE_9__["isEmpty"])(this.props.errors) ? true : false;
+    var errors = this.props.errors;
+
+    return /*#__PURE__*/(
+      react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", { className: this.props.show ? 'modal fade show' : 'modal fade in', role: "dialog", tabIndex: "-1", id: "user-form-modal",
+        style: {
+          transform: this.props.show ? 'translateY(0)' : 'translateY(-100vh)',
+          opacity: this.props.show ? '1' : '0',
+          display: this.props.show ? 'block' : 'none' } }, /*#__PURE__*/
+
+
+      react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", { className: "modal-dialog modal-lg", role: "document" }, /*#__PURE__*/
+      react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", { className: "modal-content" }, /*#__PURE__*/
+      react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", { className: "modal-header" }, /*#__PURE__*/
+      react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", { className: "modal-title" }, this.props.id > 0 ? "Update role of group" : "Apply role for new group"), /*#__PURE__*/
+      react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_UI_Form_Button__WEBPACK_IMPORTED_MODULE_4__["default"], { type: "button", className: "close", "data-dismiss": "modal", onClick: e => this.props.closeModal(e) }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", { "aria-hidden": "true" }, "\xD7"))), /*#__PURE__*/
+
+      react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", { className: "modal-body" }, /*#__PURE__*/
+      react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_UI_Spinner_Spinner__WEBPACK_IMPORTED_MODULE_10__["SpinnerDot"], { show: this.props.loading }),
+
+
+      this.props.action === 'update' ? /*#__PURE__*/
+
+      react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_UI_Flash_Flash__WEBPACK_IMPORTED_MODULE_11__["SuccessFlash"], { message: " Updated role of group." }) :
+      this.props.action === 'create' ? /*#__PURE__*/
+      react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_UI_Flash_Flash__WEBPACK_IMPORTED_MODULE_11__["SuccessFlash"], { message: " Apply role for new group." }) :
+      '', /*#__PURE__*/
+
+
+      react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_UI_Form_Form__WEBPACK_IMPORTED_MODULE_3__["default"], null, /*#__PURE__*/
+      react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", { className: "row" }, /*#__PURE__*/
+      react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", { className: "col-md-12" }, /*#__PURE__*/
+      react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_UI_Form_Input__WEBPACK_IMPORTED_MODULE_5__["default"], {
+        name: "name",
+        className: "form-control input-sm",
+        fieldGroupClass: "",
+        labelTitle: "Group name",
+        placeholder: "Enter a group name",
+        labelClass: "",
+        onChange: this.handleChange,
+        value: this.state.name || '',
+        hasError: isError,
+        errorMessage: errors['name'] || '' }), /*#__PURE__*/
+
+      react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null))), /*#__PURE__*/
+
+
+      react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", { className: "row" }, /*#__PURE__*/
+      react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null,
+
+      this.state.policy.map((item, key) => {
+        return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", { className: "col-md-2", key: key }, /*#__PURE__*/
+        react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_FormControlLabel__WEBPACK_IMPORTED_MODULE_8__["default"], { key: key,
+          control: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Checkbox__WEBPACK_IMPORTED_MODULE_7__["default"], { key: key, checked: item.value, onChange: this.handleChangeCheckbox, name: item.name }),
+          label: item.name }));
+
+
+      })), /*#__PURE__*/
+
+
+      react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null)), /*#__PURE__*/
+
+      react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", { className: "row" }, /*#__PURE__*/
+      react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", { className: "col d-flex justify-content-end" }, /*#__PURE__*/
+      react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_UI_Form_Button__WEBPACK_IMPORTED_MODULE_4__["default"], { className: "btn btn-primary", onClick: e => this.handleActionSingleOrg(e) }, "Save Changes")))))))));
+
+
+
+
+
+
+
+
+  } // @ts-ignore
+  __reactstandin__regenerateByEval(key, code) {// @ts-ignore
+    this[key] = eval(code);}}
+var mapStateToProps = state => {
+  return {
+    organisation: state.organisationReducer.organisation,
+    errors: state.organisationReducer.errors,
+    loading: state.organisationReducer.loading,
+    action: state.organisationReducer.action };
+
+};
+
+var mapDispatchToProps = dispatch => {
+  return {
+    onPostSingleOrganisation: (id, data) => dispatch(_store_actions_index__WEBPACK_IMPORTED_MODULE_2__["postSingleOrganisation"](id, data)) };
+
+};var _default =
+
+Object(react_redux__WEBPACK_IMPORTED_MODULE_1__["connect"])(mapStateToProps, mapDispatchToProps)(OrganisationModal);/* harmony default export */ __webpack_exports__["default"] = (_default);;(function () {var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined;if (!reactHotLoader) {return;}reactHotLoader.register(OrganisationModal, "OrganisationModal", "D:\\Projects\\Texo\\Test-Assignment-Laravel-React\\resources\\js\\src\\frontend\\components\\Organisation\\OrganisationModal.js");reactHotLoader.register(mapStateToProps, "mapStateToProps", "D:\\Projects\\Texo\\Test-Assignment-Laravel-React\\resources\\js\\src\\frontend\\components\\Organisation\\OrganisationModal.js");reactHotLoader.register(mapDispatchToProps, "mapDispatchToProps", "D:\\Projects\\Texo\\Test-Assignment-Laravel-React\\resources\\js\\src\\frontend\\components\\Organisation\\OrganisationModal.js");reactHotLoader.register(_default, "default", "D:\\Projects\\Texo\\Test-Assignment-Laravel-React\\resources\\js\\src\\frontend\\components\\Organisation\\OrganisationModal.js");})();;(function () {var leaveModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.leaveModule : undefined;leaveModule && leaveModule(module);})();
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../../../../node_modules/webpack/buildin/harmony-module.js */ "./node_modules/webpack/buildin/harmony-module.js")(module)))
+
+/***/ }),
+
 /***/ "./resources/js/src/frontend/components/Organisation/OrganisationToolbar.js":
 /*!**********************************************************************************!*\
   !*** ./resources/js/src/frontend/components/Organisation/OrganisationToolbar.js ***!
@@ -88546,16 +88153,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _UI_Form_Input__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../UI/Form/Input */ "./resources/js/src/frontend/components/UI/Form/Input.js");
 /* harmony import */ var _material_ui_core_Checkbox__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @material-ui/core/Checkbox */ "./node_modules/@material-ui/core/esm/Checkbox/index.js");
 /* harmony import */ var _material_ui_core_FormControlLabel__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @material-ui/core/FormControlLabel */ "./node_modules/@material-ui/core/esm/FormControlLabel/index.js");
-/* harmony import */ var _Style_css__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./Style.css */ "./resources/js/src/frontend/components/Organisation/Style.css");
-/* harmony import */ var _Style_css__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_Style_css__WEBPACK_IMPORTED_MODULE_8__);
-/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! lodash */ "./node_modules/lodash/lodash.js");
-/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(lodash__WEBPACK_IMPORTED_MODULE_9__);
-/* harmony import */ var query_string__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! query-string */ "./node_modules/query-string/index.js");
-/* harmony import */ var query_string__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(query_string__WEBPACK_IMPORTED_MODULE_10__);
-(function () {var enterModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.enterModule : undefined;enterModule && enterModule(module);})();function ownKeys(object, enumerableOnly) {var keys = Object.keys(object);if (Object.getOwnPropertySymbols) {var symbols = Object.getOwnPropertySymbols(object);if (enumerableOnly) symbols = symbols.filter(function (sym) {return Object.getOwnPropertyDescriptor(object, sym).enumerable;});keys.push.apply(keys, symbols);}return keys;}function _objectSpread(target) {for (var i = 1; i < arguments.length; i++) {var source = arguments[i] != null ? arguments[i] : {};if (i % 2) {ownKeys(Object(source), true).forEach(function (key) {_defineProperty(target, key, source[key]);});} else if (Object.getOwnPropertyDescriptors) {Object.defineProperties(target, Object.getOwnPropertyDescriptors(source));} else {ownKeys(Object(source)).forEach(function (key) {Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key));});}}return target;}function _defineProperty(obj, key, value) {if (key in obj) {Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true });} else {obj[key] = value;}return obj;}var __signature__ = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default.signature : function (a) {return a;};
-
-
-
+/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! lodash */ "./node_modules/lodash/lodash.js");
+/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(lodash__WEBPACK_IMPORTED_MODULE_8__);
+(function () {var enterModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.enterModule : undefined;enterModule && enterModule(module);})();var __signature__ = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default.signature : function (a) {return a;};
 
 
 
@@ -88567,130 +88167,46 @@ __webpack_require__.r(__webpack_exports__);
 
 class OrganisationToolbar extends react__WEBPACK_IMPORTED_MODULE_0__["PureComponent"] {
   constructor() {
-    super();this.
-
-
-
-
-
-
-
-
-
-
-
-
-    handleChange = e => {
-      var target = e.target;
-      var name = target.name;
-      var value = target.type === 'checkbox' ? target.checked : target.value;
-      if (target.type === 'checkbox') {
-        this.setState(prevState => ({ policy: prevState.policy.set(name, value) }));
-      } else {
-        this.setState({
-          [name]: value });
-
-      }
-    };this.
-
-    handleSave = e => {
-      this.props.onPostSingleOrganisation(this.state.id, this.state);
-    };this.
-
-    handleCancel = e => {
-      this.setState(prevState => {
-        var { policy } = prevState;
-        policy = policy.map(item => _objectSpread(_objectSpread({}, item), {}, { value: false }));
-        return { id: 0, policy, name: '' };
-      });
-    };this.
-
-    handleChangeCheckbox = e => {
-      var itemName = e.target.name;
-      var checked = e.target.checked;
-      this.setState(prevState => {
-        var { policy } = prevState;
-        policy = policy.map((item) =>
-        item.name === itemName ? _objectSpread(_objectSpread({}, item), {}, { value: checked }) : item);
-
-        return { policy };
-      });
-    };this.state = { id: 0, name: '', policy: [..._Mocks_data__WEBPACK_IMPORTED_MODULE_3__["roleData"]] };this.handleChange = this.handleChange.bind(this);this.handleCancel = this.handleCancel.bind(this);this.handleSave = this.handleSave.bind(this);}
-
-  UNSAFE_componentWillReceiveProps(nextProps) {
-    if (nextProps.organisation !== this.props.organisation) {
-      this.setState(prevState => {
-        var { id, name, policy } = prevState;
-        id = nextProps.organisation.id;
-        name = nextProps.organisation.name;
-        policy = policy.map((item) =>
-        !Object(lodash__WEBPACK_IMPORTED_MODULE_9__["isEmpty"])(nextProps.organisation) ? _objectSpread(_objectSpread({}, item), {}, { value: nextProps.organisation.policy[item.name] }) : item);
-
-        return { id, name, policy };
-      });
-    }
-
-    if (nextProps.action == "update" || nextProps.action == "create" || nextProps.action == "delete") {
-      this.setState({ id: 0, name: '', policy: _Mocks_data__WEBPACK_IMPORTED_MODULE_3__["roleData"] });
-    }
-
+    super();
+    this.state = {};
   }
+
   render() {
+    var { handleOpenModal, handleChange, handleSearch, handleClearSearch, name } = this.props;
     return /*#__PURE__*/(
       react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", { className: "row" }, /*#__PURE__*/
       react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", { className: "col-lg-12" }, /*#__PURE__*/
       react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", { className: "h3 mb-3" }, "Organisations")), /*#__PURE__*/
 
-      react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", { className: "col-md-12" }, /*#__PURE__*/
+      react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", { className: "col-lg-8 col-md-12" }, /*#__PURE__*/
+      react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", { className: "row" }, /*#__PURE__*/
       react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_UI_Form_Input__WEBPACK_IMPORTED_MODULE_5__["default"], {
         name: "name",
         className: "form-control input-sm",
-        fieldGroupClass: "col-md-4",
-        labelTitle: "Group name",
-        placeholder: "Enter a group name",
+        fieldGroupClass: "col-md-3",
+        placeholder: "Search by name",
         labelClass: "",
-        onChange: this.handleChange,
-        value: this.state.name || '' }), /*#__PURE__*/
+        onChange: handleChange,
+        value: name || '' }), /*#__PURE__*/
 
-      react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null)), /*#__PURE__*/
-
-      react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", { className: "col-md-12" }, /*#__PURE__*/
-      react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", { className: "row" }, /*#__PURE__*/
-
-      react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null,
-
-      this.state.policy.map((item, key) => {
-        return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", { className: "col-md-2", key: key }, /*#__PURE__*/
-        react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_FormControlLabel__WEBPACK_IMPORTED_MODULE_7__["default"], { key: key,
-          control: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Checkbox__WEBPACK_IMPORTED_MODULE_6__["default"], { key: key, checked: item.value, onChange: this.handleChangeCheckbox, name: item.name }),
-          label: item.name }));
-
-
-        // const checked = typeof this.state.policy.get(item.name) !== "undefined" ? this.state.policy.get(item.name) : false ;
-        // return <div className="col-md-2" key={key}>
-        //   <FormControlLabel key={key}
-        //     control={<Checkbox key={key} defaultChecked={checked} onChange={this.handleChangeCheckbox} name={item.name} />}
-        //     label={item.name}
-        //   />
-        // </div>
-      }))), /*#__PURE__*/
-
-
-
-      react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null)), /*#__PURE__*/
-
-      react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", { className: "col-md-12" }, /*#__PURE__*/
-      react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", { className: "float-right" }, /*#__PURE__*/
-      react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_UI_Form_Button__WEBPACK_IMPORTED_MODULE_4__["default"], { type: "button", onClick: this.handleSave, className: "btn btn-info" }, "Save"), /*#__PURE__*/
+      react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_UI_Form_Button__WEBPACK_IMPORTED_MODULE_4__["default"], { type: "button", onClick: e => handleSearch(e), className: "btn btn-info" }, "Search"), /*#__PURE__*/
       react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, " \xA0\xA0"), /*#__PURE__*/
-      react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_UI_Form_Button__WEBPACK_IMPORTED_MODULE_4__["default"], { type: "button", onClick: this.handleCancel, className: "btn btn-info" }, "Cancel")))));
+      react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_UI_Form_Button__WEBPACK_IMPORTED_MODULE_4__["default"], { type: "button", onClick: e => handleClearSearch(e), className: "btn btn-info" }, "Clear search"))), /*#__PURE__*/
+
+
+
+      react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", { className: "col-lg-4 col-md-12" }, /*#__PURE__*/
+      react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", { className: "float-right" }, /*#__PURE__*/
+      react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_UI_Form_Button__WEBPACK_IMPORTED_MODULE_4__["default"], { type: "button", className: "btn btn-primary", onClick: e => handleOpenModal(e) }, "Add a new organisation")))));
+
 
 
 
 
   } // @ts-ignore
   __reactstandin__regenerateByEval(key, code) {// @ts-ignore
-    this[key] = eval(code);}}var mapStateToProps = state => {
+    this[key] = eval(code);}}
+var mapStateToProps = state => {
   return {
     loading: state.organisationReducer.loading,
     organisation: state.organisationReducer.organisation,
@@ -88708,33 +88224,23 @@ Object(react_redux__WEBPACK_IMPORTED_MODULE_1__["connect"])(mapStateToProps, map
 
 /***/ }),
 
-/***/ "./resources/js/src/frontend/components/Organisation/Style.css":
-/*!*********************************************************************!*\
-  !*** ./resources/js/src/frontend/components/Organisation/Style.css ***!
-  \*********************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ "./resources/js/src/frontend/components/UI/Flash/Flash.js":
+/*!****************************************************************!*\
+  !*** ./resources/js/src/frontend/components/UI/Flash/Flash.js ***!
+  \****************************************************************/
+/*! exports provided: SuccessFlash */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-
-var content = __webpack_require__(/*! !../../../../../../node_modules/css-loader/dist/cjs.js??ref--6-1!../../../../../../node_modules/postcss-loader/src??ref--6-2!./Style.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./resources/js/src/frontend/components/Organisation/Style.css");
-
-if(typeof content === 'string') content = [[module.i, content, '']];
-
-var transform;
-var insertInto;
-
-
-
-var options = {"hmr":true}
-
-options.transform = transform
-options.insertInto = undefined;
-
-var update = __webpack_require__(/*! ../../../../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
-
-if(content.locals) module.exports = content.locals;
-
-if(false) {}
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* WEBPACK VAR INJECTION */(function(module) {/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SuccessFlash", function() { return SuccessFlash; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+(function () {var enterModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.enterModule : undefined;enterModule && enterModule(module);})();var __signature__ = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default.signature : function (a) {return a;};
+var SuccessFlash = (_ref) => {var { message } = _ref;return /*#__PURE__*/(
+    react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", { className: "alert alert-success" }, /*#__PURE__*/
+    react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", null, "Success!"), message));};;(function () {var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined;if (!reactHotLoader) {return;}reactHotLoader.register(SuccessFlash, "SuccessFlash", "D:\\Projects\\Texo\\Test-Assignment-Laravel-React\\resources\\js\\src\\frontend\\components\\UI\\Flash\\Flash.js");})();;(function () {var leaveModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.leaveModule : undefined;leaveModule && leaveModule(module);})();
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../../../../../node_modules/webpack/buildin/harmony-module.js */ "./node_modules/webpack/buildin/harmony-module.js")(module)))
 
 /***/ }),
 
@@ -89177,36 +88683,6 @@ var SpinnerDot = (_ref2) => {var { show } = _ref2;return /*#__PURE__*/(
 
 /***/ }),
 
-/***/ "./resources/js/src/frontend/components/Users/Style.css":
-/*!**************************************************************!*\
-  !*** ./resources/js/src/frontend/components/Users/Style.css ***!
-  \**************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-
-var content = __webpack_require__(/*! !../../../../../../node_modules/css-loader/dist/cjs.js??ref--6-1!../../../../../../node_modules/postcss-loader/src??ref--6-2!./Style.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./resources/js/src/frontend/components/Users/Style.css");
-
-if(typeof content === 'string') content = [[module.i, content, '']];
-
-var transform;
-var insertInto;
-
-
-
-var options = {"hmr":true}
-
-options.transform = transform
-options.insertInto = undefined;
-
-var update = __webpack_require__(/*! ../../../../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
-
-if(content.locals) module.exports = content.locals;
-
-if(false) {}
-
-/***/ }),
-
 /***/ "./resources/js/src/frontend/components/Users/UserFormModal.js":
 /*!*********************************************************************!*\
   !*** ./resources/js/src/frontend/components/Users/UserFormModal.js ***!
@@ -89228,9 +88704,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(lodash__WEBPACK_IMPORTED_MODULE_7__);
 /* harmony import */ var _UI_Spinner_Spinner__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../UI/Spinner/Spinner */ "./resources/js/src/frontend/components/UI/Spinner/Spinner.js");
 /* harmony import */ var _Mocks_data__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../Mocks/data */ "./resources/js/src/frontend/components/Mocks/data.js");
-/* harmony import */ var _Style_css__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./Style.css */ "./resources/js/src/frontend/components/Users/Style.css");
-/* harmony import */ var _Style_css__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(_Style_css__WEBPACK_IMPORTED_MODULE_10__);
+/* harmony import */ var _UI_Flash_Flash__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../UI/Flash/Flash */ "./resources/js/src/frontend/components/UI/Flash/Flash.js");
 (function () {var enterModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.enterModule : undefined;enterModule && enterModule(module);})();function ownKeys(object, enumerableOnly) {var keys = Object.keys(object);if (Object.getOwnPropertySymbols) {var symbols = Object.getOwnPropertySymbols(object);if (enumerableOnly) symbols = symbols.filter(function (sym) {return Object.getOwnPropertyDescriptor(object, sym).enumerable;});keys.push.apply(keys, symbols);}return keys;}function _objectSpread(target) {for (var i = 1; i < arguments.length; i++) {var source = arguments[i] != null ? arguments[i] : {};if (i % 2) {ownKeys(Object(source), true).forEach(function (key) {_defineProperty(target, key, source[key]);});} else if (Object.getOwnPropertyDescriptors) {Object.defineProperties(target, Object.getOwnPropertyDescriptors(source));} else {ownKeys(Object(source)).forEach(function (key) {Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key));});}}return target;}function _defineProperty(obj, key, value) {if (key in obj) {Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true });} else {obj[key] = value;}return obj;}var __signature__ = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default.signature : function (a) {return a;};
+
 
 
 
@@ -89314,16 +88790,14 @@ class UserFormModal extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_UI_Spinner_Spinner__WEBPACK_IMPORTED_MODULE_8__["SpinnerDot"], { show: this.props.loading }),
 
 
-      !Object(lodash__WEBPACK_IMPORTED_MODULE_7__["isEmpty"])(this.props.action) ?
-      this.props.id > 0 ? /*#__PURE__*/
-      react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", { className: "alert alert-success" }, /*#__PURE__*/
-      react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", null, "Success!"), " Updated a user info.") : /*#__PURE__*/
 
+      this.props.action === 'update' ? /*#__PURE__*/
 
-      react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", { className: "alert alert-success" }, /*#__PURE__*/
-      react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", null, "Success!"), " Created a new user.") :
-
+      react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_UI_Flash_Flash__WEBPACK_IMPORTED_MODULE_10__["SuccessFlash"], { message: " Updated role of group." }) :
+      this.props.action === 'create' ? /*#__PURE__*/
+      react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_UI_Flash_Flash__WEBPACK_IMPORTED_MODULE_10__["SuccessFlash"], { message: " Apply role for new group." }) :
       '', /*#__PURE__*/
+
 
       react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_UI_Form_Form__WEBPACK_IMPORTED_MODULE_3__["default"], null, /*#__PURE__*/
       react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", { className: "row" }, /*#__PURE__*/
@@ -89439,17 +88913,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
 /* harmony import */ var _store_actions_index__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../store/actions/index */ "./resources/js/src/store/actions/index.js");
-/* harmony import */ var _Style_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Style.css */ "./resources/js/src/frontend/components/Users/Style.css");
-/* harmony import */ var _Style_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_Style_css__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _UI_Form_Button__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../UI/Form/Button */ "./resources/js/src/frontend/components/UI/Form/Button.js");
-/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! lodash */ "./node_modules/lodash/lodash.js");
-/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(lodash__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _UI_Form_Form__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../UI/Form/Form */ "./resources/js/src/frontend/components/UI/Form/Form.js");
-/* harmony import */ var _UI_Spinner_Spinner__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../UI/Spinner/Spinner */ "./resources/js/src/frontend/components/UI/Spinner/Spinner.js");
-/* harmony import */ var _UserFormModal__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./UserFormModal */ "./resources/js/src/frontend/components/Users/UserFormModal.js");
-/* harmony import */ var _UserToolbar__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./UserToolbar */ "./resources/js/src/frontend/components/Users/UserToolbar.js");
+/* harmony import */ var _UI_Form_Button__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../UI/Form/Button */ "./resources/js/src/frontend/components/UI/Form/Button.js");
+/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! lodash */ "./node_modules/lodash/lodash.js");
+/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(lodash__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _UI_Form_Form__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../UI/Form/Form */ "./resources/js/src/frontend/components/UI/Form/Form.js");
+/* harmony import */ var _UI_Spinner_Spinner__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../UI/Spinner/Spinner */ "./resources/js/src/frontend/components/UI/Spinner/Spinner.js");
+/* harmony import */ var _UserFormModal__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./UserFormModal */ "./resources/js/src/frontend/components/Users/UserFormModal.js");
+/* harmony import */ var _UserToolbar__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./UserToolbar */ "./resources/js/src/frontend/components/Users/UserToolbar.js");
 (function () {var enterModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.enterModule : undefined;enterModule && enterModule(module);})();var __signature__ = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default.signature : function (a) {return a;};
-
 
 
 
@@ -89502,10 +88973,8 @@ class UserGrid extends react__WEBPACK_IMPORTED_MODULE_0__["PureComponent"] {
     };this.state = { is_open_modal: false, user_id: 0, name: '', org_id: 0 };}
   render() {
     var { data } = this.props;
-
     var isShow = this.state.is_open_modal;
-
-    var users = !Object(lodash__WEBPACK_IMPORTED_MODULE_5__["isEmpty"])(data) ? data.map((el, i) => {
+    var users = !Object(lodash__WEBPACK_IMPORTED_MODULE_4__["isEmpty"])(data) ? data.map((el, i) => {
       i++;
       return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tr", { key: i }, /*#__PURE__*/
       react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, i), /*#__PURE__*/
@@ -89513,8 +88982,8 @@ class UserGrid extends react__WEBPACK_IMPORTED_MODULE_0__["PureComponent"] {
       react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, el.group_name), /*#__PURE__*/
       react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, el.email), /*#__PURE__*/
       react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", { className: "btn-group-control text-center" }, /*#__PURE__*/
-      react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_UI_Form_Button__WEBPACK_IMPORTED_MODULE_4__["default"], { type: "button", onClick: e => this.handleOpenEditCurrentUser(e, el.id), className: "btn btn-outline-primary btn-circle btn-lg btn-circle ml-2" }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", { className: "fa fa-edit" }), " "), /*#__PURE__*/
-      react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_UI_Form_Button__WEBPACK_IMPORTED_MODULE_4__["default"], { type: "button", onClick: () => this.props.onDeleteSingleUser(el.id), className: "btn btn-outline-danger btn-circle btn-lg btn-circle ml-2" }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", { className: "fa fa-trash" }), " ")));
+      react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_UI_Form_Button__WEBPACK_IMPORTED_MODULE_3__["default"], { type: "button", onClick: e => this.handleOpenEditCurrentUser(e, el.id), className: "btn btn-outline-primary btn-circle btn-lg btn-circle ml-2" }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", { className: "fa fa-edit" }), " "), /*#__PURE__*/
+      react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_UI_Form_Button__WEBPACK_IMPORTED_MODULE_3__["default"], { type: "button", onClick: () => this.props.onDeleteSingleUser(el.id), className: "btn btn-outline-danger btn-circle btn-lg btn-circle ml-2" }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", { className: "fa fa-trash" }), " ")));
 
 
     }) : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tr", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", { colSpan: "5", className: "text-center" }, "Empty data"));
@@ -89523,18 +88992,18 @@ class UserGrid extends react__WEBPACK_IMPORTED_MODULE_0__["PureComponent"] {
       react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", { className: "container" },
 
       isShow ? /*#__PURE__*/
-      react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_UserFormModal__WEBPACK_IMPORTED_MODULE_8__["default"], {
+      react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_UserFormModal__WEBPACK_IMPORTED_MODULE_7__["default"], {
         closeModal: this.handleCloseModal,
         id: this.state.user_id,
         show: isShow }) :
       '', /*#__PURE__*/
 
 
-      react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_UI_Spinner_Spinner__WEBPACK_IMPORTED_MODULE_7__["SpinnerDot"], { show: this.props.loading }), /*#__PURE__*/
+      react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_UI_Spinner_Spinner__WEBPACK_IMPORTED_MODULE_6__["SpinnerDot"], { show: this.props.loading }), /*#__PURE__*/
 
-      react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_UI_Form_Form__WEBPACK_IMPORTED_MODULE_6__["default"], { className: "form-inline" }, /*#__PURE__*/
+      react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_UI_Form_Form__WEBPACK_IMPORTED_MODULE_5__["default"], { className: "form-inline" }, /*#__PURE__*/
       react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", { className: "container-fluid p-0" }, /*#__PURE__*/
-      react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_UserToolbar__WEBPACK_IMPORTED_MODULE_9__["default"], {
+      react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_UserToolbar__WEBPACK_IMPORTED_MODULE_8__["default"], {
         handleOpenModal: this.handleOpenModal,
         handleChange: this.handleChange,
         handleSearch: this.handleSearch,
@@ -89602,10 +89071,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _UI_Form_Button__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../UI/Form/Button */ "./resources/js/src/frontend/components/UI/Form/Button.js");
 /* harmony import */ var _UI_Form_Input__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../UI/Form/Input */ "./resources/js/src/frontend/components/UI/Form/Input.js");
 /* harmony import */ var _UI_Form_Selectbox__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../UI/Form/Selectbox */ "./resources/js/src/frontend/components/UI/Form/Selectbox.js");
-/* harmony import */ var _Style_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./Style.css */ "./resources/js/src/frontend/components/Users/Style.css");
-/* harmony import */ var _Style_css__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_Style_css__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! lodash */ "./node_modules/lodash/lodash.js");
-/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(lodash__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! lodash */ "./node_modules/lodash/lodash.js");
+/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(lodash__WEBPACK_IMPORTED_MODULE_6__);
 (function () {var enterModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.enterModule : undefined;enterModule && enterModule(module);})();var __signature__ = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default.signature : function (a) {return a;};
 
 
@@ -89615,16 +89082,14 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-
 class UserToolbar extends react__WEBPACK_IMPORTED_MODULE_0__["PureComponent"] {
+
   constructor() {
     super();
-    this.state = {};
-
   }
   render() {
     var { handleOpenModal, handleChange, handleSearch, handleClearSearch, name, orgId } = this.props;
-    var dataOption = !Object(lodash__WEBPACK_IMPORTED_MODULE_7__["isEmpty"])(this.props.group) ? this.props.group : { 0: '----------' };
+    var dataOption = !Object(lodash__WEBPACK_IMPORTED_MODULE_6__["isEmpty"])(this.props.group) ? this.props.group : { 0: '----------' };
     return /*#__PURE__*/(
       react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", { className: "row" }, /*#__PURE__*/
       react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", { className: "col-lg-12" }, /*#__PURE__*/
@@ -89658,10 +89123,9 @@ class UserToolbar extends react__WEBPACK_IMPORTED_MODULE_0__["PureComponent"] {
       react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_UI_Form_Button__WEBPACK_IMPORTED_MODULE_3__["default"], { type: "button", onClick: e => handleClearSearch(e), className: "btn btn-info" }, "Clear search"))), /*#__PURE__*/
 
 
-
       react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", { className: "col-lg-4 col-md-12" }, /*#__PURE__*/
       react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", { className: "float-right" }, /*#__PURE__*/
-      react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_UI_Form_Button__WEBPACK_IMPORTED_MODULE_3__["default"], { type: "button", className: "btn btn-primary", onClick: e => handleOpenModal(e) }, "Add a new Users")))));
+      react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_UI_Form_Button__WEBPACK_IMPORTED_MODULE_3__["default"], { type: "button", className: "btn btn-primary", onClick: e => handleOpenModal(e) }, "Add a new user")))));
 
 
 
@@ -89673,13 +89137,8 @@ var mapStateToProps = state => {
   return {
     group: state.userReducer.group };
 
-};
-var mapDispatchToProps = dispatch => {
-  return {
-    onDeleteSingleUser: id => dispatch(_store_actions_index__WEBPACK_IMPORTED_MODULE_2__["deleteSingleUser"](id)) };
-
 };var _default =
-Object(react_redux__WEBPACK_IMPORTED_MODULE_1__["connect"])(mapStateToProps, mapDispatchToProps)(UserToolbar);/* harmony default export */ __webpack_exports__["default"] = (_default);;(function () {var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined;if (!reactHotLoader) {return;}reactHotLoader.register(UserToolbar, "UserToolbar", "D:\\Projects\\Texo\\Test-Assignment-Laravel-React\\resources\\js\\src\\frontend\\components\\Users\\UserToolbar.js");reactHotLoader.register(mapStateToProps, "mapStateToProps", "D:\\Projects\\Texo\\Test-Assignment-Laravel-React\\resources\\js\\src\\frontend\\components\\Users\\UserToolbar.js");reactHotLoader.register(mapDispatchToProps, "mapDispatchToProps", "D:\\Projects\\Texo\\Test-Assignment-Laravel-React\\resources\\js\\src\\frontend\\components\\Users\\UserToolbar.js");reactHotLoader.register(_default, "default", "D:\\Projects\\Texo\\Test-Assignment-Laravel-React\\resources\\js\\src\\frontend\\components\\Users\\UserToolbar.js");})();;(function () {var leaveModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.leaveModule : undefined;leaveModule && leaveModule(module);})();
+Object(react_redux__WEBPACK_IMPORTED_MODULE_1__["connect"])(mapStateToProps, null)(UserToolbar);/* harmony default export */ __webpack_exports__["default"] = (_default);;(function () {var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined;if (!reactHotLoader) {return;}reactHotLoader.register(UserToolbar, "UserToolbar", "D:\\Projects\\Texo\\Test-Assignment-Laravel-React\\resources\\js\\src\\frontend\\components\\Users\\UserToolbar.js");reactHotLoader.register(mapStateToProps, "mapStateToProps", "D:\\Projects\\Texo\\Test-Assignment-Laravel-React\\resources\\js\\src\\frontend\\components\\Users\\UserToolbar.js");reactHotLoader.register(_default, "default", "D:\\Projects\\Texo\\Test-Assignment-Laravel-React\\resources\\js\\src\\frontend\\components\\Users\\UserToolbar.js");})();;(function () {var leaveModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.leaveModule : undefined;leaveModule && leaveModule(module);})();
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../../../../node_modules/webpack/buildin/harmony-module.js */ "./node_modules/webpack/buildin/harmony-module.js")(module)))
 
 /***/ }),

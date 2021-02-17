@@ -1,9 +1,6 @@
 import React from 'react';
-import  './Style.css';
 import Button from '../UI/Form/Button'
 import { isEmpty, isObject } from 'lodash';
-
-
 export const OrganisationElement = ({ data, handleEdit, handleDelete }) => {
     const el = !isEmpty(data) ? data.map((el, i) => {
       i++;
@@ -11,7 +8,8 @@ export const OrganisationElement = ({ data, handleEdit, handleDelete }) => {
         <td>{i}</td>
         <td>{el.name}</td>
         <td>{
-          isObject(el.policy) ?
+          isObject(el.policy)
+          ?
             Object.keys(el.policy).map((i,v) => {
               let roleValue = el.policy[i];
               return <p key={v}>{i} : {

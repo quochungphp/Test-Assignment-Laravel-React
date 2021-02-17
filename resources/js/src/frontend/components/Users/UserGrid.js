@@ -1,7 +1,6 @@
 import React, { PureComponent } from 'react';
 import { connect } from 'react-redux';
 import * as actions from '../../../store/actions/index';
-import  './Style.css';
 import Button from '../UI/Form/Button'
 import { isEmpty } from 'lodash';
 import Form from '../UI/Form/Form'
@@ -52,9 +51,7 @@ class UserGrid extends PureComponent {
   }
   render() {
     let { data } = this.props;
-
     let isShow = this.state.is_open_modal;
-
     const users = !isEmpty(data) ? data.map((el, i) => {
       i++;
       return <tr key={i} >

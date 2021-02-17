@@ -4,15 +4,13 @@ import * as actions from '../../../store/actions/index';
 import Button from '../UI/Form/Button'
 import Input from '../UI/Form/Input'
 import Select from '../UI/Form/Selectbox'
-import './Style.css';
 import { isEmpty } from 'lodash';
 
 
 class UserToolbar extends PureComponent {
+
   constructor() {
     super();
-    this.state = {
-    };
   }
   render() {
     let { handleOpenModal, handleChange, handleSearch, handleClearSearch, name, orgId} = this.props;
@@ -48,12 +46,11 @@ class UserToolbar extends PureComponent {
             <Button type="button"  onClick={(e) => handleSearch(e)} className="btn btn-info">Search</Button>
             <span> &nbsp;&nbsp;</span>
             <Button type="button" onClick={(e) => handleClearSearch(e)} className="btn btn-info">Clear search</Button>
-
             </div>
           </div>
           <div className="col-lg-4 col-md-12">
             <div className="float-right">
-              <Button type="button" className="btn btn-primary" onClick={(e) => handleOpenModal(e)}>Add a new Users</Button>
+              <Button type="button" className="btn btn-primary" onClick={(e) => handleOpenModal(e)}>Add a new user</Button>
             </div>
           </div>
         </div>
@@ -66,9 +63,4 @@ const mapStateToProps = state => {
     group: state.userReducer.group,
   };
 };
-const mapDispatchToProps = (dispatch) => {
-  return {
-    onDeleteSingleUser: (id) => dispatch(actions.deleteSingleUser(id))
-  }
-}
-export default connect(mapStateToProps, mapDispatchToProps)(UserToolbar)
+export default connect(mapStateToProps, null)(UserToolbar)
