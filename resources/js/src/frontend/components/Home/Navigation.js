@@ -79,11 +79,5 @@ class Navigation extends Component {
 	}
 }
 
-const mapStateToProps = state => {
-	return {
-		isAuthenticated: state.auth.userToken !== null
-	};
-};
 
-
-export default withRouter(connect(mapStateToProps)(Navigation));
+export default withRouter(connect(null)(Navigation));

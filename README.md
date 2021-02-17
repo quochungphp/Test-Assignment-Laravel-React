@@ -80,10 +80,17 @@ docker-compose exec php php artisan key:generate
 ```bash
 docker-compose exec php php artisan migrate --seed
 
+
 # Update readme on 17/02/2021
 
 After start `docker-compose up`, please run seeder cmd `docker-compose exec php php artisan migrate:refresh --seed`
 ```
+# Notice
+
+After ran seeder database. Please using example accounts login into app like as:
+
+- admin1@gmail.com / admin2@gmail.com
+- 123456@abc
 
 # Combine reactjs core
 
@@ -91,11 +98,9 @@ run `npm run production` for combine code.
 run `npm run watch` for developmenmt.
 
 # Evidents images
-## User management
-![](full-stack-coding-test-master/user.png)
 
-## Orhanisation management
-![](full-stack-coding-test-master/org.png)
+### User management
+![](user.png)
 
-## Test on test project
-![](full-stack-coding-test-master/test.png)
+### Orhanisation management
+![](org.png)

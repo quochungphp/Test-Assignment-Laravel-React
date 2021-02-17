@@ -28,7 +28,6 @@ class Users extends Component {
 }
 const mapStateToProps = state => {
   return {
-    isAuthenticated: state.auth.userToken !== null,
     users: state.userReducer.users,
     group: state.userReducer.group,
     loading: state.userReducer.loading,

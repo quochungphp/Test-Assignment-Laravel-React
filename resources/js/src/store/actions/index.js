@@ -1,13 +1,4 @@
 export {
-    actLogin,
-    logout,
-    setAuthRedirectPath,
-	authCheckState,
-	actHideNotify,
-	actChangeNotify
-} from './auth';
-
-export {
     fetchUsers,
     fetchSingleUser,
     putSingleUser,
