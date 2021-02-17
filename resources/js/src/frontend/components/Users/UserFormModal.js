@@ -1,4 +1,3 @@
-
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import * as actions from '../../../store/actions/index';
@@ -8,12 +7,13 @@ import Input from '../UI/Form/Input'
 import Select from '../UI/Form/Selectbox'
 import { isEmpty } from  'lodash'
 import { SpinnerDot } from '../UI/Spinner/Spinner'
+import { userData } from '../Mocks/data';
 import  './Style.css'
 
 class UserFormModal extends Component {
   constructor(props) {
     super(props);
-    this.state = {loading : false};
+    this.state = userData;
   }
 
   componentDidMount() {
@@ -41,11 +41,23 @@ class UserFormModal extends Component {
 
   }
 
-  UNSAFE_componentWillReceiveProps(nextProps) {
-    if (nextProps.user !== this.props.user) {
-      this.setState({...nextProps.user});
+  static getDerivedStateFromProps(nextProps, prevState) {
+    if (nextProps.user !== prevState.user) {
+      return { user: nextProps.user };
+    }
+    return null;
+  }
+
+  // Update state from prop after dispatched
+  componentDidUpdate(prevProps, prevState) {
+    if (prevProps.user !== this.props.user) {
+      this.setState({ ...this.props.user });
+    }
+    if (prevProps.action !== this.props.action) {
+      this.setState({ ...userData });
     }
   }
+
   render() {
     let dataOption = this.props.group;
     let isError = !isEmpty(this.props.errors) ? true : false
@@ -73,7 +85,7 @@ class UserFormModal extends Component {
                   !isEmpty(this.props.action)?
                       this.props.id > 0 ?
                         <div className="alert alert-success">
-                          <strong>Success!</strong> Updated user info.
+                          <strong>Success!</strong> Updated a user info.
                         </div>
                         :
                         <div className="alert alert-success">
@@ -121,7 +133,7 @@ class UserFormModal extends Component {
                     fieldGroupClass=""
                     labelClass=""
                     onChange={this.handleChange}
-                    defaultValue={this.state.password || ''}
+                    value={this.state.password || ''}
                     hasError={isError}
                     errorMessage={errors['password'] || ''}
                   />

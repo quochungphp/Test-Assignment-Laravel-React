@@ -88315,22 +88315,29 @@ Object(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["withRouter"])(Object(react
 
 /***/ }),
 
-/***/ "./resources/js/src/frontend/components/Mocks/RoleData.js":
-/*!****************************************************************!*\
-  !*** ./resources/js/src/frontend/components/Mocks/RoleData.js ***!
-  \****************************************************************/
-/*! exports provided: default */
+/***/ "./resources/js/src/frontend/components/Mocks/data.js":
+/*!************************************************************!*\
+  !*** ./resources/js/src/frontend/components/Mocks/data.js ***!
+  \************************************************************/
+/*! exports provided: roleData, userData */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* WEBPACK VAR INJECTION */(function(module) {(function () {var enterModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.enterModule : undefined;enterModule && enterModule(module);})();var __signature__ = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default.signature : function (a) {return a;};var RoleData = [
+/* WEBPACK VAR INJECTION */(function(module) {/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "roleData", function() { return roleData; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "userData", function() { return userData; });
+(function () {var enterModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.enterModule : undefined;enterModule && enterModule(module);})();var __signature__ = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default.signature : function (a) {return a;};var roleData = [
 { name: "CREATE", value: false },
 { name: "READ", value: false },
 { name: "UPDATE", value: false },
-{ name: "CHANGE", value: false }];var _default =
+{ name: "CHANGE", value: false }];
 
-RoleData;/* harmony default export */ __webpack_exports__["default"] = (_default);;(function () {var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined;if (!reactHotLoader) {return;}reactHotLoader.register(RoleData, "RoleData", "D:\\Projects\\Texo\\Test-Assignment-Laravel-React\\resources\\js\\src\\frontend\\components\\Mocks\\RoleData.js");reactHotLoader.register(_default, "default", "D:\\Projects\\Texo\\Test-Assignment-Laravel-React\\resources\\js\\src\\frontend\\components\\Mocks\\RoleData.js");})();;(function () {var leaveModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.leaveModule : undefined;leaveModule && leaveModule(module);})();
+
+var userData = {
+  name: '',
+  password: '',
+  email: '',
+  org_id: 0 };;(function () {var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined;if (!reactHotLoader) {return;}reactHotLoader.register(roleData, "roleData", "D:\\Projects\\Texo\\Test-Assignment-Laravel-React\\resources\\js\\src\\frontend\\components\\Mocks\\data.js");reactHotLoader.register(userData, "userData", "D:\\Projects\\Texo\\Test-Assignment-Laravel-React\\resources\\js\\src\\frontend\\components\\Mocks\\data.js");})();;(function () {var leaveModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.leaveModule : undefined;leaveModule && leaveModule(module);})();
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../../../../node_modules/webpack/buildin/harmony-module.js */ "./node_modules/webpack/buildin/harmony-module.js")(module)))
 
 /***/ }),
@@ -88359,7 +88366,6 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var OrganisationElement = (_ref) => {var { data, handleEdit, handleDelete } = _ref;
-  // Process loop from data
   var el = !Object(lodash__WEBPACK_IMPORTED_MODULE_3__["isEmpty"])(data) ? data.map((el, i) => {
     i++;
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tr", { key: i }, /*#__PURE__*/
@@ -88445,11 +88451,7 @@ class OrganisationGrid extends react__WEBPACK_IMPORTED_MODULE_0__["PureComponent
       var value = target.type === 'checkbox' ? target.checked : target.value;
 
       if (target.type === 'checkbox') {
-        console.log("name", name, "value", value);
-        console.log("prevState.policy.get1", this.state.policy.get(name));
-        this.setState(prevState => ({ policy: prevState.policy.set(name, value) }), () => {
-          console.log("prevState.policy.get2", this.state.policy.get(name));
-        });
+        this.setState(prevState => ({ policy: prevState.policy.set(name, value) }));
       } else {
         this.setState({
           [name]: value });
@@ -88539,7 +88541,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
 /* harmony import */ var _store_actions_index__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../store/actions/index */ "./resources/js/src/store/actions/index.js");
-/* harmony import */ var _Mocks_RoleData__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../Mocks/RoleData */ "./resources/js/src/frontend/components/Mocks/RoleData.js");
+/* harmony import */ var _Mocks_data__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../Mocks/data */ "./resources/js/src/frontend/components/Mocks/data.js");
 /* harmony import */ var _UI_Form_Button__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../UI/Form/Button */ "./resources/js/src/frontend/components/UI/Form/Button.js");
 /* harmony import */ var _UI_Form_Input__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../UI/Form/Input */ "./resources/js/src/frontend/components/UI/Form/Input.js");
 /* harmony import */ var _material_ui_core_Checkbox__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @material-ui/core/Checkbox */ "./node_modules/@material-ui/core/esm/Checkbox/index.js");
@@ -88613,7 +88615,7 @@ class OrganisationToolbar extends react__WEBPACK_IMPORTED_MODULE_0__["PureCompon
 
         return { policy };
       });
-    };this.state = { id: 0, name: '', policy: [..._Mocks_RoleData__WEBPACK_IMPORTED_MODULE_3__["default"]] };this.handleChange = this.handleChange.bind(this);this.handleCancel = this.handleCancel.bind(this);this.handleSave = this.handleSave.bind(this);}
+    };this.state = { id: 0, name: '', policy: [..._Mocks_data__WEBPACK_IMPORTED_MODULE_3__["roleData"]] };this.handleChange = this.handleChange.bind(this);this.handleCancel = this.handleCancel.bind(this);this.handleSave = this.handleSave.bind(this);}
 
   UNSAFE_componentWillReceiveProps(nextProps) {
     if (nextProps.organisation !== this.props.organisation) {
@@ -88629,7 +88631,7 @@ class OrganisationToolbar extends react__WEBPACK_IMPORTED_MODULE_0__["PureCompon
     }
 
     if (nextProps.action == "update" || nextProps.action == "create" || nextProps.action == "delete") {
-      this.setState({ id: 0, name: '', policy: _Mocks_RoleData__WEBPACK_IMPORTED_MODULE_3__["default"] });
+      this.setState({ id: 0, name: '', policy: _Mocks_data__WEBPACK_IMPORTED_MODULE_3__["roleData"] });
     }
 
   }
@@ -89225,8 +89227,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! lodash */ "./node_modules/lodash/lodash.js");
 /* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(lodash__WEBPACK_IMPORTED_MODULE_7__);
 /* harmony import */ var _UI_Spinner_Spinner__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../UI/Spinner/Spinner */ "./resources/js/src/frontend/components/UI/Spinner/Spinner.js");
-/* harmony import */ var _Style_css__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./Style.css */ "./resources/js/src/frontend/components/Users/Style.css");
-/* harmony import */ var _Style_css__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_Style_css__WEBPACK_IMPORTED_MODULE_9__);
+/* harmony import */ var _Mocks_data__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../Mocks/data */ "./resources/js/src/frontend/components/Mocks/data.js");
+/* harmony import */ var _Style_css__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./Style.css */ "./resources/js/src/frontend/components/Users/Style.css");
+/* harmony import */ var _Style_css__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(_Style_css__WEBPACK_IMPORTED_MODULE_10__);
 (function () {var enterModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.enterModule : undefined;enterModule && enterModule(module);})();function ownKeys(object, enumerableOnly) {var keys = Object.keys(object);if (Object.getOwnPropertySymbols) {var symbols = Object.getOwnPropertySymbols(object);if (enumerableOnly) symbols = symbols.filter(function (sym) {return Object.getOwnPropertyDescriptor(object, sym).enumerable;});keys.push.apply(keys, symbols);}return keys;}function _objectSpread(target) {for (var i = 1; i < arguments.length; i++) {var source = arguments[i] != null ? arguments[i] : {};if (i % 2) {ownKeys(Object(source), true).forEach(function (key) {_defineProperty(target, key, source[key]);});} else if (Object.getOwnPropertyDescriptors) {Object.defineProperties(target, Object.getOwnPropertyDescriptors(source));} else {ownKeys(Object(source)).forEach(function (key) {Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key));});}}return target;}function _defineProperty(obj, key, value) {if (key in obj) {Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true });} else {obj[key] = value;}return obj;}var __signature__ = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default.signature : function (a) {return a;};
 
 
@@ -89268,13 +89271,25 @@ class UserFormModal extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
         this.props.onPostSingleUser(this.state);
       }
 
-    };this.state = { loading: false };}componentDidMount() {if (this.props.id > 0) {this.props.onFetchSingleUser(this.props.id);}}
+    };this.state = _Mocks_data__WEBPACK_IMPORTED_MODULE_9__["userData"];}componentDidMount() {if (this.props.id > 0) {this.props.onFetchSingleUser(this.props.id);}}
 
-  UNSAFE_componentWillReceiveProps(nextProps) {
-    if (nextProps.user !== this.props.user) {
-      this.setState(_objectSpread({}, nextProps.user));
+  static getDerivedStateFromProps(nextProps, prevState) {
+    if (nextProps.user !== prevState.user) {
+      return { user: nextProps.user };
+    }
+    return null;
+  }
+
+  // Update state from prop after dispatched
+  componentDidUpdate(prevProps, prevState) {
+    if (prevProps.user !== this.props.user) {
+      this.setState(_objectSpread({}, this.props.user));
+    }
+    if (prevProps.action !== this.props.action) {
+      this.setState(_objectSpread({}, _Mocks_data__WEBPACK_IMPORTED_MODULE_9__["userData"]));
     }
   }
+
   render() {
     var dataOption = this.props.group;
     var isError = !Object(lodash__WEBPACK_IMPORTED_MODULE_7__["isEmpty"])(this.props.errors) ? true : false;
@@ -89302,7 +89317,7 @@ class UserFormModal extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       !Object(lodash__WEBPACK_IMPORTED_MODULE_7__["isEmpty"])(this.props.action) ?
       this.props.id > 0 ? /*#__PURE__*/
       react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", { className: "alert alert-success" }, /*#__PURE__*/
-      react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", null, "Success!"), " Updated user info.") : /*#__PURE__*/
+      react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", null, "Success!"), " Updated a user info.") : /*#__PURE__*/
 
 
       react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", { className: "alert alert-success" }, /*#__PURE__*/
@@ -89350,7 +89365,7 @@ class UserFormModal extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
         fieldGroupClass: "",
         labelClass: "",
         onChange: this.handleChange,
-        defaultValue: this.state.password || '',
+        value: this.state.password || '',
         hasError: isError,
         errorMessage: errors['password'] || '' }))), /*#__PURE__*/
 
@@ -89455,18 +89470,16 @@ class UserGrid extends react__WEBPACK_IMPORTED_MODULE_0__["PureComponent"] {
 
 
 
-
     handleOpenModal = e => {
-      this.setState({ isOpenModal: true });
+      this.setState({ is_open_modal: true });
     };this.
 
-
     handleCloseModal = e => {
-      this.setState({ isOpenModal: false, userId: 0 });
+      this.setState({ is_open_modal: false, user_id: 0 });
     };this.
 
     handleOpenEditCurrentUser = (e, id) => {
-      this.setState({ isOpenModal: true, userId: id });
+      this.setState({ is_open_modal: true, user_id: id });
     };this.
 
     handleChange = e => {
@@ -89486,13 +89499,12 @@ class UserGrid extends react__WEBPACK_IMPORTED_MODULE_0__["PureComponent"] {
       this.setState({ name: '', org_id: 0 }, () => {
         this.props.onFetchUsers(this.state);
       });
-    };this.state = { isOpenModal: false, userId: 0, name: '', org_id: 0 };} // Open modal
+    };this.state = { is_open_modal: false, user_id: 0, name: '', org_id: 0 };}
   render() {
     var { data } = this.props;
-    // Add & Edit form
-    var isShow = this.state.isOpenModal;
 
-    // Process loop from data
+    var isShow = this.state.is_open_modal;
+
     var users = !Object(lodash__WEBPACK_IMPORTED_MODULE_5__["isEmpty"])(data) ? data.map((el, i) => {
       i++;
       return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tr", { key: i }, /*#__PURE__*/
@@ -89513,7 +89525,7 @@ class UserGrid extends react__WEBPACK_IMPORTED_MODULE_0__["PureComponent"] {
       isShow ? /*#__PURE__*/
       react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_UserFormModal__WEBPACK_IMPORTED_MODULE_8__["default"], {
         closeModal: this.handleCloseModal,
-        id: this.state.userId,
+        id: this.state.user_id,
         show: isShow }) :
       '', /*#__PURE__*/
 
@@ -89522,14 +89534,13 @@ class UserGrid extends react__WEBPACK_IMPORTED_MODULE_0__["PureComponent"] {
 
       react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_UI_Form_Form__WEBPACK_IMPORTED_MODULE_6__["default"], { className: "form-inline" }, /*#__PURE__*/
       react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", { className: "container-fluid p-0" }, /*#__PURE__*/
-
       react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_UserToolbar__WEBPACK_IMPORTED_MODULE_9__["default"], {
         handleOpenModal: this.handleOpenModal,
         handleChange: this.handleChange,
         handleSearch: this.handleSearch,
         handleClearSearch: this.handleClearSearch,
         name: this.state.name,
-        org_id: this.state.org_id }), /*#__PURE__*/
+        orgId: this.state.org_id }), /*#__PURE__*/
 
       react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), /*#__PURE__*/
       react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", { className: "row" }, /*#__PURE__*/
@@ -89595,8 +89606,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Style_css__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_Style_css__WEBPACK_IMPORTED_MODULE_6__);
 /* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! lodash */ "./node_modules/lodash/lodash.js");
 /* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(lodash__WEBPACK_IMPORTED_MODULE_7__);
-/* harmony import */ var query_string__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! query-string */ "./node_modules/query-string/index.js");
-/* harmony import */ var query_string__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(query_string__WEBPACK_IMPORTED_MODULE_8__);
 (function () {var enterModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.enterModule : undefined;enterModule && enterModule(module);})();var __signature__ = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default.signature : function (a) {return a;};
 
 
@@ -89614,8 +89623,8 @@ class UserToolbar extends react__WEBPACK_IMPORTED_MODULE_0__["PureComponent"] {
 
   }
   render() {
-    var { handleOpenModal, handleChange, handleSearch, handleClearSearch, name, org_id } = this.props;
-    var dataOption = !Object(lodash__WEBPACK_IMPORTED_MODULE_7__["isEmpty"])(this.props.group) ? this.props.group : { 0: "***********" };
+    var { handleOpenModal, handleChange, handleSearch, handleClearSearch, name, orgId } = this.props;
+    var dataOption = !Object(lodash__WEBPACK_IMPORTED_MODULE_7__["isEmpty"])(this.props.group) ? this.props.group : { 0: '----------' };
     return /*#__PURE__*/(
       react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", { className: "row" }, /*#__PURE__*/
       react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", { className: "col-lg-12" }, /*#__PURE__*/
@@ -89632,7 +89641,7 @@ class UserToolbar extends react__WEBPACK_IMPORTED_MODULE_0__["PureComponent"] {
         groupClass: "form-group ",
         onChange: handleChange,
         options: dataOption,
-        value: org_id || 0 }), /*#__PURE__*/
+        value: orgId || 0 }), /*#__PURE__*/
 
 
       react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_UI_Form_Input__WEBPACK_IMPORTED_MODULE_4__["default"], {

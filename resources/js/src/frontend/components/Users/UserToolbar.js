@@ -6,7 +6,7 @@ import Input from '../UI/Form/Input'
 import Select from '../UI/Form/Selectbox'
 import './Style.css';
 import { isEmpty } from 'lodash';
-import { parse } from 'query-string';
+
 
 class UserToolbar extends PureComponent {
   constructor() {
@@ -15,8 +15,8 @@ class UserToolbar extends PureComponent {
     };
   }
   render() {
-    let { handleOpenModal, handleChange, handleSearch, handleClearSearch, name, org_id} = this.props;
-    let dataOption = !isEmpty(this.props.group) ? this.props.group : { 0: "***********" } ;
+    let { handleOpenModal, handleChange, handleSearch, handleClearSearch, name, orgId} = this.props;
+    let dataOption = !isEmpty(this.props.group) ? this.props.group : { 0 : '----------' } ;
     return(
         <div className="row">
           <div className="col-lg-12">
@@ -33,7 +33,7 @@ class UserToolbar extends PureComponent {
                 groupClass="form-group "
                 onChange={handleChange}
                 options={dataOption}
-                value={ org_id || 0 }
+                value={orgId || 0 }
               />
 
               <Input

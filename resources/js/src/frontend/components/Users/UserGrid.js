@@ -13,25 +13,23 @@ class UserGrid extends PureComponent {
   constructor() {
     super();
     this.state = {
-      isOpenModal: false,
-      userId: 0,
+      is_open_modal: false,
+      user_id: 0,
       name: '',
       org_id: 0
     };
   }
 
-  // Open modal
   handleOpenModal = (e) => {
-    this.setState({ isOpenModal: true });
+    this.setState({ is_open_modal: true });
   }
 
-  // Close modal
   handleCloseModal = (e) => {
-    this.setState({ isOpenModal: false, userId : 0 });
+    this.setState({ is_open_modal: false, user_id : 0 });
   }
 
   handleOpenEditCurrentUser = (e, id) => {
-    this.setState({ isOpenModal: true, userId: id});
+    this.setState({ is_open_modal: true, user_id: id});
   }
 
   handleChange = (e) => {
@@ -48,16 +46,15 @@ class UserGrid extends PureComponent {
   }
 
   handleClearSearch = (e) => {
-    this.setState({name: '', org_id: 0}, ()=> {
+    this.setState({ name: '', org_id: 0 }, ()=> {
       this.props.onFetchUsers(this.state)
     })
   }
   render() {
-    let { data , } = this.props;
-    // Add & Edit form
-    let isShow = this.state.isOpenModal;
+    let { data } = this.props;
 
-    // Process loop from data
+    let isShow = this.state.is_open_modal;
+
     const users = !isEmpty(data) ? data.map((el, i) => {
       i++;
       return <tr key={i} >
@@ -78,23 +75,22 @@ class UserGrid extends PureComponent {
           isShow ?
             <UserFormModal
               closeModal={this.handleCloseModal}
-              id={this.state.userId}
+              id={this.state.user_id}
               show={isShow} />
           : ''
         }
-
+        {/* Display loading */}
         <SpinnerDot show={this.props.loading} />
 
         <Form className="form-inline">
           <div className="container-fluid p-0">
-
             <UserToolbar
                 handleOpenModal={this.handleOpenModal}
                 handleChange={this.handleChange}
                 handleSearch={this.handleSearch}
                 handleClearSearch={this.handleClearSearch}
                 name={this.state.name}
-                org_id={this.state.org_id}
+                orgId={this.state.org_id}
                 />
             <br />
             <div className="row">

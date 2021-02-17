@@ -29,11 +29,7 @@ class OrganisationGrid extends PureComponent {
     const value = target.type === 'checkbox' ? target.checked : target.value;
 
     if (target.type === 'checkbox') {
-      console.log("name", name, "value", value)
-      console.log("prevState.policy.get1", this.state.policy.get(name))
-      this.setState(prevState => ({ policy: prevState.policy.set(name, value) }), () => {
-        console.log("prevState.policy.get2", this.state.policy.get(name))
-      });
+      this.setState(prevState => ({ policy: prevState.policy.set(name, value) }));
     } else {
       this.setState({
         [name]: value

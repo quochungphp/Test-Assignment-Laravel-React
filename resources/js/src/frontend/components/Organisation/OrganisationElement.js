@@ -5,7 +5,6 @@ import { isEmpty, isObject } from 'lodash';
 
 
 export const OrganisationElement = ({ data, handleEdit, handleDelete }) => {
-    // Process loop from data
     const el = !isEmpty(data) ? data.map((el, i) => {
       i++;
       return <tr key={i} >

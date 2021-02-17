@@ -1,7 +1,7 @@
 import React, { PureComponent } from 'react';
 import { connect } from 'react-redux';
 import * as actions from '../../../store/actions/index';
-import RoleData from '../Mocks/RoleData';
+import { roleData } from '../Mocks/data';
 import Button from '../UI/Form/Button'
 import Input from '../UI/Form/Input'
 import Checkbox from '@material-ui/core/Checkbox';
@@ -17,7 +17,7 @@ class OrganisationToolbar extends PureComponent {
     this.state = {
       id: 0,
       name: '',
-      policy: [...RoleData]
+      policy: [...roleData]
     };
     this.handleChange = this.handleChange.bind(this);
     this.handleCancel = this.handleCancel.bind(this);
@@ -77,7 +77,7 @@ class OrganisationToolbar extends PureComponent {
     }
 
     if (nextProps.action == "update" || nextProps.action == "create" || nextProps.action == "delete") {
-      this.setState({id : 0, name: '', policy: RoleData})
+      this.setState({id : 0, name: '', policy: roleData})
     }
 
   }
