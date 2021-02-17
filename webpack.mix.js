@@ -8,6 +8,7 @@
  | file for the application as well as bundling up all the JS files.
  |
  */
+// Implement .babelrc config for combine ES5 & Es6 syntax
 const mix = require('laravel-mix');
 const path = require("path");
 const webpack = require("webpack");
