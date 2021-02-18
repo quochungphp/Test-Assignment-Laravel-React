@@ -102,7 +102,7 @@ export const putSingleUser = (id, data) => {
 export const postSingleUser = (data) => {
   return dispatch => {
     dispatch(fetchUsersStart());
-    axios.put(`api/user/create`, data)
+    axios.post(`api/user/create`, data)
       .then(res => {
         if (res.data.status === 200) {
           dispatch(updateAction(res.data.action))

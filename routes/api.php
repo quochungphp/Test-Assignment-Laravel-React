@@ -23,7 +23,7 @@ use App\Http\Controllers\Api\OrganisationController;
 
   Route::get('/user/index', [UserController::class, 'index']);
   Route::put('/user/update/{id?}', [UserController::class, 'update']);
-  Route::put('/user/create', [UserController::class, 'create']);
+  Route::post('/user/create', [UserController::class, 'create']);
   Route::delete('/user/delete/{id?}', [UserController::class, 'delete']);
   Route::get('/user/get-info/{id?}', [UserController::class, 'get']);
   Route::get('/organisation/index', [OrganisationController::class, 'index']);

@@ -17,13 +17,11 @@ class LoginTest extends TestCase
      */
     public function it_should_allow_users_to_log_in_with_correct_credentials()
     {
-        $user = User::factory()->create();
-
         $response = $this->post(
             route('login'),
             [
-                'email' => $user->email,
-                'password' => 'password',
+                'email' => 'admin1@gmail.com',
+                'password' => '123456@abc',
             ],
         );
 

@@ -89885,7 +89885,7 @@ var putSingleUser = (id, data) => {
 var postSingleUser = data => {
   return dispatch => {
     dispatch(fetchUsersStart());
-    axios__WEBPACK_IMPORTED_MODULE_0___default.a.put("api/user/create", data).
+    axios__WEBPACK_IMPORTED_MODULE_0___default.a.post("api/user/create", data).
     then(res => {
       if (res.data.status === 200) {
         dispatch(updateAction(res.data.action));

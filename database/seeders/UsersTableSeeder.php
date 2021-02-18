@@ -50,6 +50,24 @@ class UsersTableSeeder extends Seeder
                 "email"    => "user2@gmail.com",
                 "password" =>  Hash::make('123456@abc'),
                 "org_id"   => 2
+            ],
+            [
+                "name" => "user3",
+                "email"    => "user3@gmail.com",
+                "password" =>  Hash::make('123456@abc'),
+                "org_id"   => 2
+            ],
+            [
+                "name" => "user4",
+                "email"    => "user4@gmail.com",
+                "password" =>  Hash::make('123456@abc'),
+                "org_id"   => 2
+            ],
+            [
+                "name" => "user5",
+                "email"    => "user5@gmail.com",
+                "password" =>  Hash::make('123456@abc'),
+                "org_id"   => 2
             ]
         ];
 
